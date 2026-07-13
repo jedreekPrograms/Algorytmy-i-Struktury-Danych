@@ -1,0 +1,168 @@
+1. Cel zadania
+
+Celem zadania było zaprojektowanie algorytmów wyszukiwania wykorzystujących dodatkową wiedzę o strukturze danych wejściowych.
+
+Dana była niemalejąca tablica A spełniająca warunek:
+f(i) ≤ A[i] < f(i) + δ
+
+dla zadanej funkcji f(x) oraz parametru δ.
+
+Należało:
+- zaprojektować algorytm wyszukiwania wykorzystujący tę własność,
+- porównać jego koszt z klasycznym Binary Search,
+- przeprowadzić testy eksperymentalne,
+- przedstawić wyniki na wykresach.
+
+
+2. Rozpatrywane przypadki
+
+Badano dwa przypadki:
+
+1.
+f(x) = (log2(x + 1))^3
+δ = 10
+
+2.
+f(x) = sqrt(x) + log2(x + 1)
+δ = 50
+
+Dane wejściowe generowano zgodnie z warunkiem:
+A[i] ∈ [f(i), f(i) + δ)
+
+Następnie tablica była sortowana.
+
+
+3. Implementacja Binary Search
+
+Klasyczny Binary Search został zaimplementowany iteracyjnie.
+
+Algorytm:
+- wybiera środkowy element,
+- porównuje go z szukaną wartością,
+- zawęża zakres wyszukiwania.
+
+Dla każdego porównania zwiększano licznik comparisons.
+
+
+4. Implementacja algorytmu MyFind
+
+Algorytm MyFind wykorzystywał wiedzę o funkcji f(i).
+
+Założenie:
+jeśli:
+f(i) ≤ A[i] < f(i) + δ
+
+oraz:
+A[i] = q
+
+to:
+q - δ < f(i) ≤ q
+
+Pozwalało to wyznaczyć zakres indeksów, w których może znajdować się szukana wartość.
+
+Algorytm działał w następujących krokach:
+
+1. Szybkie odrzucenie:
+- jeśli q < A[0],
+- lub q > A[n-1],
+zwracano brak wyniku.
+
+2. Wyznaczenie zakresu indeksów:
+- lower_inverse_f(q - δ),
+- upper_inverse_f(q).
+
+Obie funkcje realizowano za pomocą wyszukiwania binarnego po indeksach.
+
+3. Otrzymywano znacznie mniejszy przedział:
+[left, right]
+
+4. Następnie wykonywano klasyczny Binary Search wyłącznie w tym zakresie.
+
+5. Jeśli zakres był pusty, wykonywano fallback do zwykłego Binary Search na całej tablicy.
+
+
+5. Złożoność algorytmu
+
+Wyznaczanie granic:
+- O(log n)
+
+Binary Search na zawężonym zakresie:
+- O(log m),
+gdzie m oznacza rozmiar zawężonego przedziału.
+
+Całkowita złożoność:
+- O(log n)
+
+W praktyce liczba porównań była jednak znacznie mniejsza niż dla zwykłego Binary Search.
+
+
+6. Wyniki dla funkcji f1
+
+Dla:
+f(x) = (log2(x + 1))^3
+δ = 10
+
+algorytm MyFind osiągał bardzo dobre wyniki.
+
+Średnia liczba porównań:
+- około 14–17,
+podczas gdy Binary Search wykonywał:
+- około 30–36 porównań.
+
+Różnica była widoczna zarówno:
+- dla przypadków FOUND,
+- jak i NOT FOUND.
+
+Wyniki potwierdzają, że dzięki małemu δ możliwe było bardzo silne zawężenie zakresu wyszukiwania.
+
+
+7. Wyniki dla funkcji f2
+
+Dla:
+f(x) = sqrt(x) + log2(x + 1)
+δ = 50
+
+również uzyskano poprawę względem Binary Search, jednak była ona mniejsza.
+
+MyFind wykonywał:
+- około 25–30 porównań,
+
+natomiast Binary Search:
+- około 30–36 porównań.
+
+Większe δ powodowało większy zakres możliwych indeksów, przez co zawężenie wyszukiwania było mniej skuteczne.
+
+
+8. Analiza wykresów
+
+Na wykresach widoczne były:
+- logarytmiczne wzrosty liczby porównań,
+- stabilne działanie obu algorytmów.
+
+Binary Search:
+- zachowywał typową zależność O(log n),
+- liczba porównań rosła wraz z logarytmem rozmiaru danych.
+
+MyFind:
+- również zachowywał złożoność O(log n),
+- jednak wykonywał znacznie mniej porównań dzięki ograniczeniu zakresu wyszukiwania.
+
+Dla mniejszych wartości δ poprawa była wyraźnie większa.
+
+
+9. Wnioski
+
+Wykorzystanie dodatkowej wiedzy o strukturze danych pozwoliło znacząco zmniejszyć liczbę porównań względem klasycznego Binary Search.
+
+Algorytm MyFind:
+- poprawnie wyszukiwał elementy,
+- zachowywał złożoność O(log n),
+- wykonywał mniejszą liczbę porównań.
+
+Najlepsze wyniki uzyskano dla:
+f(x) = (log2(x + 1))^3
+δ = 10
+
+gdzie możliwe było bardzo dokładne zawężenie przedziału wyszukiwania.
+
+Eksperymenty potwierdziły skuteczność wykorzystania wiedzy o rozkładzie danych wejściowych do optymalizacji wyszukiwania.

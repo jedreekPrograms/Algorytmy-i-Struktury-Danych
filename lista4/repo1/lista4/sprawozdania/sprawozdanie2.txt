@@ -1,0 +1,99 @@
+1. Average pointer assignments (random BST)
+
+Srednia liczba przypisan wskaznikow dla losowego BST rosnie bardzo powoli wraz ze wzrostem n.
+Wynika to z faktu, ze wysokosc losowego drzewa BST jest srednio rzedu O(log n),
+dlatego liczba odwiedzanych wezlow podczas operacji insert i delete zwieksza sie logarytmicznie.
+Operacja delete wymaga zwykle wiecej modyfikacji struktury drzewa niz insert, dlatego jej koszt jest nieco wyzszy.
+
+2. Average comparisons (random BST)
+
+Srednia liczba porownan kluczy rosnie logarytmicznie wraz z rozmiarem drzewa.
+Dla losowego BST srednia wysokosc drzewa jest niewielka, dlatego liczba porownan potrzebnych
+do znalezienia odpowiedniego wezla pozostaje stosunkowo mala nawet dla duzych n.
+Operacja delete jest drozsza od insert,
+poniewaz oprocz znalezienia usuwanego wezla moze wymagac znalezienia jego nastepnika.
+
+3. Average tree height (random BST)
+
+Srednia wysokosc drzewa rosnie bardzo wolno wraz ze wzrostem liczby elementow.
+Jest to zgodne z teoria, wedlug ktorej wysokosc losowego BST jest rzedu O(log n).
+Nawet dla n = 100000 srednia wysokosc pozostaje niewielka w porownaniu z liczba elementow.
+
+4. Average pointer reads (random BST)
+
+Srednia liczba odczytow wskaznikow zachowuje sie podobnie do liczby porownan.
+Kazde przejscie do kolejnego wezla wymaga odczytu odpowiedniego wskaznika,
+dlatego koszt rosnie logarytmicznie. Delete wykonuje wiecej odczytow
+niz insert z powodu dodatkowych operacji zwiazanych z usuwaniem wezlow.
+
+5. Maximum pointer assignments (random BST)
+
+Maksymalna liczba przypisan wskaznikow rosnie wolniej niz liniowo i
+pozostaje stosunkowo mala. Oznacza to, ze nawet najgorsze pojedyncze operacje
+wykonywane podczas eksperymentow nie wymagaly duzej liczby zmian w strukturze drzewa.
+
+6. Maximum comparisons (random BST)
+
+Maksymalna liczba porownan jest wieksza od sredniej, jednak nadal rosnie bardzo wolno.
+Najgorsze przypadki odpowiadaja operacjom wykonywanym na najglebszych wezlach drzewa,
+ale nawet one maja koszt zgodny z logarytmiczna wysokoscia losowego BST.
+
+7. Maximum tree height (random BST)
+
+Maksymalna wysokosc drzewa jest wieksza od sredniej wysokosci, lecz nadal
+pozostaje niewielka wzgledem liczby elementow. Potwierdza to, ze losowe BST zachowuje
+dobra strukture i nie degeneruje sie do postaci listy.
+
+8. Maximum pointer reads (random BST)
+
+Maksymalna liczba odczytow wskaznikow rosnie podobnie jak maksymalna
+liczba porownan. Najdrozsze operacje wymagaly przejscia przez najdluzsze sciezki
+w drzewie, jednak koszt nadal odpowiada zlozonosci O(log n).
+
+9. Average pointer assignments (sorted BST)
+
+Przy wstawianiu uporzadkowanego ciagu BST degeneruje sie do postaci listy.
+W efekcie koszt operacji rosnie liniowo wraz z liczba elementow.
+Widoczna zaleznosc liniowa jest zgodna z oczekiwana zlozonoscia O(n).
+
+10. Average comparisons (sorted BST)
+
+Srednia liczba porownan rosnie liniowo wraz z n.
+Kazdy nowy element musi przejsc przez coraz dluzsza sciezke drzewa,
+dlatego koszt pojedynczych operacji stale wzrasta. Jest to charakterystyczne dla zdegenerowanego BST.
+
+11. Average tree height (sorted BST)
+
+Srednia wysokosc drzewa rosnie liniowo. Podczas kolejnych insercji
+wysokosc zwieksza sie o jeden, przez co srednia wysokosc wszystkich stanow
+drzewa jest proporcjonalna do n. Oznacza to calkowita utrate zrownowazenia struktury.
+
+12. Average pointer reads (sorted BST)
+
+Srednia liczba odczytow wskaznikow rosnie liniowo wraz z rozmiarem drzewa.
+Kazde przejscie do kolejnego wezla wymaga odczytu wskaznika,
+a dlugosc przebywanej sciezki jest proporcjonalna do wysokosci drzewa.
+
+13. Maximum pointer assignments (sorted BST)
+
+Maksymalna liczba przypisan wskaznikow rosnie liniowo wraz z n.
+Najdrozsze operacje wystepuja pod koniec procesu budowania drzewa,
+gdy jego wysokosc jest najwieksza i konieczne jest przejscie przez cala strukture.
+
+14. Maximum comparisons (sorted BST)
+
+Maksymalna liczba porownan rosnie liniowo i osiaga wartosci zblizone
+do liczby elementow w drzewie. Oznacza to, ze najgorsze operacje wymagaly
+przejscia przez niemal cala strukture, co odpowiada zlozonosci O(n).
+
+15. Maximum tree height (sorted BST)
+
+Maksymalna wysokosc drzewa jest praktycznie rowna liczbie elementow.
+Potwierdza to pelna degeneracje BST do postaci jednokierunkowej listy,
+co stanowi najgorszy mozliwy przypadek dla tej struktury.
+
+16. Maximum pointer reads (sorted BST)
+
+Maksymalna liczba odczytow wskaznikow rosnie liniowo wraz z n.
+Najgorsze operacje wymagaly przejscia przez cala wysokosc drzewa,
+dlatego liczba odczytow jest proporcjonalna do liczby elementow.

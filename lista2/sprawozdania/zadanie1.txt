@@ -1,0 +1,30 @@
+Zadanie 1 polegało na zaimplementowaniu i przetestowaniu trzech algorytmów sortowania: Insertion Sort, Quick Sort oraz algorytmu hybrydowego będącego połączeniem Quick Sort i Insertion Sort.
+W algorytmie hybrydowym zastosowano próg przełączania K = 15, co oznacza,
+że dla podtablic o długości mniejszej lub równej 15 wykonywany jest Insertion Sort,
+natomiast dla większych fragmentów używany jest Quick Sort.
+
+Każdy algorytm został zaimplementowany jako osobny program działający na standardowym wejściu i wyjściu.
+Programy przyjmują jako dane wejściowe najpierw liczbę n oznaczającą długość tablicy,
+a następnie n liczb całkowitych reprezentujących klucze do posortowania.
+Dodatkowo zaimplementowano trzy generatory danych: generujący ciąg rosnący, malejący oraz losowy.
+Generatory przyjmują jako argument długość tablicy n i wypisują dane w formacie zgodnym z wymaganiami programu sortującego.
+Testy były wykonywane w postaci potoków, gdzie wyjście generatora było bezpośrednio przekazywane na wejście programu sortującego.
+
+W celu analizy działania algorytmów zaimplementowano funkcje compare oraz swap,
+które oprócz wykonywania swoich operacji zliczają odpowiednio liczbę porównań oraz liczbę przestawień elementów.
+Dzięki temu możliwe było dokładne śledzenie kosztu działania każdego algorytmu.
+Po zakończeniu sortowania program wypisuje łączną liczbę porównań oraz przestawień.
+
+Dla małych danych, tj. gdy n < 40, program dodatkowo wypisuje tablicę wejściową, stany pośrednie sortowania oraz tablicę po sortowaniu.
+Pozwala to na dokładne prześledzenie działania algorytmów krok po kroku.
+Na końcu program sprawdza również poprawność sortowania poprzez weryfikację, czy wynikowy ciąg jest posortowany.
+
+Testy przeprowadzono dla rozmiarów n = 8 oraz n = 32 dla trzech typów danych: rosnących,
+malejących oraz losowych. Na podstawie wyników można zauważyć,
+że Insertion Sort działa bardzo efektywnie dla danych już posortowanych rosnąco, wykonując minimalną liczbę operacji.
+Dla danych malejących jego koszt znacząco rośnie, co wynika z jego kwadratowej złożoności.
+Quick Sort dla danych posortowanych (szczególnie rosnących) wykazuje większą liczbę porównań,
+co wynika z niekorzystnego wyboru pivota (pierwszy element).
+Algorytm hybrydowy łączy zalety obu podejść i w praktyce daje lepsze wyniki niż czysty Quick Sort, szczególnie dla mniejszych fragmentów tablicy.
+
+Wszystkie algorytmy poprawnie sortują dane, co zostało potwierdzone przez funkcję sprawdzającą poprawność wyniku.

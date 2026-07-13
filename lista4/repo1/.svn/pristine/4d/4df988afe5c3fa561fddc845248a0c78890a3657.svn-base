@@ -1,0 +1,286 @@
+
+jedre@jedreek323 UCRT64 ~
+$ cd ~/mk1/lista2/zadanie1
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1
+$ cd ..
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2
+$ cd zadanie1a
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a
+$ cp /c/Users/jedre/CLionProjects/untitled6/zadanie1a/insertionsort.c .                             
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a
+$ svn status
+M       insertionsort.c
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a
+$ svn commit -m "poprawka insertionsort"
+Sending        insertionsort.c
+Transmitting file data .done
+Committing transaction...
+Committed revision 32.
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a
+$ rm -rf lista2_export
+svn export https://repo.cs.pwr.edu.pl/283948-dir/mk1/lista2 lista2_export
+A    lista2_export
+A    lista2_export/cmake-build-debug
+A    lista2_export/cmake-build-debug/.cmake
+A    lista2_export/cmake-build-debug/.cmake/api
+A    lista2_export/cmake-build-debug/.cmake/api/v1
+A    lista2_export/cmake-build-debug/.cmake/api/v1/query
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply
+A    lista2_export/cmake-build-debug/CMakeFiles
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/tmp
+A    lista2_export/cmake-build-debug/CMakeFiles/pkgRedirects
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/generators
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie3
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie4
+A    lista2_export/cmake-build-debug/Testing
+A    lista2_export/cmake-build-debug/Testing/Temporary
+A    lista2_export/generators
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybrid_main.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+A    lista2_export/cmake-build-debug/CMakeFiles/cmake.check_cache
+A    lista2_export/CMakeLists.txt
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_asc.c.obj
+A    lista2_export/helpfunctions
+A    lista2_export/sprawozdania
+A    lista2_export/cmake-build-debug/.cmake/api/v1/query/cache-v2
+A    lista2_export/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_insertionsort.c.obj
+A    lista2_export/cmake-build-debug/Testing/Temporary/LastTest.log
+A    lista2_export/generators/generator_asc.c
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_random.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/main.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/insertionsort.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/quicksort.c.obj
+A    lista2_export/cmake-build-debug/cmake_install.cmake
+A    lista2_export/zadanie1
+A    lista2_export/helpfunctions/helpfunctions.c
+A    lista2_export/generators/generator_random.c
+A    lista2_export/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+A    lista2_export/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+A    lista2_export/helpfunctions/helpfunctions.h
+A    lista2_export/sprawozdania/zadanie3.txt
+A    lista2_export/sprawozdania/zadanie2.txt
+A    lista2_export/zadanie1/hybridsort.c
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7c3ba4515d4c5e89d56d.json
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-509aaa5aeef9c1f0ef3e.json
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1d861732b742ca9fa6bf.json
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+A    lista2_export/sprawozdania/zadanie4.txt
+A    lista2_export/zadanie1/hybridsort.h
+A    lista2_export/zadanie1/main_insertionsort.c
+A    lista2_export/zadanie1a
+A    lista2_export/zadanie2
+A    lista2_export/zadanie1/log_fix_zad1.txt
+A    lista2_export/zadanie1/quicksort.h
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-22T21-27-43-0618.json
+A    lista2_export/zadanie1/insertionsort.c
+A    lista2_export/zadanie1/main_quicksort.c
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/target-untitled6-Debug-a0ab15b2b7d674fd07d5.json
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-33ca16c04ff1f028c339.json
+A    lista2_export/cmake-build-debug/.gitignore
+A    lista2_export/cmake-build-debug/.ninja_deps
+A    lista2_export/cmake-build-debug/.ninja_log
+A    lista2_export/cmake-build-debug/CMakeCache.txt
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+A    lista2_export/zadanie3
+A    lista2_export/zadanie1/raport_zadanie1.txt
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
+A    lista2_export/zadanie1a/hybridsort.h
+A    lista2_export/zadanie1a/main_quicksort.c
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CMakeSystem.cmake
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c
+A    lista2_export/zadanie1a/hybridsort.c
+A    lista2_export/zadanie1a/main_insertionsort.c
+A    lista2_export/zadanie1a/run.sh
+A    lista2_export/zadanie1/run.sh
+A    lista2_export/zadanie1a/insertionsort.c
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+A    lista2_export/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+A    lista2_export/cmake-build-debug/CMakeFiles/InstallScripts.json
+A    lista2_export/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+A    lista2_export/cmake-build-debug/CMakeFiles/clion-environment.txt
+A    lista2_export/cmake-build-debug/CMakeFiles/rules.ninja
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_desc.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions/helpfunctions.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybridsort.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_quicksort.c.obj
+A    lista2_export/cmake-build-debug/build.ninja
+A    lista2_export/generators/generator_desc.c
+A    lista2_export/sprawozdania/zadanie1.txt
+A    lista2_export/zadanie1/hybrid_main.c
+A    lista2_export/zadanie1/insertionsort.h
+A    lista2_export/zadanie1/quicksort.c
+A    lista2_export/zadanie1a/hybrid_main.c
+A    lista2_export/zadanie1a/insertionsort.h
+A    lista2_export/zadanie1a/quicksort.h
+A    lista2_export/zadanie1a/quicksort.c
+A    lista2_export/zadanie4
+A    lista2_export/zadanie2/cn_big.png
+A    lista2_export/zadanie2/graph.py
+A    lista2_export/zadanie2/comparisons_small.png
+A    lista2_export/zadanie2/sn_small.png
+A    lista2_export/zadanie2/cn_small.png
+A    lista2_export/zadanie2/log.txt
+A    lista2_export/zadanie3/cn_small.png
+A    lista2_export/zadanie3/log.txt
+A    lista2_export/zadanie2/swaps_big.png
+A    lista2_export/zadanie2/sn_big.png
+A    lista2_export/zadanie2/comparisons_big.png
+A    lista2_export/zadanie2/run_all.sh
+A    lista2_export/zadanie3/cn_big.png
+A    lista2_export/zadanie3/graph3.py
+A    lista2_export/zadanie3/mergesort.c
+A    lista2_export/zadanie3/mydivide_main.c
+A    lista2_export/zadanie2/swaps_small.png
+A    lista2_export/zadanie3/mergesort.h
+A    lista2_export/zadanie3/mydivide_small.txt
+A    lista2_export/zadanie3/comparisons_small.png
+A    lista2_export/zadanie3/merge_small.txt
+A    lista2_export/zadanie3/mydivide.h
+A    lista2_export/zadanie3/sn_small.png
+A    lista2_export/zadanie4/binary_small.txt
+A    lista2_export/zadanie3/comparisons_big.png
+A    lista2_export/zadanie3/merge_main.c
+A    lista2_export/zadanie3/mydivide.c
+A    lista2_export/zadanie3/run_3.sh
+A    lista2_export/zadanie3/sn_big.png
+A    lista2_export/zadanie4/binary_big.txt
+A    lista2_export/zadanie4/binarysearch_main.c
+A    lista2_export/zadanie3/swaps_big.png
+A    lista2_export/zadanie4/binarysearch.c
+A    lista2_export/zadanie3/swaps_small.png
+A    lista2_export/zadanie4/binarysearch.h
+A    lista2_export/zadanie4/comparisons_tall_large.png
+A    lista2_export/zadanie4/generator_matrix.c
+A    lista2_export/zadanie4/hybrid_small.txt
+A    lista2_export/zadanie4/comparisons_tall_small.png
+A    lista2_export/zadanie4/graph4.py
+A    lista2_export/zadanie4/hybridsearch.c
+A    lista2_export/zadanie4/comparisons_square_small.png
+A    lista2_export/zadanie4/ratio_square_small.png
+A    lista2_export/zadanie4/ratio_square_large.png
+A    lista2_export/zadanie4/comparisons_wide_small.png
+A    lista2_export/zadanie4/hybrid_main.c
+A    lista2_export/zadanie4/log.txt
+A    lista2_export/zadanie4/ratio_tall_small.png
+A    lista2_export/zadanie4/staircase_big.txt
+A    lista2_export/zadanie4/staircasesearch.h
+A    lista2_export/zadanie4/comparisons_square_large.png
+A    lista2_export/zadanie4/comparisons_wide_large.png
+A    lista2_export/zadanie4/hybrid_big.txt
+A    lista2_export/zadanie4/hybridsearch.h
+A    lista2_export/zadanie4/ratio_wide_small.png
+A    lista2_export/zadanie4/staircase_small.txt
+A    lista2_export/zadanie4/ratio_tall_large.png
+A    lista2_export/zadanie4/run_4.sh
+A    lista2_export/zadanie4/staircasesearch.c
+A    lista2_export/zadanie4/ratio_wide_large.png
+A    lista2_export/zadanie4/staircase_main.c
+Exported revision 32.
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a
+$ cd lista2_export/zadanie2
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a/lista2_export/zadanie2
+$ chmod +x run.sh
+chmod: cannot access 'run.sh': No such file or directory
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a/lista2_export/zadanie2
+$ ls
+cn_big.png    comparisons_big.png    graph.py  run_all.sh  sn_small.png   swaps_small.png
+cn_small.png  comparisons_small.png  log.txt   sn_big.png  swaps_big.png
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a/lista2_export/zadanie2
+$ chmod +x run_all.sh
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a/lista2_export/zadanie2
+$ ./run_all.sh
+=== KOMPILACJA ===
+=== KOMPILACJA GENERATORA ===
+=== CZYSZCZENIE ===
+=== TESTY MAŁE ===
+=== TESTY DUŻE ===
+=== KONIEC ===
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a/lista2_export/zadanie2
+$ python graph.py
+Wykresy zapisane do plików PNG ✅
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a/lista2_export/zadanie2
+$ ls
+cn_big.png	       gen_rand.exe    hybrid_small.txt     quick_big.txt    sn_small.png
+cn_small.png	       graph.py        insertion.exe	    quick_small.txt  swaps_big.png
+comparisons_big.png    hybrid.exe      insertion_small.txt  run_all.sh	     swaps_small.png
+comparisons_small.png  hybrid_big.txt  quick.exe	    sn_big.png
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a/lista2_export/zadanie2
+$ mkdir -p poprawka
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a/lista2_export/zadanie2
+$ mv *.png poprawka/
+mv *_small.txt poprawka/
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a/lista2_export/zadanie2
+$ tmux capture-pane -p -S'-' -E'-' -J > log_fix_zad2.txt                                            
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a/lista2_export/zadanie2
+$ svn add poprawka
+svn: warning: W155010: The node '/home/jedre/mk1/lista2/zadanie1a/lista2_export' was not found.
+svn: E200009: Could not add all targets because some targets don't exist
+svn: E200009: Illegal target for the requested operation
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a/lista2_export/zadanie2
+$ cd ~/mk1/lista2/zadanie1a/zadanie2
+-bash: cd: /home/jedre/mk1/lista2/zadanie1a/zadanie2: No such file or directory
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a/lista2_export/zadanie2
+$ cd cd ~/mk1/lista2/zadanie2                                                                      
+-bash: cd: too many arguments
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie1a/lista2_export/zadanie2
+$ cd ~/mk1/lista2/zadanie2                                                                         
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ cp -r ../lista2_export/zadanie2/poprawka .
+cp ../lista2_export/zadanie2/log_fix_zad2.txt .
+cp: cannot stat '../lista2_export/zadanie2/poprawka': No such file or directory
+cp: cannot stat '../lista2_export/zadanie2/log_fix_zad2.txt': No such file or directory
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ cp -r ~/mk1/lista2/zadanie1a/lista2_export/zadanie2/poprawka .
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ cp ~/mk1/lista2/zadanie1a/lista2_export/zadanie2/log_fix_zad2.txt .
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ svn add poprawka
+svn add log_fix_zad2.txt
+A         poprawka
+A         poprawka/hybrid_small.txt
+A  (bin)  poprawka/comparisons_small.png
+A  (bin)  poprawka/swaps_small.png
+A  (bin)  poprawka/cn_small.png
+A  (bin)  poprawka/sn_small.png
+A         poprawka/insertion_small.txt
+A  (bin)  poprawka/comparisons_big.png
+A  (bin)  poprawka/swaps_big.png
+A         poprawka/quick_small.txt
+A  (bin)  poprawka/cn_big.png
+A  (bin)  poprawka/sn_big.png
+A         log_fix_zad2.txt
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ tmux capture-pane -p -S - -E - -J > log_fix_zad2.txt
+

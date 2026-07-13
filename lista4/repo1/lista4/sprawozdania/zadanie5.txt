@@ -1,0 +1,55 @@
+ANALIZA WYNIKOW EKSPERYMENTALNYCH
+
+Przeprowadzono eksperymenty porownujace sredni czas dzialania algorytmow Prima
+i Kruskala sluzacych do wyznaczania minimalnego drzewa rozpinajacego (MST).
+Testy wykonano dla losowo generowanych grafow o wagach krawedzi losowanych z przedzialu (0,1)
+wedlug rozkladu jednostajnego.
+
+Badania przeprowadzono dla trzech typow grafow:
+- grafow pelnych,
+- grafow srednio gestych,
+- grafow rzadkich.
+
+GRAF PELNY
+
+Dla grafow pelnych zaobserwowano najwieksze roznice pomiedzy algorytmami.
+Wraz ze wzrostem liczby wierzcholkow czas dzialania obu algorytmow rosnie,
+jednak wzrost dla algorytmu Kruskala jest znacznie szybszy.
+Dla najwiekszych testowanych instancji Kruskal potrzebowal okolo 320 ms, podczas gdy Prim okolo 13 ms.
+
+Przyczyna jest koniecznosc sortowania bardzo duzej liczby krawedzi przez algorytm Kruskala.
+W grafie pelnym liczba krawedzi wynosi O(n^2), co powoduje szybki wzrost kosztu obliczen.
+
+GRAF SREDNIO GESTY
+
+W przypadku grafow srednio gestych oba algorytmy osiagaja znacznie mniejsze czasy dzialania.
+Prim pozostaje szybszy od Kruskala dla wszystkich rozmiarow grafu, jednak roznice
+sa duzo mniejsze niz dla grafow pelnych.
+
+Widoczny jest niemal liniowy wzrost czasu dzialania wraz ze wzrostem liczby wierzcholkow.
+Dla najwiekszych testowanych grafow Kruskal osiaga czas okolo 5 ms, natomiast Prim okolo 3 ms.
+
+GRAF RZADKI
+
+Dla grafow rzadkich oba algorytmy dzialaja bardzo szybko. Czasy wykonania nie przekraczaja
+2 ms nawet dla najwiekszych testowanych instancji.
+
+W tym przypadku Kruskal okazuje sie nieznacznie szybszy od Prima. Wynika to z
+malej liczby krawedzi, przez co koszt ich sortowania jest niewielki, a struktura
+Union-Find pozwala bardzo efektywnie budowac MST.
+
+WNIOSKI
+
+1. Czas dzialania obu algorytmow rosnie wraz ze wzrostem liczby wierzcholkow.
+
+2. Gestosc grafu ma bardzo duzy wplyw na wydajnosc algorytmow.
+
+3. Dla grafow pelnych zdecydowanie najlepsze wyniki uzyskuje algorytm Prima.
+
+4. Dla grafow rzadkich oba algorytmy osiagaja bardzo dobre wyniki, a Kruskal jest nieznacznie szybszy.
+
+5. Najwieksze roznice pomiedzy algorytmami wystepuja dla grafow o duzej liczbie krawedzi.
+
+6. Otrzymane wyniki sa zgodne z teoretycznymi zlozonosciami czasowymi algorytmow Prima i Kruskala.
+
+7. Wraz ze wzrostem gestosci grafu przewaga algorytmu Prima nad Kruskalem staje sie coraz bardziej widoczna.

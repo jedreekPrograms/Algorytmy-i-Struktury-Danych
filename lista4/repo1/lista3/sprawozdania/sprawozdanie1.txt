@@ -1,0 +1,142 @@
+1. Cel zadania
+
+Celem zadania była implementacja dwóch algorytmów wyznaczania statystyki pozycyjnej:
+- RANDOMIZED SELECT,
+- SELECT (Median of Medians).
+
+Program miał umożliwiać:
+- wczytanie długości tablicy n,
+- numeru statystyki pozycyjnej k,
+- ciągu liczb całkowitych,
+- wyświetlanie stanów pośrednich dla małych danych,
+- zliczanie liczby porównań i przestawień,
+- sprawdzenie poprawności wyniku poprzez porównanie z posortowaną tablicą.
+
+
+2. Implementacja algorytmu RANDOMIZED SELECT
+
+Algorytm RANDOMIZED SELECT został zaimplementowany rekurencyjnie. W każdej iteracji wybierany jest losowy pivot z aktualnego przedziału tablicy. Następnie wykonywane jest trójdzielne partycjonowanie:
+- elementy mniejsze od pivota,
+- elementy równe pivotowi,
+- elementy większe od pivota.
+
+Do partycjonowania zastosowano wariant Dutch National Flag, dzięki czemu algorytm poprawnie obsługuje powtarzające się wartości.
+
+Po wykonaniu podziału:
+- jeśli szukana pozycja znajduje się w lewej części, wykonywane jest wywołanie rekurencyjne dla lewej części,
+- jeśli należy do części środkowej, zwracany jest pivot,
+- w przeciwnym przypadku wykonywane jest wywołanie dla prawej części.
+
+Dla małych danych program wypisywał:
+- aktualny zakres tablicy,
+- aktualną tablicę,
+- wybrany pivot,
+- stan tablicy po partycjonowaniu.
+
+
+3. Implementacja algorytmu SELECT
+
+Algorytm SELECT został zaimplementowany zgodnie z metodą Median of Medians.
+
+Działanie algorytmu:
+1. Tablica dzielona jest na grupy pięcioelementowe.
+2. Każda grupa jest sortowana metodą insertion sort.
+3. Wyznaczane są mediany grup.
+4. Rekurencyjnie wyznaczana jest mediana median.
+5. Otrzymana wartość wykorzystywana jest jako pivot.
+6. Następnie wykonywane jest trójdzielne partycjonowanie tablicy.
+
+Algorytm posiada dwa wywołania rekurencyjne:
+- pierwsze podczas wyznaczania mediany median,
+- drugie podczas dalszego wyszukiwania statystyki pozycyjnej.
+
+Dla małych danych program wypisywał:
+- aktualny zakres,
+- zawartość tablicy,
+- pivot,
+- stan tablicy po partycjonowaniu.
+
+
+4. Funkcje pomocnicze
+
+W programie wykorzystano dodatkowe funkcje:
+- insertion sort,
+- funkcję zamiany elementów,
+- funkcje porównujące elementy,
+- funkcję wypisywania tablicy.
+
+Dzięki temu możliwe było dokładne zliczanie:
+- liczby porównań,
+- liczby przestawień.
+
+
+5. Testy poprawności
+
+Program został przetestowany dla małych i większych danych wejściowych.
+
+Przykład dla RANDOMIZED SELECT:
+
+Tablica wejściowa:
+15 0 13 8 3 15 0 12
+
+k = 7
+
+Posortowana tablica:
+0 0 3 8 12 13 15 15
+
+Znaleziona statystyka pozycyjna:
+15
+
+Wynik był zgodny z oczekiwanym rezultatem.
+
+Przykład dla SELECT:
+
+Tablica wejściowa:
+15 0 13 8 3 15 0 12
+
+k = 7
+
+Posortowana tablica:
+0 0 3 8 12 13 15 15
+
+Znaleziona statystyka pozycyjna:
+15
+
+Również w tym przypadku wynik był poprawny.
+
+
+6. Analiza działania algorytmów
+
+RANDOMIZED SELECT:
+- średnia złożoność czasowa O(n),
+- pesymistyczna złożoność O(n²),
+- mniejsza liczba operacji w praktyce,
+- duże wahania wynikające z losowego wyboru pivota.
+
+SELECT:
+- gwarantowana złożoność O(n),
+- bardziej stabilna liczba operacji,
+- większy narzut związany z wyznaczaniem median median,
+- większa liczba przestawień i porównań niż RANDOMIZED SELECT.
+
+Na wykresach widoczna była:
+- liniowa zależność liczby operacji od rozmiaru danych,
+- większa stabilność algorytmu SELECT,
+- większe fluktuacje dla RANDOMIZED SELECT.
+
+
+7. Wnioski
+
+Oba algorytmy poprawnie wyznaczały statystykę pozycyjną.
+
+RANDOMIZED SELECT:
+- działa szybciej w praktyce,
+- wykonuje mniej operacji,
+- jednak jego czas działania zależy od losowego wyboru pivota.
+
+SELECT:
+- gwarantuje liniową złożoność nawet w pesymistycznym przypadku,
+- działa bardziej stabilnie,
+- ale wykonuje większą liczbę operacji.
+
+Przeprowadzone testy i wykresy potwierdziły teoretyczne właściwości obu algorytmów.

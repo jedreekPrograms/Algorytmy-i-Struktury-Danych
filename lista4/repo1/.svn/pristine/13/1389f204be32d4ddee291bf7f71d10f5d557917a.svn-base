@@ -1,0 +1,26 @@
+
+jedre@jedreek323 UCRT64 /c/Users/jedre/CLionProjects/Laby1
+$ gcc zadanie3/main.c zadanie3/doubly_cyclic_list.c -o zad3
+./zad3
+Lista 1:
+76 34 33 40 43 88 22 73 69 56 
+Lista 2:
+20 70 81 71 95 49 16 60 70 39 
+Po merge:
+76 70 81 71 95 49 16 60 70 39 20 34 33 40 43 88 22 73 69 56 
+
+=== WYNIKI ===
+Sredni koszt (element z listy): 4452.96
+Sredni koszt (losowa liczba): 8634.15
+
+jedre@jedreek323 UCRT64 /c/Users/jedre/CLionProjects/Laby1
+$ tmux capture-pane -p -S- -E- -J > zadanie3.txt
+
+
+
+
+
+
+
+
+

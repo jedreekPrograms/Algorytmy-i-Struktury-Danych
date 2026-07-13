@@ -1,0 +1,115 @@
+1. Cel zadania
+
+Celem zadania było przeprowadzenie testów eksperymentalnych dla zaimplementowanych wcześniej algorytmów:
+- RANDOMIZED SELECT,
+- SELECT.
+
+Badania miały określić:
+- liczbę wykonywanych porównań,
+- liczbę wykonywanych przestawień,
+dla różnych rozmiarów danych oraz różnych wartości statystyki pozycyjnej k.
+
+Dla każdego rozmiaru danych wykonywano wielokrotne pomiary, a następnie obliczano średnie wartości wyników.
+
+
+2. Sposób przeprowadzania testów
+
+Testy wykonywano dla:
+n ∈ {100, 200, ..., 50000}
+
+Dla każdego rozmiaru wykonywano:
+m = 50 niezależnych powtórzeń.
+
+Testowano trzy wartości parametru k:
+- k = 1,
+- k = n / 2,
+- k = n.
+
+Dane wejściowe były generowane losowo z przedziału:
+[0, 2n - 1]
+
+Każdy przypadek korzystał z identycznych danych wejściowych dla obu algorytmów, co pozwalało na sprawiedliwe porównanie wyników.
+
+
+3. Implementacja benchmarku
+
+Program benchmarkowy:
+- generował dane testowe,
+- uruchamiał oba algorytmy,
+- zliczał liczbę porównań,
+- zliczał liczbę przestawień,
+- zapisywał wyniki do plików tekstowych.
+
+Dla każdej konfiguracji tworzony był osobny plik:
+- random_k1.txt,
+- random_kmid.txt,
+- random_kn.txt,
+- select_k1.txt,
+- select_kmid.txt,
+- select_kn.txt.
+
+Każda linia pliku zawierała:
+n k liczba_przestawień liczba_porównań
+
+
+4. Wyniki dla RANDOMIZED SELECT
+
+Na wykresach dla RANDOMIZED SELECT widoczna była:
+- liniowa zależność liczby operacji od rozmiaru danych,
+- duża zmienność wyników wynikająca z losowego wyboru pivota.
+
+Liczba porównań:
+- najmniejsza dla k = 1 oraz k = n,
+- największa dla k = n / 2.
+
+Liczba przestawień:
+- również największa dla k = n / 2,
+- dla k = 1 i k = n wartości były zbliżone.
+
+Wyniki potwierdzają średnią złożoność O(n), jednak widoczne są losowe odchylenia charakterystyczne dla algorytmów probabilistycznych.
+
+
+5. Wyniki dla SELECT
+
+Dla algorytmu SELECT wykresy były znacznie bardziej stabilne.
+
+Liczba porównań:
+- praktycznie identyczna dla wszystkich wartości k,
+- rosła liniowo wraz z rozmiarem danych.
+
+Liczba przestawień:
+- również miała przebieg liniowy,
+- różnice pomiędzy wartościami k były minimalne.
+
+Brak dużych odchyleń potwierdza deterministyczny charakter algorytmu.
+
+
+6. Porównanie algorytmów
+
+RANDOMIZED SELECT:
+- wykonuje mniej operacji średnio,
+- działa szybciej praktycznie,
+- jednak wyniki są niestabilne i zależne od losowego wyboru pivota.
+
+SELECT:
+- gwarantuje stabilny czas działania,
+- zachowuje liniową złożoność nawet w pesymistycznym przypadku,
+- wykonuje większą liczbę operacji.
+
+Różnice szczególnie widoczne były przy większych rozmiarach danych.
+
+
+7. Wnioski
+
+Przeprowadzone eksperymenty potwierdziły teoretyczne właściwości obu algorytmów.
+
+RANDOMIZED SELECT:
+- osiąga bardzo dobre wyniki średnie,
+- lecz charakteryzuje się większymi wahaniami liczby operacji.
+
+SELECT:
+- działa bardziej przewidywalnie,
+- posiada stabilną liniową złożoność,
+- jednak wymaga większej liczby porównań i przestawień.
+
+Oba algorytmy poprawnie wyznaczały statystykę pozycyjną dla wszystkich testowanych danych.

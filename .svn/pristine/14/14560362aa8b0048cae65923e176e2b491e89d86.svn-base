@@ -1,0 +1,257 @@
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2
+$ # Jedrzej Stefanowski
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2
+$ rm -rf lista2_export                         
+svn export https://repo.cs.pwr.edu.pl/283948-dir/mk1/lista2 lista2_export
+A    lista2_export
+A    lista2_export/cmake-build-debug
+A    lista2_export/cmake-build-debug/.cmake
+A    lista2_export/cmake-build-debug/.cmake/api
+A    lista2_export/cmake-build-debug/.cmake/api/v1
+A    lista2_export/cmake-build-debug/.cmake/api/v1/query
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply
+A    lista2_export/cmake-build-debug/CMakeFiles
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/tmp
+A    lista2_export/cmake-build-debug/CMakeFiles/pkgRedirects
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/generators
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie3
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie4
+A    lista2_export/cmake-build-debug/Testing
+A    lista2_export/cmake-build-debug/Testing/Temporary
+A    lista2_export/generators
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybrid_main.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_insertionsort.c.obj
+A    lista2_export/cmake-build-debug/Testing/Temporary/LastTest.log
+A    lista2_export/generators/generator_asc.c
+A    lista2_export/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+A    lista2_export/cmake-build-debug/CMakeFiles/cmake.check_cache
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_asc.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_random.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/main.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/insertionsort.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/quicksort.c.obj
+A    lista2_export/cmake-build-debug/cmake_install.cmake
+A    lista2_export/CMakeLists.txt
+A    lista2_export/cmake-build-debug/.cmake/api/v1/query/cache-v2
+A    lista2_export/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+A    lista2_export/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+A    lista2_export/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7c3ba4515d4c5e89d56d.json
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-509aaa5aeef9c1f0ef3e.json
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1d861732b742ca9fa6bf.json
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-22T21-27-43-0618.json
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/target-untitled6-Debug-a0ab15b2b7d674fd07d5.json
+A    lista2_export/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-33ca16c04ff1f028c339.json
+A    lista2_export/cmake-build-debug/.gitignore
+A    lista2_export/cmake-build-debug/.ninja_deps
+A    lista2_export/cmake-build-debug/.ninja_log
+A    lista2_export/cmake-build-debug/CMakeCache.txt
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+A    lista2_export/helpfunctions
+A    lista2_export/zadanie1
+A    lista2_export/zadanie1a
+A    lista2_export/zadanie2
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CMakeSystem.cmake
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c
+A    lista2_export/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+A    lista2_export/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+A    lista2_export/cmake-build-debug/CMakeFiles/InstallScripts.json
+A    lista2_export/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+A    lista2_export/cmake-build-debug/CMakeFiles/clion-environment.txt
+A    lista2_export/cmake-build-debug/CMakeFiles/rules.ninja
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_desc.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions/helpfunctions.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybridsort.c.obj
+A    lista2_export/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_quicksort.c.obj
+A    lista2_export/cmake-build-debug/build.ninja
+A    lista2_export/generators/generator_desc.c
+A    lista2_export/zadanie1/hybrid_main.c
+A    lista2_export/zadanie1/insertionsort.h
+A    lista2_export/zadanie1/quicksort.h
+A    lista2_export/zadanie1a/hybridsort.c
+A    lista2_export/zadanie1a/main_insertionsort.c
+A    lista2_export/zadanie1a/run.sh
+A    lista2_export/zadanie3
+A    lista2_export/helpfunctions/helpfunctions.c
+A    lista2_export/zadanie1/hybridsort.h
+A    lista2_export/zadanie1/main_quicksort.c
+A    lista2_export/zadanie1/run.sh
+A    lista2_export/zadanie1a/insertionsort.c
+A    lista2_export/zadanie1a/quicksort.c
+A    lista2_export/generators/generator_random.c
+A    lista2_export/zadanie1/hybridsort.c
+A    lista2_export/zadanie1/main_insertionsort.c
+A    lista2_export/zadanie1/raport_zadanie1.txt
+A    lista2_export/zadanie1a/hybridsort.h
+A    lista2_export/zadanie1a/main_quicksort.c
+A    lista2_export/helpfunctions/helpfunctions.h
+A    lista2_export/zadanie1/insertionsort.c
+A    lista2_export/zadanie1/quicksort.c
+A    lista2_export/zadanie1a/hybrid_main.c
+A    lista2_export/zadanie1a/insertionsort.h
+A    lista2_export/zadanie1a/quicksort.h
+A    lista2_export/zadanie4
+A    lista2_export/zadanie2/cn_small.png
+A    lista2_export/zadanie2/log.txt
+A    lista2_export/zadanie2/cn_big.png
+A    lista2_export/zadanie2/graph.py
+A    lista2_export/zadanie2/comparisons_big.png
+A    lista2_export/zadanie2/run_all.sh
+A    lista2_export/zadanie2/sn_small.png
+A    lista2_export/zadanie3/cn_small.png
+A    lista2_export/zadanie3/log.txt
+A    lista2_export/zadanie3/mergesort.h
+A    lista2_export/zadanie3/mydivide_small.txt
+A    lista2_export/zadanie2/swaps_big.png
+A    lista2_export/zadanie2/comparisons_small.png
+A    lista2_export/zadanie2/sn_big.png
+A    lista2_export/zadanie3/cn_big.png
+A    lista2_export/zadanie3/graph3.py
+A    lista2_export/zadanie3/mergesort.c
+A    lista2_export/zadanie3/mydivide_main.c
+A    lista2_export/zadanie3/sn_small.png
+A    lista2_export/zadanie4/binarysearch.h
+A    lista2_export/zadanie4/hybrid_main.c
+A    lista2_export/zadanie4/staircase_main.c
+A    lista2_export/zadanie3/comparisons_big.png
+A    lista2_export/zadanie3/merge_main.c
+A    lista2_export/zadanie3/mydivide.c
+A    lista2_export/zadanie3/run_3.sh
+A    lista2_export/zadanie2/swaps_small.png
+A    lista2_export/zadanie3/comparisons_small.png
+A    lista2_export/zadanie3/merge_small.txt
+A    lista2_export/zadanie3/mydivide.h
+A    lista2_export/zadanie3/swaps_small.png
+A    lista2_export/zadanie4/generator_matrix.c
+A    lista2_export/zadanie4/hybridsearch.h
+A    lista2_export/zadanie4/staircasesearch.h
+A    lista2_export/zadanie3/swaps_big.png
+A    lista2_export/zadanie4/binarysearch_main.c
+A    lista2_export/zadanie4/hybridsearch.c
+A    lista2_export/zadanie4/staircasesearch.c
+A    lista2_export/zadanie3/sn_big.png
+A    lista2_export/zadanie4/binarysearch.c
+A    lista2_export/zadanie4/graph4.py
+A    lista2_export/zadanie4/run_4.sh
+Exported revision 27.
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2
+$ cd lista2_export/zadanie4
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/lista2_export/zadanie4
+$ chmod +x run_4.sh
+./run_4.sh
+=== KOMPILACJA ===
+=== CZYSZCZENIE ===
+=== TESTY MAŁE ===
+=== TESTY DUŻE ===
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/lista2_export/zadanie4
+$ ls
+binary.exe	  binarysearch_main.c  hybrid_big.txt	 run_4.sh	      staircasesearch.c
+binary_big.txt	  generator.exe        hybrid_main.c	 staircase.exe	      staircasesearch.h
+binary_small.txt  generator_matrix.c   hybrid_small.txt  staircase_big.txt
+binarysearch.c	  graph4.py	       hybridsearch.c	 staircase_main.c
+binarysearch.h	  hybrid.exe	       hybridsearch.h	 staircase_small.txt
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/lista2_export/zadanie4
+$ 
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/lista2_export/zadanie4
+$ cp /c/Users/jedre/CLionProjects/untitled6/zadanie4/graph4.py .
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/lista2_export/zadanie4
+$ nano graph4.py
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/lista2_export/zadanie4
+$ python graph4.py
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/lista2_export/zadanie4
+$ ls
+binary.exe		      generator.exe	      ratio_tall_small.png
+binary_big.txt		      generator_matrix.c      ratio_wide_large.png
+binary_small.txt	      graph4.py		      ratio_wide_small.png
+binarysearch.c		      hybrid.exe	      run_4.sh
+binarysearch.h		      hybrid_big.txt	      staircase.exe
+binarysearch_main.c	      hybrid_main.c	      staircase_big.txt
+comparisons_square_large.png  hybrid_small.txt	      staircase_main.c
+comparisons_square_small.png  hybridsearch.c	      staircase_small.txt
+comparisons_tall_large.png    hybridsearch.h	      staircasesearch.c
+comparisons_tall_small.png    ratio_square_large.png  staircasesearch.h
+comparisons_wide_large.png    ratio_square_small.png
+comparisons_wide_small.png    ratio_tall_large.png
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/lista2_export/zadanie4
+$ cd ~/mk1/lista2/zadanie4
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie4
+$ cp ../lista2_export/zadanie4/*.png .
+cp ../lista2_export/zadanie4/*.txt .
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie4
+$ cp ../lista2_export/zadanie4/graph4.py .
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie4
+$ svn add *.png
+svn add *_small.txt
+svn add *_big.txt
+A  (bin)  comparisons_square_large.png
+A  (bin)  comparisons_square_small.png
+A  (bin)  comparisons_tall_large.png
+A  (bin)  comparisons_tall_small.png
+A  (bin)  comparisons_wide_large.png
+A  (bin)  comparisons_wide_small.png
+A  (bin)  ratio_square_large.png
+A  (bin)  ratio_square_small.png
+A  (bin)  ratio_tall_large.png
+A  (bin)  ratio_tall_small.png
+A  (bin)  ratio_wide_large.png
+A  (bin)  ratio_wide_small.png
+A         binary_small.txt
+A         hybrid_small.txt
+A         staircase_small.txt
+A         binary_big.txt
+A         hybrid_big.txt
+A         staircase_big.txt
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie4
+$ svn add graph4.py
+svn: warning: W150002: '/home/jedre/mk1/lista2/zadanie4/graph4.py' is already under version control
+svn: E200009: Could not add all targets because some targets are already versioned
+svn: E200009: Illegal target for the requested operation
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie4
+$ svn status
+A       binary_big.txt
+A       binary_small.txt
+A       comparisons_square_large.png
+A       comparisons_square_small.png
+A       comparisons_tall_large.png
+A       comparisons_tall_small.png
+A       comparisons_wide_large.png
+A       comparisons_wide_small.png
+M       graph4.py
+A       hybrid_big.txt
+A       hybrid_small.txt
+A       ratio_square_large.png
+A       ratio_square_small.png
+A       ratio_tall_large.png
+A       ratio_tall_small.png
+A       ratio_wide_large.png
+A       ratio_wide_small.png
+A       staircase_big.txt
+A       staircase_small.txt
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie4
+$ tmux capture-pane -p -S'-' -E'-' -J > log.txt
+

@@ -1,0 +1,18 @@
+# ninja log v6
+6	340	7946168409227062	build.ninja	122e702041b55fa3
+6	340	7946168409175911	C:/Users/jedre/CLionProjects/Laby1/cmake-build-debug/cmake_install.cmake	122e702041b55fa3
+26	336	7943364003287945	CMakeFiles/Laby1.dir/zadanie2/main.c.obj	8e9fc063d5242ea9
+19	335	7943364003209813	CMakeFiles/Laby1.dir/zadanie1/main.c.obj	c97da94d3af83a1f
+8	171	7942870166779665	CMakeFiles/Laby1.dir/zadanie1/queue.c.obj	d4c91c2d21726736
+50	171	7942870167207085	CMakeFiles/Laby1.dir/zadanie1/stack.c.obj	13042c6d3cef8532
+4	112	7943370687746025	CMakeFiles/zadanie2.dir/zadanie2/main.c.obj	3ecba8f98a77db53
+32	334	7943364003352497	CMakeFiles/Laby1.dir/zadanie2/cyclic_list.c.obj	74d124979a0fa7d
+13	121	7943369719738672	CMakeFiles/zadanie2.dir/zadanie2/cyclic_list.c.obj	f11c1fa1a76b0746
+113	237	7943370688837664	zadanie2.exe	2f027f2239026191
+3	121	7943367631825628	CMakeFiles/zadanie1.dir/zadanie1/main.c.obj	4befdd727f83c2f0
+7	65	7943542405012861	CMakeFiles/zadanie3.dir/zadanie3/doubly_cyclic_list.c.obj	8256297f60e15b68
+60	160	7943367632395273	CMakeFiles/zadanie1.dir/zadanie1/stack.c.obj	e268121414e9d5a
+23	221	7943367632024793	CMakeFiles/zadanie1.dir/zadanie1/queue.c.obj	dc45d9e0eabf2ddf
+221	342	7943367634007772	zadanie1.exe	9cd14fadff4943df
+3	66	7943542404972847	CMakeFiles/zadanie3.dir/zadanie3/main.c.obj	6bf889938924c88f
+66	128	7943542405602349	zadanie3.exe	d76ee21a06039c28

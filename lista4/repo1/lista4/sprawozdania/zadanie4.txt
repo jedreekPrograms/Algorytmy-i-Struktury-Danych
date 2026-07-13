@@ -1,0 +1,272 @@
+Sprawozdanie – Zadanie 4
+Analiza eksperymentalna drzewa Splay Tree
+
+Cel eksperymentu
+
+Celem eksperymentu bylo zbadanie zachowania struktury danych Splay Tree dla dwoch rodzajow danych wejsciowych:
+
+- danych losowych (random input),
+- danych posortowanych rosnaco (sorted input).
+
+Dla kazdej wartosci n nalezacej do {10000, 20000, ..., 100000}
+wykonywano serie operacji Insert oraz Delete.
+
+Mierzono:
+
+- liczbe porownan,
+- liczbe odczytow wskaznikow,
+- liczbe przypisan wskaznikow,
+- liczbe rotacji wykonywanych przez procedure splay,
+- wysokosc drzewa.
+
+Dla kazdej wielkosci analizowano zarowno wartosci srednie jak i maksymalne.
+
+Uwaga:
+Okreslenia "sorted" i "random" odnosza sie wylacznie do kolejnosci danych wejsciowych.
+Wszystkie eksperymenty wykonano dla struktury Splay Tree.
+
+
+1. Average comparisons (random input)
+
+
+Na wykresie obserwujemy bardzo powolny wzrost sredniej liczby porownan wraz ze wzrostem liczby elementow.
+
+Dla operacji insert wartosc rosnie od okolo 16 do okolo 21 porownan.
+Dla operacji delete otrzymujemy niemal identyczny przebieg.
+
+Jest to zgodne z teoria Splay Tree. Pomimo ze drzewo nie utrzymuje scislego balansu,
+operacje splay powoduja czeste przemieszczanie uzywanych wezlow w okolice korzenia.
+Dzięki temu zamortyzowany koszt operacji pozostaje rzedu O(log n).
+
+Nie wystepuja gwaltowne wzrosty charakterystyczne dla zwyklych niezbalansowanych BST.
+
+
+2. Average pointer reads (random input)
+
+
+Srednia liczba odczytow wskaznikow rosnie stopniowo wraz z rozmiarem drzewa.
+
+Kazde wyszukiwanie elementu wymaga przechodzenia przez kolejne poziomy drzewa.
+Dodatkowo procedura splay wykonuje wiele rotacji, podczas ktorych konieczne sa kolejne odczyty wskaznikow.
+
+Poniewaz srednia glebokosc wezlow rosnie logarytmicznie, podobny przebieg widoczny jest rowniez na wykresie.
+
+Delete wymaga nieco mniej odczytow niz insert, poniewaz czesc operacji wykonywana jest
+juz po wczesniejszym przebudowaniu drzewa przez splay.
+
+
+3. Average pointer assignments (random input)
+
+
+Srednia liczba przypisan wskaznikow zwieksza sie wraz z rozmiarem drzewa.
+
+Zrodlem przypisan sa przede wszystkim rotacje wykonywane przez procedure splay. Kazda rotacja modyfikuje kilka wskaznikow pomiedzy rodzicem, dzieckiem oraz poddrzewami.
+
+Poniewaz liczba rotacji rosnie logarytmicznie, podobny charakter wzrostu obserwujemy rowniez dla przypisan wskaznikow.
+
+
+4. Average rotations (random input)
+
+
+Wykres pokazuje stopniowy wzrost sredniej liczby rotacji od okolo 16 do okolo 21.
+
+Jest to bezposrednia konsekwencja dzialania procedury splay.
+Po kazdej operacji odpowiedni wezel zostaje przesuniety do korzenia.
+
+Im wieksze drzewo, tym wieksza srednia odleglosc pomiedzy przetwarzanym wezlem
+a korzeniem, a wiec potrzeba wiekszej liczby rotacji.
+
+Przebieg jest zgodny z teoretycznym kosztem zamortyzowanym O(log n).
+
+
+5. Average tree height (random input)
+
+Wysokosc drzewa rosnie od okolo 29 do okolo 40.
+
+Wzrost jest bardzo wolny wzgledem liczby elementow. Dla n = 100000
+wysokosc pozostaje niewielka w porownaniu do liczby wszystkich wezlow.
+
+Pokazuje to, ze operacje splay skutecznie przeciwdzialaja trwalej degeneracji struktury.
+
+Splay Tree nie gwarantuje idealnego balansu jak AVL lub Red-Black Tree,
+dlatego wysokosc jest wieksza od log2(n), ale nadal pozostaje stosunkowo mala.
+
+
+6. Maximum comparisons (random input)
+
+
+Maksymalna liczba porownan rosnie od okolo 38 do okolo 52.
+
+Widoczne sa niewielkie lokalne spadki, ktore wynikaja z losowego charakteru eksperymentow.
+
+Poniewaz analizujemy pojedyncza najgorsza operacje sposrod wszystkich wykonanych operacji,
+naturalne sa niewielkie fluktuacje.
+
+Ogolny trend wzrostowy jest zgodny z teoria.
+
+
+7. Maximum pointer reads (random input)
+
+
+Maksymalna liczba odczytow wskaznikow wzrasta wraz z rozmiarem drzewa.
+
+Pojedyncze spadki wynikaja z losowosci danych.
+
+Najwieksze wartosci odpowiadaja operacjom wykonywanym na najglebiej polozonych wezlach drzewa.
+
+
+8. Maximum pointer assignments (random input)
+
+
+Maksymalna liczba przypisan wskaznikow zwieksza sie wraz ze wzrostem liczby elementow.
+
+Najwieksze wartosci odpowiadaja przypadkom wymagajacym dlugiej sekwencji rotacji podczas wykonywania operacji splay.
+
+Wahania sa naturalne dla wartosci maksymalnych.
+
+
+9. Maximum rotations (random input)
+
+
+Maksymalna liczba rotacji rosnie od okolo 39 do okolo 52.
+
+Jest to zgodne z obserwowanym wzrostem maksymalnej wysokosci drzewa.
+
+Najgorsze operacje wymagaja przesuniecia bardzo gleboko polozonych wezlow do korzenia.
+
+
+10. Maximum tree height (random input)
+
+
+Maksymalna wysokosc drzewa osiaga wartosci od okolo 47 do okolo 63.
+
+Pomimo wzrostu liczby elementow do 100000 wysokosc pozostaje bardzo mala wzgledem liczby wszystkich wezlow.
+
+Potwierdza to skutecznosc samobalansowania realizowanego przez operacje splay.
+
+
+11. Average comparisons (sorted input)
+
+
+Dla operacji insert srednia liczba porownan pozostaje praktycznie stala i wynosi okolo 1.
+
+Po kazdym wstawieniu nowy element zostaje wyniesiony do korzenia. Nastepny element jest wiekszy od korzenia, dlatego miejsce wstawienia znajduje sie natychmiast.
+
+Dla operacji delete liczba porownan rosnie bardzo powoli, zachowujac charakter logarytmiczny.
+
+Pomimo bardzo niekorzystnej kolejnosci danych wejsciowych koszt sredni pozostaje niewielki.
+
+
+12. Average pointer reads (sorted input)
+
+
+Dla insert liczba odczytow pozostaje praktycznie stala.
+
+Kazde wstawienie wykonuje niemal identyczna sekwencje operacji.
+
+Dla delete obserwujemy logarytmiczny wzrost zwiazany z coraz wieksza liczba rotacji wykonywanych podczas procedury splay.
+
+
+13. Average pointer assignments (sorted input)
+
+
+Dla insert wartosci pozostaja niemal niezmienne.
+
+Kazda operacja wykonuje podobna liczbe modyfikacji wskaznikow.
+
+Dla delete obserwujemy stopniowy wzrost zwiazany ze wzrostem liczby wykonywanych rotacji.
+
+14. Average rotations (sorted input)
+
+
+Srednia liczba rotacji podczas insert wynosi okolo 1.
+
+Po kazdym wstawieniu wykonywana jest pojedyncza rotacja Zig przenoszaca nowy element do korzenia.
+
+Dla delete liczba rotacji rosnie logarytmicznie wraz z rozmiarem drzewa.
+
+
+15. Average tree height (sorted input)
+
+
+Jest to najbardziej charakterystyczny wykres calego eksperymentu.
+
+Wysokosc rosnie niemal liniowo:
+
+10000 elementow -> wysokosc okolo 5000
+50000 elementow -> wysokosc okolo 25000
+100000 elementow -> wysokosc okolo 50000
+
+Oznacza to, ze kolejne wstawienia tworza bardzo wydluzona strukture przypominajaca liste.
+
+Pokazuje to wazna wlasnosc Splay Tree:
+
+Splay Tree nie gwarantuje malej wysokosci drzewa w kazdym momencie dzialania.
+
+
+16. Maximum comparisons (sorted input)
+
+
+Dla insert maksimum pozostaje bliskie 1.
+
+Dla delete obserwujemy niemal liniowy wzrost az do okolo 100000.
+
+Oznacza to, ze pojedyncze operacje moga miec koszt Theta(n).
+
+Jest to zgodne z teoria drzew Splay.
+
+
+17. Maximum pointer reads (sorted input)
+
+
+Dla insert wartosci pozostaja praktycznie stale.
+
+Dla delete obserwujemy niemal liniowy wzrost az do okolo 500000 odczytow.
+
+Wynika to z koniecznosci przechodzenia przez bardzo dlugie sciezki w zdegenerowanym drzewie.
+
+
+18. Maximum pointer assignments (sorted input)
+
+
+Dla insert maksimum pozostaje stale.
+
+Dla delete liczba przypisan rosnie niemal liniowo.
+
+Kazda rotacja wymaga aktualizacji kilku wskaznikow, dlatego duza liczba rotacji prowadzi do bardzo duzych wartosci.
+
+
+19. Maximum rotations (sorted input)
+
+
+Dla insert maksimum wynosi okolo 1.
+
+Dla delete obserwujemy niemal liniowy wzrost az do okolo 100000 rotacji.
+
+Jest to bezposrednia konsekwencja wynoszenia bardzo gleboko polozonych wezlow do korzenia.
+
+
+20. Maximum tree height (sorted input)
+
+
+Maksymalna wysokosc drzewa osiaga niemal dokladnie wartosc n.
+
+Dla n = 100000 wysokosc wynosi okolo 100000.
+
+Oznacza to calkowita degeneracje drzewa do postaci pojedynczego lancucha.
+
+Jest to oczekiwane zachowanie dla kolejnych wstawien uporzadkowanych kluczy.
+
+
+Wnioski koncowe
+
+
+Przeprowadzone eksperymenty potwierdzily teoretyczne wlasnosci drzew Splay.
+
+Dla danych losowych wszystkie srednie koszty operacji rosna bardzo wolno i sa zgodne z zamortyzowana zlozonoscia O(log n).
+
+Dla danych posortowanych wysokosc drzewa moze osiagac wartosci liniowe, a pojedyncze operacje moga kosztowac nawet O(n). Jest to zgodne z teoria Splay Tree, ktora nie gwarantuje ograniczen dla pojedynczej operacji.
+
+Jednoczesnie srednie koszty operacji pozostaja niewielkie dzieki mechanizmowi samobalansowania realizowanemu przez procedure splay.
+
+Otrzymane wyniki eksperymentalne sa zgodne z teoria przedstawiona przez Sleatora i Tarjana i potwierdzaja zamortyzowana zlozonosc O(log n) operacji wykonywanych na drzewie Splay.

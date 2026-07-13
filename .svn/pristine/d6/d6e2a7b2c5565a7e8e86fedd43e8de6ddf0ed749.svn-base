@@ -1,0 +1,36 @@
+W tym zadaniu chodziło o wyszukiwanie liczby w macierzy m × n, gdzie elementy są posortowane rosnąco zarówno w wierszach, jak i w kolumnach.
+Sprawdzane były trzy podejścia: staircase search, binary search robiony osobno dla każdego wiersza oraz wersja hybrydowa,
+która wybiera lepszy algorytm w zależności od rozmiaru macierzy.
+
+Staircase search działa w taki sposób, że zaczynamy od prawego górnego rogu macierzy.
+Potem w każdej iteracji porównujemy aktualny element z tym, którego szukamy. Jeśli jest za duży, idziemy w lewo, a jeśli za mały – schodzimy w dół.
+Dzięki temu za każdym razem „odcinamy” kawałek macierzy i nie musimy go już sprawdzać.
+W najgorszym przypadku przejdziemy maksymalnie m + n kroków, więc złożoność wychodzi O(m + n).
+
+Drugi algorytm to binary search wykonywany w każdym wierszu. Najpierw sprawdzamy,
+czy w ogóle ma sens szukać w danym wierszu (patrząc na pierwszy i ostatni element), a potem robimy wyszukiwanie binarne.
+Ponieważ robimy to dla m wierszy, a każde wyszukiwanie to O(log n), to całość ma złożoność O(m log n).
+
+Algorytm hybrydowy jest w sumie prosty – porównuje sobie m log n i m + n i wybiera to, co wychodzi mniejsze.
+Czyli w praktyce bierze lepszy algorytm dla danego przypadku. Można powiedzieć, że jego złożoność to coś w stylu min(m log n, m + n).
+
+Testy były robione dla różnych kształtów macierzy: takich prawie kwadratowych (square), bardzo szerokich (wide) i bardzo wysokich (tall),
+zarówno dla małych, jak i dużych danych. Patrzyliśmy na liczbę porównań oraz na wartość c/(m·n),
+żeby zobaczyć jak to się zachowuje przy większych rozmiarach.
+
+Dla macierzy kwadratowych staircase wypada najlepiej. To ma sens, bo wtedy m i n są podobne, więc m + n to mniej więcej 2n,
+a m log n to już n log n, czyli więcej. Na wykresach widać, że staircase rośnie w miarę liniowo i jest niżej niż binary search.
+
+Z kolei dla macierzy typu wide albo tall sytuacja się zmienia. Jeśli jeden wymiar jest dużo większy od drugiego,
+to logarytm robi robotę i binary search zaczyna być lepszy. Na wykresach widać, że liczba porównań dla binary jest wtedy całkiem niska,
+a staircase rośnie szybciej.
+
+Hybryda ogólnie działa tak jak powinna – zawsze jest mniej więcej tam, gdzie lepszy z dwóch pozostałych algorytmów.
+Natomiast na wykresach widać takie „skoki”. To wynika z tego,
+że decyzja jest podejmowana na zasadzie ifa – czyli nagle dla trochę innych danych algorytm się przełącza i liczba porównań też się nagle zmienia.
+
+Jeśli chodzi o c/(m·n), to dla wszystkich algorytmów ta wartość maleje wraz ze wzrostem danych i dąży do zera. To jest zgodne z tym,
+że żaden z tych algorytmów nie ma złożoności O(m·n). Najszybciej maleje binary search, co też ma sens przez ten logarytm w złożoności.
+
+Podsumowując, wszystko zgadza się z teorią – staircase jest najlepszy dla macierzy „w miarę kwadratowych”,
+binary dla bardzo wydłużonych, a hybryda po prostu wybiera to, co w danym przypadku wychodzi najlepiej

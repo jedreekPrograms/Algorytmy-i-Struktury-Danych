@@ -1,0 +1,670 @@
+
+jedre@jedreek323 MINGW64 ~
+$ svn checkout https://repo.cs.pwr.edu.pl/283948-dir/mk1/ repo    
+A    repo/lista1
+A    repo/lista1/cmake-build-debug
+A    repo/lista1/cmake-build-debug/.cmake
+A    repo/lista1/cmake-build-debug/.cmake/api
+A    repo/lista1/cmake-build-debug/.cmake/api/v1
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/query
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply
+A    repo/lista1/cmake-build-debug/CMakeFiles
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/tmp
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2
+A    repo/lista1/cmake-build-debug/CMakeFiles/pkgRedirects
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3
+A    repo/lista1/cmake-build-debug/CMakeFiles/cmake.check_cache
+A    repo/lista1/cmake-build-debug/CMakeFiles/InstallScripts.json
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/queue.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/queue.c.obj
+A    repo/lista1/cmake-build-debug/Testing
+A    repo/lista1/cmake-build-debug/Testing/Temporary
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2/cyclic_list.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+A    repo/lista1/cmake-build-debug/CMakeFiles/clion-environment.txt
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/main.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2/cyclic_list.c.obj
+A    repo/lista1/zadanie1
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2/main.c.obj
+A    repo/lista1/cmake-build-debug/Testing/Temporary/LastTest.log
+A    repo/lista1/CMakeLists.txt
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/query/cache-v2
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-99b984db6fd63c13b16e.json
+A    repo/lista1/zadanie2
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3/main.c.obj
+A    repo/lista1/cmake-build-debug/build.ninja
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0f5263f3362ee68d80b4.json
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6449583c8f2bb3a33fe3.json
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-07T20-00-40-0968.json
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie1-Debug-879f86b91abdd8ce063d.json
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie2-Debug-1a7d535c42e589cd66be.json
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie3-Debug-4283f7bdf778bd335524.json
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-33ca16c04ff1f028c339.json
+A    repo/lista1/cmake-build-debug/.gitignore
+A    repo/lista1/cmake-build-debug/.ninja_deps
+A    repo/lista1/cmake-build-debug/.ninja_log
+A    repo/lista1/cmake-build-debug/CMakeCache.txt
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+A    repo/lista1/zadanie3
+A    repo/lista2
+A    repo/lista2/cmake-build-debug
+A    repo/lista2/cmake-build-debug/.cmake
+A    repo/lista2/cmake-build-debug/.cmake/api
+A    repo/lista2/cmake-build-debug/.cmake/api/v1
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/query
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeSystem.cmake
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c
+A    repo/lista1/cmake-build-debug/zadanie1.exe
+A    repo/lista1/cmake-build-debug/zadanie3.exe
+A    repo/lista1/zadanie1/main.c
+A    repo/lista1/zadanie1/stack.h
+A    repo/lista2/cmake-build-debug/CMakeFiles
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+A    repo/lista1/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/main.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/stack.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2/main.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+A    repo/lista1/cmake-build-debug/CMakeFiles/rules.ninja
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/stack.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3/doubly_cyclic_list.c.obj
+A    repo/lista1/cmake-build-debug/cmake_install.cmake
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/tmp
+A    repo/lista2/cmake-build-debug/CMakeFiles/pkgRedirects
+A    repo/lista1/zadanie2/main.c
+A    repo/lista1/zadanie3/main.c
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-509aaa5aeef9c1f0ef3e.json
+A    repo/lista1/zad2.exe
+A    repo/lista1/zadanie1/queue.h
+A    repo/lista1/zadanie2/cyclic_list.c
+A    repo/lista1/zadanie3/doubly_cyclic_list.c
+A    repo/lista2/CMakeLists.txt
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1
+A    repo/lista2/cmake-build-debug/.gitignore
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/target-untitled6-Debug-a0ab15b2b7d674fd07d5.json
+A    repo/lista2/cmake-build-debug/.ninja_log
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie3
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie4
+A    repo/lista2/cmake-build-debug/Testing
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c
+A    repo/lista2/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+A    repo/lista2/cmake-build-debug/Testing/Temporary
+A    repo/lista2/generators
+A    repo/lista1/cmake-build-debug/zadanie2.exe
+A    repo/lista2/cmake-build-debug/CMakeFiles/rules.ninja
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions/helpfunctions.c.obj
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+A    repo/lista2/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+A    repo/lista2/cmake-build-debug/CMakeFiles/clion-environment.txt
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_desc.c.obj
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybrid_main.c.obj
+A    repo/lista2/helpfunctions
+A    repo/lista2/sprawozdania
+A    repo/lista1/zad1.exe
+A    repo/lista1/zadanie1/queue.c
+A    repo/lista1/zadanie1.txt
+A    repo/lista1/zadanie2.txt
+A    repo/lista1/zadanie3.txt
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1d861732b742ca9fa6bf.json
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-33ca16c04ff1f028c339.json
+A    repo/lista2/cmake-build-debug/CMakeCache.txt
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeSystem.cmake
+A    repo/lista2/cmake-build-debug/CMakeFiles/InstallScripts.json
+A    repo/lista2/cmake-build-debug/CMakeFiles/cmake.check_cache
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_random.c.obj
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybridsort.c.obj
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/quicksort.c.obj
+A    repo/lista2/generators/generator_asc.c
+A    repo/lista2/zadanie1
+A    repo/lista2/zadanie1a
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/insertionsort.c.obj
+A    repo/lista2/cmake-build-debug/Testing/Temporary/LastTest.log
+A    repo/lista2/generators/generator_desc.c
+A    repo/lista2/sprawozdania/zadanie1.txt
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_quicksort.c.obj
+A    repo/lista2/cmake-build-debug/cmake_install.cmake
+A    repo/lista2/helpfunctions/helpfunctions.c
+A    repo/lista2/zadanie2
+A    repo/lista2/helpfunctions/helpfunctions.h
+A    repo/lista1/zad3.exe
+A    repo/lista1/zadanie1/stack.c
+A    repo/lista1/zadanie2/cyclic_list.h
+A    repo/lista1/zadanie3/doubly_cyclic_list.h
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/query/cache-v2
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7c3ba4515d4c5e89d56d.json
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-22T21-27-43-0618.json
+A    repo/lista2/zadanie2/poprawka
+A    repo/lista2/zadanie1/hybrid_main.c
+A    repo/lista2/zadanie1/insertionsort.h
+A    repo/lista2/zadanie1/quicksort.c
+A    repo/lista2/zadanie1a/hybrid_main.c
+A    repo/lista2/zadanie1a/insertionsort.h
+A    repo/lista2/sprawozdania/zadanie4.txt
+A    repo/lista2/zadanie1/insertionsort.c
+A    repo/lista2/zadanie1/main_quicksort.c
+A    repo/lista2/zadanie1/run.sh
+A    repo/lista2/zadanie1a/insertionsort.c
+A    repo/lista2/cmake-build-debug/.ninja_deps
+A    repo/lista2/sprawozdania/zadanie3.txt
+A    repo/lista2/zadanie1/hybridsort.h
+A    repo/lista2/zadanie1/main_insertionsort.c
+A    repo/lista2/zadanie1a/quicksort.h
+A    repo/lista2/zadanie1a/quicksort.c
+A    repo/lista2/zadanie2/cn_small.png
+A    repo/lista2/zadanie3
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
+A    repo/lista2/zadanie1/raport_zadanie1.txt
+A    repo/lista2/zadanie1a/hybridsort.h
+A    repo/lista2/zadanie1a/main_quicksort.c
+A    repo/lista2/zadanie2/cn_big.png
+A    repo/lista2/zadanie2/graph.py
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+A    repo/lista2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_asc.c.obj
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/main.c.obj
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_insertionsort.c.obj
+A    repo/lista2/cmake-build-debug/build.ninja
+A    repo/lista2/generators/generator_random.c
+A    repo/lista2/sprawozdania/zadanie2.txt
+A    repo/lista2/zadanie1/hybridsort.c
+A    repo/lista2/zadanie1/log_fix_zad1.txt
+A    repo/lista2/zadanie1/quicksort.h
+A    repo/lista2/zadanie1a/hybridsort.c
+A    repo/lista2/zadanie1a/main_insertionsort.c
+A    repo/lista2/zadanie1a/run.sh
+A    repo/lista2/zadanie2/log.txt
+A    repo/lista2/zadanie2/poprawka/cn_small.png
+A    repo/lista2/zadanie2/poprawka/insertion_small.txt
+A    repo/lista2/zadanie4
+A    repo/lista2/zadanie2/comparisons_big.png
+A    repo/lista2/zadanie2/log_fix_zad2.txt
+A    repo/lista2/zadanie2/poprawka/comparisons_big.png
+A    repo/lista2/zadanie2/poprawka/quick_small.txt
+A    repo/lista2/zadanie2/poprawka/swaps_big.png
+A    repo/lista2/zadanie2/sn_small.png
+A    repo/lista2/zadanie2/poprawka/comparisons_small.png
+A    repo/lista2/zadanie2/poprawka/sn_big.png
+A    repo/lista2/zadanie2/run_all.sh
+A    repo/lista2/zadanie2/poprawka/swaps_small.png
+A    repo/lista2/zadanie3/cn_small.png
+A    repo/lista2/zadanie3/log.txt
+A    repo/lista2/zadanie3/mergesort.h
+A    repo/lista2/zadanie2/comparisons_small.png
+A    repo/lista2/zadanie2/swaps_small.png
+A    repo/lista2/zadanie2/swaps_big.png
+A    repo/lista2/zadanie3/comparisons_small.png
+A    repo/lista2/zadanie3/merge_small.txt
+A    repo/lista2/zadanie3/mydivide.h
+A    repo/lista2/zadanie3/comparisons_big.png
+A    repo/lista2/zadanie3/merge_main.c
+A    repo/lista2/zadanie3/mydivide.c
+A    repo/lista2/zadanie2/poprawka/cn_big.png
+A    repo/lista2/zadanie2/poprawka/hybrid_small.txt
+A    repo/lista2/zadanie3/run_3.sh
+A    repo/lista2/zadanie3/mydivide_small.txt
+A    repo/lista2/zadanie3/sn_big.png
+A    repo/lista2/zadanie4/binary_big.txt
+A    repo/lista2/zadanie3/swaps_big.png
+A    repo/lista3
+A    repo/lista3/generators
+A    repo/lista3/helpfunctions
+A    repo/lista3/sprawozdania
+A    repo/lista2/zadanie2/poprawka/sn_small.png
+A    repo/lista2/zadanie2/sn_big.png
+A    repo/lista2/zadanie3/swaps_small.png
+A    repo/lista2/zadanie4/binarysearch.h
+A    repo/lista2/zadanie4/binarysearch.c
+A    repo/lista3/zadanie1
+A    repo/lista2/zadanie4/binarysearch_main.c
+A    repo/lista2/zadanie4/comparisons_tall_small.png
+A    repo/lista2/zadanie4/graph4.py
+A    repo/lista2/zadanie4/hybridsearch.c
+A    repo/lista2/zadanie4/ratio_square_small.png
+A    repo/lista2/zadanie4/comparisons_tall_large.png
+A    repo/lista2/zadanie4/generator_matrix.c
+A    repo/lista2/zadanie4/hybrid_small.txt
+A    repo/lista2/zadanie4/comparisons_square_small.png
+A    repo/lista2/zadanie4/comparisons_wide_small.png
+A    repo/lista2/zadanie4/hybrid_main.c
+A    repo/lista2/zadanie4/log.txt
+A    repo/lista3/zadanie2
+A    repo/lista2/zadanie3/cn_big.png
+A    repo/lista2/zadanie3/graph3.py
+A    repo/lista2/zadanie3/mergesort.c
+A    repo/lista2/zadanie3/mydivide_main.c
+A    repo/lista2/zadanie3/sn_small.png
+A    repo/lista2/zadanie4/binary_small.txt
+A    repo/lista2/zadanie4/ratio_square_large.png
+A    repo/lista2/zadanie4/ratio_tall_small.png
+A    repo/lista2/zadanie4/staircase_big.txt
+A    repo/lista2/zadanie4/staircasesearch.h
+A    repo/lista3/sprawozdania/sprawozdanie1.txt
+A    repo/lista3/zadanie1/RandomizedSelect.cpp
+A    repo/lista3/zadanie1/Select.h
+A    repo/lista3/zadanie1/wynik_random.txt
+A    repo/lista3/zadanie3
+A    repo/lista2/zadanie4/comparisons_square_large.png
+A    repo/lista2/zadanie4/ratio_wide_small.png
+A    repo/lista2/zadanie4/staircase_small.txt
+A    repo/lista3/helpfunctions/helpfunctions.cpp
+A    repo/lista3/sprawozdania/sprawozdanie3.txt
+A    repo/lista3/zadanie1/RandomizedSelect_main.cpp
+A    repo/lista3/zadanie1/run.sh
+A    repo/lista2/zadanie4/ratio_wide_large.png
+A    repo/lista2/zadanie4/staircase_main.c
+A    repo/lista3/generators/generator_random.cpp
+A    repo/lista3/sprawozdania/sprawozdanie2.txt
+A    repo/lista3/zadanie1/RandomizedSelect.h
+A    repo/lista3/zadanie1/Select_main.cpp
+A    repo/lista3/zadanie1/wynik_select.txt
+A    repo/lista3/zadanie4
+A    repo/lista2/zadanie4/comparisons_wide_large.png
+A    repo/lista2/zadanie4/hybrid_big.txt
+A    repo/lista2/zadanie4/hybridsearch.h
+A    repo/lista3/zadanie2/Select_-_Swaps.png
+A    repo/lista2/zadanie4/ratio_tall_large.png
+A    repo/lista2/zadanie4/run_4.sh
+A    repo/lista2/zadanie4/staircasesearch.c
+A    repo/lista3/helpfunctions/helpfunctions.h
+A    repo/lista3/sprawozdania/sprawozdanie4.txt
+A    repo/lista3/zadanie1/Select.cpp
+A    repo/lista3/zadanie1/tmux-log.txt
+A    repo/lista3/zadanie2/Random_-_Comparisons.png
+A    repo/lista3/zadanie2/benchmark.cpp
+A    repo/lista3/zadanie2/Select_-_Comparisons.png
+A    repo/lista3/zadanie2/Random_-_Swaps.png
+A    repo/lista3/zadanie2/graph.py
+A    repo/lista3/zadanie2/run.sh
+A    repo/lista3/zadanie2/tmux-log.txt
+A    repo/lista3/zadanie3/benchmark_groups.cpp
+A    repo/lista3/zadanie2/random_k1.txt
+A    repo/lista3/zadanie2/random_kn.txt
+A    repo/lista3/zadanie2/random_kmid.txt
+A    repo/lista4
+A    repo/lista4/zadanie1
+A    repo/lista3/zadanie2/select_k1.txt
+A    repo/lista3/zadanie3/Select.cpp
+A    repo/lista3/zadanie3/generator_select_groups.cpp
+A    repo/lista3/zadanie3/select_21.txt
+A    repo/lista3/zadanie2/select_kn.txt
+A    repo/lista3/zadanie3/Select_main.cpp
+A    repo/lista4/zadanie2
+A    repo/lista3/zadanie2/select_kmid.txt
+A    repo/lista3/zadanie3/Select.h
+A    repo/lista3/zadanie3/graph.py
+A    repo/lista3/zadanie3/select_19.txt
+A    repo/lista3/zadanie3/select_3.txt
+A    repo/lista3/zadanie3/select_comparisons.png
+A    repo/lista3/zadanie4/BinarySearch.cpp
+A    repo/lista3/zadanie4/MyFind.h
+A    repo/lista3/zadanie4/binary_small.txt
+A    repo/lista3/zadanie4/f1_(delta=10)_-_SMOOTH.png
+A    repo/lista3/zadanie3/select_9.txt
+A    repo/lista3/zadanie3/tmux-log.txt
+A    repo/lista3/zadanie4/MyFind.cpp
+A    repo/lista3/zadanie4/f2_(delta=50)_-_SMOOTH.png
+A    repo/lista3/zadanie4/binary_2.txt
+A    repo/lista3/zadanie4/myfind_2.txt
+A    repo/lista3/zadanie4/wykresy.py
+A    repo/lista4/zadanie2/avg_cmp.png
+A    repo/lista3/zadanie3/select_5.txt
+A    repo/lista4/zadanie2/max_assign.png
+A    repo/lista4/zadanie2/plots.py
+A    repo/lista3/zadanie4/f1_(delta=10)_-_NOT_FOUND.png
+A    repo/lista3/zadanie3/select_7.txt
+A    repo/lista4/zadanie2/random_avg_read.png
+A    repo/lista4/zadanie3
+A    repo/lista3/zadanie3/select_swaps.png
+A    repo/lista3/zadanie4/BinarySearch.h
+A    repo/lista3/zadanie4/MyFind_main.cpp
+A    repo/lista4/zadanie2/random_max_read.png
+A    repo/lista3/zadanie4/f2_(delta=50)_-_NOT_FOUND.png
+A    repo/lista3/zadanie4/myfind_1.txt
+A    repo/lista4/zadanie4
+A    repo/lista3/zadanie4/tmux-log.txt
+A    repo/lista3/zadanie3/select_time.png
+A    repo/lista3/zadanie4/BinarySearch_main.cpp
+A    repo/lista3/zadanie4/binary_1.txt
+A    repo/lista4/zadanie2/sorted_avg_height.png
+A    repo/lista3/zadanie4/f1_(delta=10)_-_ALL.png
+A    repo/lista4/zadanie2/avg_assign.png
+A    repo/lista4/zadanie2/main.cpp
+A    repo/lista4/zadanie2/sorted_max_height.png
+A    repo/lista4/zadanie3/main.cpp
+A    repo/lista4/zadanie2/max_read.png
+A    repo/lista4/zadanie4/random_avg_assign.png
+A    repo/lista4/zadanie2/random_avg_height.png
+A    repo/lista4/zadanie4/random_avg_rot.png
+A    repo/lista3/zadanie4/f1_(delta=10)_-_FOUND.png
+A    repo/lista4/zadanie2/random_max_height.png
+A    repo/lista3/zadanie4/f2_(delta=50)_-_ALL.png
+A    repo/lista3/zadanie4/generator.cpp
+A    repo/lista3/zadanie4/myfind_small.txt
+A    repo/lista4/zadanie1/main.cpp
+A    repo/lista4/zadanie5
+A    repo/lista4/zadanie4/random_max_read.png
+A    repo/lista4/zadanie2/sorted_avg_cmp.png
+A    repo/lista4/zadanie4/sorted_avg_cmp.png
+A    repo/lista4/zadanie2/avg_height.png
+A    repo/lista4/zadanie2/sorted_max_cmp.png
+A    repo/lista4/zadanie5/data
+A    repo/lista4/zadanie5/include
+A    repo/lista4/zadanie2/tmux-log2.txt
+A    repo/lista4/zadanie4/plots.py
+A    repo/lista3/zadanie4/f2_(delta=50)_-_FOUND.png
+A    repo/lista4/zadanie4/sorted_max_assign.png
+A    repo/lista4/zadanie4/sorted_max_rot.png
+A    repo/lista4/zadanie5/plots
+A    repo/lista4/zadanie5/scripts
+A    repo/lista4/zadanie5/src
+A    repo/lista4/zadanie2/max_cmp.png
+A    repo/lista4/zadanie4/random_avg_read.png
+A    repo/lista4/zadanie5/include/DSU.h
+A    repo/lista4/zadanie5/include/GraphType.h
+A    repo/lista4/zadanie2/random_avg_assign.png
+A    repo/lista4/zadanie4/random_max_height.png
+A    repo/lista4/zadanie5/src/Benchmark.cpp
+A    repo/lista4/zadanie5/src/Graph.cpp
+A    repo/lista4/zadanie4/sorted_avg_assign.png
+A    repo/lista4/zadanie2/random_max_assign.png
+A    repo/lista4/zadanie2/results.csv
+A    repo/lista4/zadanie4/sorted_avg_rot.png
+A    repo/lista4/zadanie2/sorted_avg_read.png
+A    repo/lista4/zadanie4/sorted_max_read.png
+A    repo/lista4/zadanie5/include/Benchmark.h
+A    repo/lista4/zadanie5/include/Graph.h
+A    repo/lista4/zadanie5/scripts/plot.py
+A    repo/lista4/zadanie5/src/Generator.cpp
+A    repo/lista4/zadanie5/src/main.cpp
+A    repo/lista4/zadanie2/sorted_max_read.png
+A    repo/lista4/zadanie3/tmux-log.txt
+A    repo/lista3/zadanie4/input.txt
+A    repo/lista3/zadanie4/runner.cpp
+A    repo/lista4/zadanie1/tmux-log.txt
+A    repo/lista4/zadanie2/avg_read.png
+A    repo/lista4/zadanie2/max_height.png
+A    repo/lista4/zadanie4/random_avg_cmp.png
+A    repo/lista4/zadanie4/random_max_assign.png
+A    repo/lista4/zadanie2/random_avg_cmp.png
+A    repo/lista4/zadanie2/random_max_cmp.png
+A    repo/lista4/zadanie4/random_max_rot.png
+A    repo/lista4/zadanie2/sorted_avg_assign.png
+A    repo/lista4/zadanie4/sorted_avg_height.png
+A    repo/lista4/zadanie4/sorted_max_cmp.png
+A    repo/lista4/zadanie4/tmux-log.txt
+A    repo/lista4/zadanie5/include/Edge.h
+A    repo/lista4/zadanie5/include/Kruskal.h
+A    repo/lista4/zadanie5/src/DSU.cpp
+A    repo/lista4/zadanie5/src/Kruskal.cpp
+A    repo/lista4/zadanie2/sorted_max_assign.png
+A    repo/lista4/zadanie2/tmux-log.txt
+A    repo/lista4/zadanie4/main.cpp
+A    repo/lista4/zadanie4/random_avg_height.png
+A    repo/lista4/zadanie4/random_max_cmp.png
+A    repo/lista4/zadanie4/results.csv
+A    repo/lista4/zadanie4/sorted_avg_read.png
+A    repo/lista4/zadanie4/sorted_max_height.png
+A    repo/lista4/zadanie5/Makefile
+A    repo/lista4/zadanie5/include/Generator.h
+A    repo/lista4/zadanie5/include/Prim.h
+A    repo/lista4/zadanie5/src/Edge.cpp
+A    repo/lista4/zadanie5/src/Prim.cpp
+Checked out revision 66.
+
+jedre@jedreek323 MINGW64 ~
+$ cd repo
+
+jedre@jedreek323 MINGW64 ~/repo
+$ ls
+lista1	lista2	lista3	lista4
+
+jedre@jedreek323 MINGW64 ~/repo
+$ cd lista4
+
+jedre@jedreek323 MINGW64 ~/repo/lista4
+$ ls
+zadanie1  zadanie2  zadanie3  zadanie4	zadanie5
+
+jedre@jedreek323 MINGW64 ~/repo/lista4
+$ cd zadanie5
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5
+$ ls
+Makefile  data	include  plots	scripts  src
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5
+$ cd data
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5/data
+$ ls
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5/data
+$ cd ..
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5
+$ cd plots
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5/plots
+$ ls
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5/plots
+$ cd ..
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5
+$ ls
+Makefile  data	include  plots	scripts  src
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5
+$ make
+g++ -std=c++17 -O2 src/Benchmark.cpp src/DSU.cpp src/Edge.cpp src/Generator.cpp src/Graph.cpp src/Kruskal.cpp src/Prim.cpp src/main.cpp -o mst
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5
+$ ls
+Makefile  data	include  mst.exe  plots  scripts  src
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5
+$ ./mst
+[complete] n=100 done
+[complete] n=200 done
+[complete] n=300 done
+[complete] n=400 done
+[complete] n=500 done
+[complete] n=600 done
+[complete] n=700 done
+[complete] n=800 done
+[complete] n=900 done
+[complete] n=1000 done
+[complete] n=1100 done
+[complete] n=1200 done
+[complete] n=1300 done
+[complete] n=1400 done
+[complete] n=1500 done
+[complete] n=1600 done
+[complete] n=1700 done
+[complete] n=1800 done
+[complete] n=1900 done
+[complete] n=2000 done
+[complete] n=2100 done
+[complete] n=2200 done
+[complete] n=2300 done
+[complete] n=2400 done
+[complete] n=2500 done
+[complete] n=2600 done
+[complete] n=2700 done
+[complete] n=2800 done
+[complete] n=2900 done
+[complete] n=3000 done
+[sparse] n=100 done
+[sparse] n=600 done
+[sparse] n=1100 done
+[sparse] n=1600 done
+[sparse] n=2100 done
+[sparse] n=2600 done
+[sparse] n=3100 done
+[sparse] n=3600 done
+[sparse] n=4100 done
+[sparse] n=4600 done
+[sparse] n=5100 done
+[sparse] n=5600 done
+[sparse] n=6100 done
+[sparse] n=6600 done
+[sparse] n=7100 done
+[sparse] n=7600 done
+[sparse] n=8100 done
+[sparse] n=8600 done
+[sparse] n=9100 done
+[sparse] n=9600 done
+[medium] n=100 done
+[medium] n=350 done
+[medium] n=600 done
+[medium] n=850 done
+[medium] n=1100 done
+[medium] n=1350 done
+[medium] n=1600 done
+[medium] n=1850 done
+[medium] n=2100 done
+[medium] n=2350 done
+[medium] n=2600 done
+[medium] n=2850 done
+[medium] n=3100 done
+[medium] n=3350 done
+[medium] n=3600 done
+[medium] n=3850 done
+[medium] n=4100 done
+[medium] n=4350 done
+[medium] n=4600 done
+[medium] n=4850 done
+[medium] n=5100 done
+[medium] n=5350 done
+[medium] n=5600 done
+[medium] n=5850 done
+[medium] n=6100 done
+[medium] n=6350 done
+[medium] n=6600 done
+[medium] n=6850 done
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5
+$ ls
+Makefile  data	include  mst.exe  plots  scripts  src
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5
+$ cd data
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5/data
+$ ls
+complete_kruskal.csv  medium_kruskal.csv  sparse_kruskal.csv
+complete_prim.csv     medium_prim.csv	  sparse_prim.csv
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5/data
+$ cd ..
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5
+$ cd scripts
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5/scripts
+$ ls
+plot.py
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5/scripts
+$ python3 plot.py
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5/scripts
+$ cd ..
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5
+$ cd plots
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5/plots
+$ ls
+complete.png  medium.png  sparse.png
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5/plots
+$ cd ..
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5
+$ cd ..
+
+jedre@jedreek323 MINGW64 ~/repo/lista4
+$ svn status
+?       zadanie5/data/complete_kruskal.csv
+?       zadanie5/data/complete_prim.csv
+?       zadanie5/data/medium_kruskal.csv
+?       zadanie5/data/medium_prim.csv
+?       zadanie5/data/sparse_kruskal.csv
+?       zadanie5/data/sparse_prim.csv
+?       zadanie5/mst.exe
+?       zadanie5/plots/complete.png
+?       zadanie5/plots/medium.png
+?       zadanie5/plots/sparse.png
+
+jedre@jedreek323 MINGW64 ~/repo/lista4
+$ svn add --force zadanie5
+A  (bin)  zadanie5/plots/complete.png
+A  (bin)  zadanie5/plots/sparse.png
+A  (bin)  zadanie5/plots/medium.png
+A  (bin)  zadanie5/mst.exe
+A         zadanie5/data/complete_kruskal.csv
+A         zadanie5/data/sparse_prim.csv
+A         zadanie5/data/medium_prim.csv
+A         zadanie5/data/sparse_kruskal.csv
+A         zadanie5/data/medium_kruskal.csv
+A         zadanie5/data/complete_prim.csv
+
+jedre@jedreek323 MINGW64 ~/repo/lista4
+$ svn commit -m "Aktualizacja zadanie5"
+Adding         zadanie5/data/complete_kruskal.csv
+Adding         zadanie5/data/complete_prim.csv
+Adding         zadanie5/data/medium_kruskal.csv
+Adding         zadanie5/data/medium_prim.csv
+Adding         zadanie5/data/sparse_kruskal.csv
+Adding         zadanie5/data/sparse_prim.csv
+Adding  (bin)  zadanie5/mst.exe
+Adding  (bin)  zadanie5/plots/complete.png
+Adding  (bin)  zadanie5/plots/medium.png
+Adding  (bin)  zadanie5/plots/sparse.png
+Transmitting file data ..........done
+Committing transaction...
+Committed revision 67.
+
+jedre@jedreek323 MINGW64 ~/repo/lista4
+$ tmux capture-pane -p -S'-' -E'-' -J > tmux-log.txt
+
+jedre@jedreek323 MINGW64 ~/repo/lista4
+$ ls
+tmux-log.txt  zadanie1	zadanie2  zadanie3  zadanie4  zadanie5
+
+jedre@jedreek323 MINGW64 ~/repo/lista4
+$ rm tmux-log.txt
+
+jedre@jedreek323 MINGW64 ~/repo/lista4
+$ cd zadanie5
+
+jedre@jedreek323 MINGW64 ~/repo/lista4/zadanie5
+$ tmux capture-pane -p -S'-' -E'-' -J > tmux-log.txt
+

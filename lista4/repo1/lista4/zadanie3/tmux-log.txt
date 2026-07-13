@@ -1,0 +1,2578 @@
+
+jedre@jedreek323 MINGW64 ~
+$ svn checkout https://repo.cs.pwr.edu.pl/283948-dir/mk1/ mk5_tmux                                                                            
+A    mk5_tmux/lista1
+A    mk5_tmux/lista1/cmake-build-debug
+A    mk5_tmux/lista1/cmake-build-debug/.cmake
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/query
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/tmp
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/pkgRedirects
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/cmake.check_cache
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/InstallScripts.json
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/queue.c.obj
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2/cyclic_list.c.obj
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+A    mk5_tmux/lista1/CMakeLists.txt
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/query/cache-v2
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-99b984db6fd63c13b16e.json
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/queue.c.obj
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2/main.c.obj
+A    mk5_tmux/lista1/cmake-build-debug/Testing
+A    mk5_tmux/lista1/cmake-build-debug/Testing/Temporary
+A    mk5_tmux/lista1/zadanie1
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/clion-environment.txt
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/main.c.obj
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2/cyclic_list.c.obj
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3/main.c.obj
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0f5263f3362ee68d80b4.json
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6449583c8f2bb3a33fe3.json
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-07T20-00-40-0968.json
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie1-Debug-879f86b91abdd8ce063d.json
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie2-Debug-1a7d535c42e589cd66be.json
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie3-Debug-4283f7bdf778bd335524.json
+A    mk5_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-33ca16c04ff1f028c339.json
+A    mk5_tmux/lista1/cmake-build-debug/.gitignore
+A    mk5_tmux/lista1/cmake-build-debug/.ninja_deps
+A    mk5_tmux/lista1/cmake-build-debug/.ninja_log
+A    mk5_tmux/lista1/cmake-build-debug/CMakeCache.txt
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+A    mk5_tmux/lista1/zadanie2
+A    mk5_tmux/lista1/zadanie3
+A    mk5_tmux/lista2
+A    mk5_tmux/lista2/cmake-build-debug
+A    mk5_tmux/lista2/cmake-build-debug/.cmake
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1/query
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply
+A    mk5_tmux/lista1/cmake-build-debug/Testing/Temporary/LastTest.log
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeSystem.cmake
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/main.c.obj
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/stack.c.obj
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2/main.c.obj
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/rules.ninja
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/stack.c.obj
+A    mk5_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3/doubly_cyclic_list.c.obj
+A    mk5_tmux/lista1/cmake-build-debug/cmake_install.cmake
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/tmp
+A    mk5_tmux/lista1/cmake-build-debug/build.ninja
+A    mk5_tmux/lista1/cmake-build-debug/zadanie2.exe
+A    mk5_tmux/lista1/cmake-build-debug/zadanie1.exe
+A    mk5_tmux/lista1/zad1.exe
+A    mk5_tmux/lista1/zadanie1/queue.c
+A    mk5_tmux/lista1/zadanie1.txt
+A    mk5_tmux/lista1/zadanie2.txt
+A    mk5_tmux/lista1/zadanie3.txt
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/pkgRedirects
+A    mk5_tmux/lista1/zad3.exe
+A    mk5_tmux/lista1/zadanie1/stack.c
+A    mk5_tmux/lista1/zadanie2/cyclic_list.h
+A    mk5_tmux/lista1/zadanie3/doubly_cyclic_list.h
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1/query/cache-v2
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7c3ba4515d4c5e89d56d.json
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-22T21-27-43-0618.json
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1
+A    mk5_tmux/lista2/cmake-build-debug/.ninja_deps
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1d861732b742ca9fa6bf.json
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-33ca16c04ff1f028c339.json
+A    mk5_tmux/lista2/cmake-build-debug/CMakeCache.txt
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeSystem.cmake
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie3
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie4
+A    mk5_tmux/lista2/cmake-build-debug/Testing
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
+A    mk5_tmux/lista2/cmake-build-debug/Testing/Temporary
+A    mk5_tmux/lista2/generators
+A    mk5_tmux/lista1/zad2.exe
+A    mk5_tmux/lista1/zadanie1/queue.h
+A    mk5_tmux/lista1/zadanie2/cyclic_list.c
+A    mk5_tmux/lista1/zadanie3/doubly_cyclic_list.c
+A    mk5_tmux/lista2/CMakeLists.txt
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+A    mk5_tmux/lista2/cmake-build-debug/.gitignore
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c
+A    mk5_tmux/lista2/helpfunctions
+A    mk5_tmux/lista2/sprawozdania
+A    mk5_tmux/lista2/zadanie1
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/rules.ninja
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions/helpfunctions.c.obj
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/insertionsort.c.obj
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/InstallScripts.json
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/cmake.check_cache
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_random.c.obj
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybridsort.c.obj
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/quicksort.c.obj
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_asc.c.obj
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/main.c.obj
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_insertionsort.c.obj
+A    mk5_tmux/lista2/cmake-build-debug/build.ninja
+A    mk5_tmux/lista2/zadanie1a
+A    mk5_tmux/lista2/generators/generator_random.c
+A    mk5_tmux/lista2/sprawozdania/zadanie2.txt
+A    mk5_tmux/lista2/zadanie1/hybridsort.c
+A    mk5_tmux/lista2/cmake-build-debug/Testing/Temporary/LastTest.log
+A    mk5_tmux/lista2/generators/generator_desc.c
+A    mk5_tmux/lista2/generators/generator_asc.c
+A    mk5_tmux/lista2/helpfunctions/helpfunctions.h
+A    mk5_tmux/lista2/sprawozdania/zadanie4.txt
+A    mk5_tmux/lista2/zadanie1/insertionsort.c
+A    mk5_tmux/lista2/zadanie1/main_quicksort.c
+A    mk5_tmux/lista2/zadanie1/run.sh
+A    mk5_tmux/lista2/zadanie1a/insertionsort.c
+A    mk5_tmux/lista2/zadanie2
+A    mk5_tmux/lista2/zadanie2/poprawka
+A    mk5_tmux/lista2/zadanie1/log_fix_zad1.txt
+A    mk5_tmux/lista2/zadanie1/quicksort.h
+A    mk5_tmux/lista2/zadanie1a/hybridsort.c
+A    mk5_tmux/lista2/zadanie1a/main_insertionsort.c
+A    mk5_tmux/lista2/sprawozdania/zadanie1.txt
+A    mk5_tmux/lista2/zadanie1/hybrid_main.c
+A    mk5_tmux/lista2/zadanie1/insertionsort.h
+A    mk5_tmux/lista2/zadanie1/quicksort.c
+A    mk5_tmux/lista2/zadanie1a/hybrid_main.c
+A    mk5_tmux/lista2/zadanie1a/insertionsort.h
+A    mk5_tmux/lista2/zadanie1a/run.sh
+A    mk5_tmux/lista2/zadanie1a/quicksort.h
+A    mk5_tmux/lista2/zadanie2/comparisons_small.png
+A    mk5_tmux/lista2/zadanie1a/quicksort.c
+A    mk5_tmux/lista2/zadanie2/comparisons_big.png
+A    mk5_tmux/lista1/cmake-build-debug/zadanie3.exe
+A    mk5_tmux/lista1/zadanie1/main.c
+A    mk5_tmux/lista1/zadanie1/stack.h
+A    mk5_tmux/lista1/zadanie2/main.c
+A    mk5_tmux/lista1/zadanie3/main.c
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-509aaa5aeef9c1f0ef3e.json
+A    mk5_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/target-untitled6-Debug-a0ab15b2b7d674fd07d5.json
+A    mk5_tmux/lista2/cmake-build-debug/.ninja_log
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/clion-environment.txt
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_desc.c.obj
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybrid_main.c.obj
+A    mk5_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_quicksort.c.obj
+A    mk5_tmux/lista2/cmake-build-debug/cmake_install.cmake
+A    mk5_tmux/lista2/helpfunctions/helpfunctions.c
+A    mk5_tmux/lista2/sprawozdania/zadanie3.txt
+A    mk5_tmux/lista2/zadanie1/hybridsort.h
+A    mk5_tmux/lista2/zadanie1/main_insertionsort.c
+A    mk5_tmux/lista2/zadanie1/raport_zadanie1.txt
+A    mk5_tmux/lista2/zadanie1a/hybridsort.h
+A    mk5_tmux/lista2/zadanie1a/main_quicksort.c
+A    mk5_tmux/lista2/zadanie3
+A    mk5_tmux/lista2/zadanie4
+A    mk5_tmux/lista2/zadanie2/poprawka/cn_big.png
+A    mk5_tmux/lista2/zadanie2/poprawka/hybrid_small.txt
+A    mk5_tmux/lista2/zadanie2/poprawka/sn_small.png
+A    mk5_tmux/lista2/zadanie2/sn_big.png
+A    mk5_tmux/lista2/zadanie2/log_fix_zad2.txt
+A    mk5_tmux/lista2/zadanie2/cn_small.png
+A    mk5_tmux/lista2/zadanie2/log.txt
+A    mk5_tmux/lista2/zadanie2/cn_big.png
+A    mk5_tmux/lista2/zadanie2/graph.py
+A    mk5_tmux/lista2/zadanie2/poprawka/comparisons_small.png
+A    mk5_tmux/lista2/zadanie2/poprawka/comparisons_big.png
+A    mk5_tmux/lista2/zadanie2/poprawka/quick_small.txt
+A    mk5_tmux/lista2/zadanie2/poprawka/sn_big.png
+A    mk5_tmux/lista2/zadanie2/run_all.sh
+A    mk5_tmux/lista2/zadanie2/poprawka/swaps_small.png
+A    mk5_tmux/lista2/zadanie2/poprawka/cn_small.png
+A    mk5_tmux/lista2/zadanie2/poprawka/insertion_small.txt
+A    mk5_tmux/lista2/zadanie3/cn_big.png
+A    mk5_tmux/lista2/zadanie3/graph3.py
+A    mk5_tmux/lista2/zadanie3/mergesort.c
+A    mk5_tmux/lista2/zadanie3/mydivide_main.c
+A    mk5_tmux/lista2/zadanie3/sn_small.png
+A    mk5_tmux/lista2/zadanie4/binary_small.txt
+A    mk5_tmux/lista2/zadanie2/swaps_small.png
+A    mk5_tmux/lista2/zadanie2/swaps_big.png
+A    mk5_tmux/lista2/zadanie4/comparisons_square_large.png
+A    mk5_tmux/lista2/zadanie3/comparisons_small.png
+A    mk5_tmux/lista2/zadanie3/merge_small.txt
+A    mk5_tmux/lista2/zadanie3/mydivide.h
+A    mk5_tmux/lista2/zadanie4/comparisons_wide_large.png
+A    mk5_tmux/lista2/zadanie4/hybrid_big.txt
+A    mk5_tmux/lista2/zadanie4/hybridsearch.h
+A    mk5_tmux/lista3
+A    mk5_tmux/lista3/generators
+A    mk5_tmux/lista3/helpfunctions
+A    mk5_tmux/lista3/sprawozdania
+A    mk5_tmux/lista2/zadanie3/sn_big.png
+A    mk5_tmux/lista2/zadanie4/binary_big.txt
+A    mk5_tmux/lista2/zadanie4/binarysearch_main.c
+A    mk5_tmux/lista2/zadanie3/comparisons_big.png
+A    mk5_tmux/lista2/zadanie3/merge_main.c
+A    mk5_tmux/lista2/zadanie3/mydivide.c
+A    mk5_tmux/lista2/zadanie3/run_3.sh
+A    mk5_tmux/lista3/zadanie1
+A    mk5_tmux/lista2/zadanie3/swaps_small.png
+A    mk5_tmux/lista2/zadanie4/binarysearch.h
+A    mk5_tmux/lista2/zadanie4/ratio_tall_large.png
+A    mk5_tmux/lista2/zadanie4/run_4.sh
+A    mk5_tmux/lista2/zadanie4/staircasesearch.c
+A    mk5_tmux/lista2/zadanie2/poprawka/swaps_big.png
+A    mk5_tmux/lista3/helpfunctions/helpfunctions.h
+A    mk5_tmux/lista3/sprawozdania/sprawozdanie4.txt
+A    mk5_tmux/lista3/zadanie1/Select.cpp
+A    mk5_tmux/lista3/zadanie1/tmux-log.txt
+A    mk5_tmux/lista2/zadanie4/comparisons_tall_large.png
+A    mk5_tmux/lista2/zadanie4/generator_matrix.c
+A    mk5_tmux/lista2/zadanie4/hybrid_small.txt
+A    mk5_tmux/lista3/zadanie2
+A    mk5_tmux/lista2/zadanie4/comparisons_tall_small.png
+A    mk5_tmux/lista2/zadanie4/graph4.py
+A    mk5_tmux/lista2/zadanie4/hybridsearch.c
+A    mk5_tmux/lista2/zadanie2/sn_small.png
+A    mk5_tmux/lista2/zadanie4/ratio_square_large.png
+A    mk5_tmux/lista2/zadanie4/ratio_wide_large.png
+A    mk5_tmux/lista2/zadanie4/staircase_main.c
+A    mk5_tmux/lista3/generators/generator_random.cpp
+A    mk5_tmux/lista3/sprawozdania/sprawozdanie2.txt
+A    mk5_tmux/lista3/zadanie1/RandomizedSelect.h
+A    mk5_tmux/lista3/zadanie1/Select_main.cpp
+A    mk5_tmux/lista3/zadanie1/wynik_select.txt
+A    mk5_tmux/lista3/zadanie3
+A    mk5_tmux/lista3/zadanie2/Random_-_Swaps.png
+A    mk5_tmux/lista3/zadanie2/graph.py
+A    mk5_tmux/lista3/zadanie2/run.sh
+A    mk5_tmux/lista2/zadanie4/ratio_square_small.png
+A    mk5_tmux/lista2/zadanie4/ratio_wide_small.png
+A    mk5_tmux/lista2/zadanie4/staircase_small.txt
+A    mk5_tmux/lista3/helpfunctions/helpfunctions.cpp
+A    mk5_tmux/lista3/sprawozdania/sprawozdanie3.txt
+A    mk5_tmux/lista3/zadanie1/RandomizedSelect_main.cpp
+A    mk5_tmux/lista3/zadanie1/run.sh
+A    mk5_tmux/lista3/zadanie4
+A    mk5_tmux/lista3/zadanie2/Random_-_Comparisons.png
+A    mk5_tmux/lista3/zadanie2/benchmark.cpp
+A    mk5_tmux/lista3/zadanie2/Select_-_Swaps.png
+A    mk5_tmux/lista2/zadanie3/cn_small.png
+A    mk5_tmux/lista3/zadanie2/tmux-log.txt
+A    mk5_tmux/lista3/zadanie3/benchmark_groups.cpp
+A    mk5_tmux/lista2/zadanie3/log.txt
+A    mk5_tmux/lista2/zadanie3/mergesort.h
+A    mk5_tmux/lista2/zadanie3/mydivide_small.txt
+A    mk5_tmux/lista3/zadanie2/random_kmid.txt
+A    mk5_tmux/lista2/zadanie3/swaps_big.png
+A    mk5_tmux/lista2/zadanie4/binarysearch.c
+A    mk5_tmux/lista3/zadanie2/random_kn.txt
+A    mk5_tmux/lista2/zadanie4/comparisons_square_small.png
+A    mk5_tmux/lista2/zadanie4/comparisons_wide_small.png
+A    mk5_tmux/lista2/zadanie4/hybrid_main.c
+A    mk5_tmux/lista2/zadanie4/log.txt
+A    mk5_tmux/lista3/zadanie3/select_21.txt
+A    mk5_tmux/lista3/zadanie2/select_kn.txt
+A    mk5_tmux/lista3/zadanie3/Select_main.cpp
+A    mk5_tmux/lista3/zadanie2/select_kmid.txt
+A    mk5_tmux/lista3/zadanie3/Select.h
+A    mk5_tmux/lista3/zadanie3/graph.py
+A    mk5_tmux/lista2/zadanie4/ratio_tall_small.png
+A    mk5_tmux/lista2/zadanie4/staircase_big.txt
+A    mk5_tmux/lista2/zadanie4/staircasesearch.h
+A    mk5_tmux/lista3/sprawozdania/sprawozdanie1.txt
+A    mk5_tmux/lista3/zadanie1/RandomizedSelect.cpp
+A    mk5_tmux/lista3/zadanie1/Select.h
+A    mk5_tmux/lista3/zadanie1/wynik_random.txt
+A    mk5_tmux/lista4
+A    mk5_tmux/lista4/zadanie1
+A    mk5_tmux/lista4/zadanie2
+A    mk5_tmux/lista3/zadanie3/select_9.txt
+A    mk5_tmux/lista3/zadanie3/tmux-log.txt
+A    mk5_tmux/lista3/zadanie4/MyFind.cpp
+A    mk5_tmux/lista3/zadanie4/binary_2.txt
+A    mk5_tmux/lista3/zadanie4/f1_(delta=10)_-_NOT_FOUND.png
+A    mk5_tmux/lista3/zadanie4/f2_(delta=50)_-_NOT_FOUND.png
+A    mk5_tmux/lista3/zadanie4/myfind_1.txt
+A    mk5_tmux/lista3/zadanie4/tmux-log.txt
+A    mk5_tmux/lista3/zadanie3/select_5.txt
+A    mk5_tmux/lista4/zadanie2/avg_assign.png
+A    mk5_tmux/lista4/zadanie2/main.cpp
+A    mk5_tmux/lista3/zadanie2/Select_-_Comparisons.png
+A    mk5_tmux/lista3/zadanie3/select_19.txt
+A    mk5_tmux/lista4/zadanie2/max_read.png
+A    mk5_tmux/lista4/zadanie2/random_avg_height.png
+A    mk5_tmux/lista4/zadanie2/random_max_height.png
+A    mk5_tmux/lista3/zadanie3/select_swaps.png
+A    mk5_tmux/lista3/zadanie4/BinarySearch.h
+A    mk5_tmux/lista3/zadanie4/MyFind_main.cpp
+A    mk5_tmux/lista4/zadanie2/sorted_avg_cmp.png
+A    mk5_tmux/lista3/zadanie4/f1_(delta=10)_-_ALL.png
+A    mk5_tmux/lista3/zadanie3/select_7.txt
+A    mk5_tmux/lista3/zadanie3/select_time.png
+A    mk5_tmux/lista3/zadanie4/BinarySearch_main.cpp
+A    mk5_tmux/lista3/zadanie4/binary_1.txt
+A    mk5_tmux/lista4/zadanie3
+A    mk5_tmux/lista3/zadanie4/f2_(delta=50)_-_ALL.png
+A    mk5_tmux/lista3/zadanie4/generator.cpp
+A    mk5_tmux/lista3/zadanie4/myfind_small.txt
+A    mk5_tmux/lista4/zadanie1/main.cpp
+A    mk5_tmux/lista4/zadanie2/avg_height.png
+A    mk5_tmux/lista4/zadanie2/sorted_max_cmp.png
+A    mk5_tmux/lista4/zadanie2/tmux-log2.txt
+A    mk5_tmux/lista4/zadanie4
+A    mk5_tmux/lista3/zadanie4/f1_(delta=10)_-_FOUND.png
+A    mk5_tmux/lista4/zadanie2/max_cmp.png
+A    mk5_tmux/lista4/zadanie2/random_avg_assign.png
+A    mk5_tmux/lista4/zadanie2/random_max_assign.png
+A    mk5_tmux/lista4/zadanie2/results.csv
+A    mk5_tmux/lista3/zadanie2/random_k1.txt
+A    mk5_tmux/lista3/zadanie4/f2_(delta=50)_-_FOUND.png
+A    mk5_tmux/lista4/zadanie2/sorted_avg_read.png
+A    mk5_tmux/lista4/zadanie2/sorted_max_read.png
+A    mk5_tmux/lista4/zadanie4/main.cpp
+A    mk5_tmux/lista3/zadanie2/select_k1.txt
+A    mk5_tmux/lista3/zadanie3/Select.cpp
+A    mk5_tmux/lista3/zadanie3/generator_select_groups.cpp
+A    mk5_tmux/lista3/zadanie4/input.txt
+A    mk5_tmux/lista3/zadanie4/runner.cpp
+A    mk5_tmux/lista4/zadanie1/tmux-log.txt
+A    mk5_tmux/lista4/zadanie2/avg_read.png
+A    mk5_tmux/lista4/zadanie2/max_height.png
+A    mk5_tmux/lista4/zadanie2/random_avg_cmp.png
+A    mk5_tmux/lista4/zadanie2/random_max_cmp.png
+A    mk5_tmux/lista4/zadanie2/sorted_avg_assign.png
+A    mk5_tmux/lista4/zadanie2/sorted_max_assign.png
+A    mk5_tmux/lista4/zadanie2/tmux-log.txt
+A    mk5_tmux/lista4/zadanie4/plots.py
+A    mk5_tmux/lista3/zadanie3/select_3.txt
+A    mk5_tmux/lista3/zadanie3/select_comparisons.png
+A    mk5_tmux/lista3/zadanie4/BinarySearch.cpp
+A    mk5_tmux/lista3/zadanie4/MyFind.h
+A    mk5_tmux/lista3/zadanie4/binary_small.txt
+A    mk5_tmux/lista3/zadanie4/f1_(delta=10)_-_SMOOTH.png
+A    mk5_tmux/lista3/zadanie4/f2_(delta=50)_-_SMOOTH.png
+A    mk5_tmux/lista3/zadanie4/myfind_2.txt
+A    mk5_tmux/lista3/zadanie4/wykresy.py
+A    mk5_tmux/lista4/zadanie2/avg_cmp.png
+A    mk5_tmux/lista4/zadanie2/max_assign.png
+A    mk5_tmux/lista4/zadanie2/plots.py
+A    mk5_tmux/lista4/zadanie2/random_avg_read.png
+A    mk5_tmux/lista4/zadanie2/random_max_read.png
+A    mk5_tmux/lista4/zadanie2/sorted_avg_height.png
+A    mk5_tmux/lista4/zadanie2/sorted_max_height.png
+A    mk5_tmux/lista4/zadanie3/main.cpp
+Checked out revision 60.
+
+jedre@jedreek323 MINGW64 ~
+$ cd mk5_tmux
+
+jedre@jedreek323 MINGW64 ~/mk5_tmux
+$ cd lista4
+
+jedre@jedreek323 MINGW64 ~/mk5_tmux/lista4
+$ cd zadanie3
+
+jedre@jedreek323 MINGW64 ~/mk5_tmux/lista4/zadanie3
+$ ls
+main.cpp
+
+jedre@jedreek323 MINGW64 ~/mk5_tmux/lista4/zadanie3
+$ g++ main.cpp -o program
+
+jedre@jedreek323 MINGW64 ~/mk5_tmux/lista4/zadanie3
+$ ./program
+
+========== TEST 1 ==========
+
+INSERT[1]
+-[1]
+HEIGHT = 1
+
+INSERT[2]
+ /-[1]
+-[2]
+HEIGHT = 2
+
+INSERT[3]
+   /-[1]
+ /-[2]
+-[3]
+HEIGHT = 3
+
+INSERT[4]
+     /-[1]
+   /-[2]
+ /-[3]
+-[4]
+HEIGHT = 4
+
+INSERT[5]
+       /-[1]
+     /-[2]
+   /-[3]
+ /-[4]
+-[5]
+HEIGHT = 5
+
+INSERT[6]
+         /-[1]
+       /-[2]
+     /-[3]
+   /-[4]
+ /-[5]
+-[6]
+HEIGHT = 6
+
+INSERT[7]
+           /-[1]
+         /-[2]
+       /-[3]
+     /-[4]
+   /-[5]
+ /-[6]
+-[7]
+HEIGHT = 7
+
+INSERT[8]
+             /-[1]
+           /-[2]
+         /-[3]
+       /-[4]
+     /-[5]
+   /-[6]
+ /-[7]
+-[8]
+HEIGHT = 8
+
+INSERT[9]
+               /-[1]
+             /-[2]
+           /-[3]
+         /-[4]
+       /-[5]
+     /-[6]
+   /-[7]
+ /-[8]
+-[9]
+HEIGHT = 9
+
+INSERT[10]
+                 /-[1]
+               /-[2]
+             /-[3]
+           /-[4]
+         /-[5]
+       /-[6]
+     /-[7]
+   /-[8]
+ /-[9]
+-[10]
+HEIGHT = 10
+
+INSERT[11]
+                   /-[1]
+                 /-[2]
+               /-[3]
+             /-[4]
+           /-[5]
+         /-[6]
+       /-[7]
+     /-[8]
+   /-[9]
+ /-[10]
+-[11]
+HEIGHT = 11
+
+INSERT[12]
+                     /-[1]
+                   /-[2]
+                 /-[3]
+               /-[4]
+             /-[5]
+           /-[6]
+         /-[7]
+       /-[8]
+     /-[9]
+   /-[10]
+ /-[11]
+-[12]
+HEIGHT = 12
+
+INSERT[13]
+                       /-[1]
+                     /-[2]
+                   /-[3]
+                 /-[4]
+               /-[5]
+             /-[6]
+           /-[7]
+         /-[8]
+       /-[9]
+     /-[10]
+   /-[11]
+ /-[12]
+-[13]
+HEIGHT = 13
+
+INSERT[14]
+                         /-[1]
+                       /-[2]
+                     /-[3]
+                   /-[4]
+                 /-[5]
+               /-[6]
+             /-[7]
+           /-[8]
+         /-[9]
+       /-[10]
+     /-[11]
+   /-[12]
+ /-[13]
+-[14]
+HEIGHT = 14
+
+INSERT[15]
+                           /-[1]
+                         /-[2]
+                       /-[3]
+                     /-[4]
+                   /-[5]
+                 /-[6]
+               /-[7]
+             /-[8]
+           /-[9]
+         /-[10]
+       /-[11]
+     /-[12]
+   /-[13]
+ /-[14]
+-[15]
+HEIGHT = 15
+
+INSERT[16]
+                             /-[1]
+                           /-[2]
+                         /-[3]
+                       /-[4]
+                     /-[5]
+                   /-[6]
+                 /-[7]
+               /-[8]
+             /-[9]
+           /-[10]
+         /-[11]
+       /-[12]
+     /-[13]
+   /-[14]
+ /-[15]
+-[16]
+HEIGHT = 16
+
+INSERT[17]
+                               /-[1]
+                             /-[2]
+                           /-[3]
+                         /-[4]
+                       /-[5]
+                     /-[6]
+                   /-[7]
+                 /-[8]
+               /-[9]
+             /-[10]
+           /-[11]
+         /-[12]
+       /-[13]
+     /-[14]
+   /-[15]
+ /-[16]
+-[17]
+HEIGHT = 17
+
+INSERT[18]
+                                 /-[1]
+                               /-[2]
+                             /-[3]
+                           /-[4]
+                         /-[5]
+                       /-[6]
+                     /-[7]
+                   /-[8]
+                 /-[9]
+               /-[10]
+             /-[11]
+           /-[12]
+         /-[13]
+       /-[14]
+     /-[15]
+   /-[16]
+ /-[17]
+-[18]
+HEIGHT = 18
+
+INSERT[19]
+                                   /-[1]
+                                 /-[2]
+                               /-[3]
+                             /-[4]
+                           /-[5]
+                         /-[6]
+                       /-[7]
+                     /-[8]
+                   /-[9]
+                 /-[10]
+               /-[11]
+             /-[12]
+           /-[13]
+         /-[14]
+       /-[15]
+     /-[16]
+   /-[17]
+ /-[18]
+-[19]
+HEIGHT = 19
+
+INSERT[20]
+                                     /-[1]
+                                   /-[2]
+                                 /-[3]
+                               /-[4]
+                             /-[5]
+                           /-[6]
+                         /-[7]
+                       /-[8]
+                     /-[9]
+                   /-[10]
+                 /-[11]
+               /-[12]
+             /-[13]
+           /-[14]
+         /-[15]
+       /-[16]
+     /-[17]
+   /-[18]
+ /-[19]
+-[20]
+HEIGHT = 20
+
+INSERT[21]
+                                       /-[1]
+                                     /-[2]
+                                   /-[3]
+                                 /-[4]
+                               /-[5]
+                             /-[6]
+                           /-[7]
+                         /-[8]
+                       /-[9]
+                     /-[10]
+                   /-[11]
+                 /-[12]
+               /-[13]
+             /-[14]
+           /-[15]
+         /-[16]
+       /-[17]
+     /-[18]
+   /-[19]
+ /-[20]
+-[21]
+HEIGHT = 21
+
+INSERT[22]
+                                         /-[1]
+                                       /-[2]
+                                     /-[3]
+                                   /-[4]
+                                 /-[5]
+                               /-[6]
+                             /-[7]
+                           /-[8]
+                         /-[9]
+                       /-[10]
+                     /-[11]
+                   /-[12]
+                 /-[13]
+               /-[14]
+             /-[15]
+           /-[16]
+         /-[17]
+       /-[18]
+     /-[19]
+   /-[20]
+ /-[21]
+-[22]
+HEIGHT = 22
+
+INSERT[23]
+                                           /-[1]
+                                         /-[2]
+                                       /-[3]
+                                     /-[4]
+                                   /-[5]
+                                 /-[6]
+                               /-[7]
+                             /-[8]
+                           /-[9]
+                         /-[10]
+                       /-[11]
+                     /-[12]
+                   /-[13]
+                 /-[14]
+               /-[15]
+             /-[16]
+           /-[17]
+         /-[18]
+       /-[19]
+     /-[20]
+   /-[21]
+ /-[22]
+-[23]
+HEIGHT = 23
+
+INSERT[24]
+                                             /-[1]
+                                           /-[2]
+                                         /-[3]
+                                       /-[4]
+                                     /-[5]
+                                   /-[6]
+                                 /-[7]
+                               /-[8]
+                             /-[9]
+                           /-[10]
+                         /-[11]
+                       /-[12]
+                     /-[13]
+                   /-[14]
+                 /-[15]
+               /-[16]
+             /-[17]
+           /-[18]
+         /-[19]
+       /-[20]
+     /-[21]
+   /-[22]
+ /-[23]
+-[24]
+HEIGHT = 24
+
+INSERT[25]
+                                               /-[1]
+                                             /-[2]
+                                           /-[3]
+                                         /-[4]
+                                       /-[5]
+                                     /-[6]
+                                   /-[7]
+                                 /-[8]
+                               /-[9]
+                             /-[10]
+                           /-[11]
+                         /-[12]
+                       /-[13]
+                     /-[14]
+                   /-[15]
+                 /-[16]
+               /-[17]
+             /-[18]
+           /-[19]
+         /-[20]
+       /-[21]
+     /-[22]
+   /-[23]
+ /-[24]
+-[25]
+HEIGHT = 25
+
+INSERT[26]
+                                                 /-[1]
+                                               /-[2]
+                                             /-[3]
+                                           /-[4]
+                                         /-[5]
+                                       /-[6]
+                                     /-[7]
+                                   /-[8]
+                                 /-[9]
+                               /-[10]
+                             /-[11]
+                           /-[12]
+                         /-[13]
+                       /-[14]
+                     /-[15]
+                   /-[16]
+                 /-[17]
+               /-[18]
+             /-[19]
+           /-[20]
+         /-[21]
+       /-[22]
+     /-[23]
+   /-[24]
+ /-[25]
+-[26]
+HEIGHT = 26
+
+INSERT[27]
+                                                   /-[1]
+                                                 /-[2]
+                                               /-[3]
+                                             /-[4]
+                                           /-[5]
+                                         /-[6]
+                                       /-[7]
+                                     /-[8]
+                                   /-[9]
+                                 /-[10]
+                               /-[11]
+                             /-[12]
+                           /-[13]
+                         /-[14]
+                       /-[15]
+                     /-[16]
+                   /-[17]
+                 /-[18]
+               /-[19]
+             /-[20]
+           /-[21]
+         /-[22]
+       /-[23]
+     /-[24]
+   /-[25]
+ /-[26]
+-[27]
+HEIGHT = 27
+
+INSERT[28]
+                                                     /-[1]
+                                                   /-[2]
+                                                 /-[3]
+                                               /-[4]
+                                             /-[5]
+                                           /-[6]
+                                         /-[7]
+                                       /-[8]
+                                     /-[9]
+                                   /-[10]
+                                 /-[11]
+                               /-[12]
+                             /-[13]
+                           /-[14]
+                         /-[15]
+                       /-[16]
+                     /-[17]
+                   /-[18]
+                 /-[19]
+               /-[20]
+             /-[21]
+           /-[22]
+         /-[23]
+       /-[24]
+     /-[25]
+   /-[26]
+ /-[27]
+-[28]
+HEIGHT = 28
+
+INSERT[29]
+                                                       /-[1]
+                                                     /-[2]
+                                                   /-[3]
+                                                 /-[4]
+                                               /-[5]
+                                             /-[6]
+                                           /-[7]
+                                         /-[8]
+                                       /-[9]
+                                     /-[10]
+                                   /-[11]
+                                 /-[12]
+                               /-[13]
+                             /-[14]
+                           /-[15]
+                         /-[16]
+                       /-[17]
+                     /-[18]
+                   /-[19]
+                 /-[20]
+               /-[21]
+             /-[22]
+           /-[23]
+         /-[24]
+       /-[25]
+     /-[26]
+   /-[27]
+ /-[28]
+-[29]
+HEIGHT = 29
+
+INSERT[30]
+                                                         /-[1]
+                                                       /-[2]
+                                                     /-[3]
+                                                   /-[4]
+                                                 /-[5]
+                                               /-[6]
+                                             /-[7]
+                                           /-[8]
+                                         /-[9]
+                                       /-[10]
+                                     /-[11]
+                                   /-[12]
+                                 /-[13]
+                               /-[14]
+                             /-[15]
+                           /-[16]
+                         /-[17]
+                       /-[18]
+                     /-[19]
+                   /-[20]
+                 /-[21]
+               /-[22]
+             /-[23]
+           /-[24]
+         /-[25]
+       /-[26]
+     /-[27]
+   /-[28]
+ /-[29]
+-[30]
+HEIGHT = 30
+
+DELETE[28]
+                                                     /-[1]
+                                                   /-[2]
+                                                 /-[3]
+                                               /-[4]
+                                             /-[5]
+                                           /-[6]
+                                         /-[7]
+                                       /-[8]
+                                     /-[9]
+                                   /-[10]
+                                 /-[11]
+                               /-[12]
+                             /-[13]
+                           /-[14]
+                         /-[15]
+                       /-[16]
+                     /-[17]
+                   /-[18]
+                 /-[19]
+               /-[20]
+             /-[21]
+           /-[22]
+         /-[23]
+       /-[24]
+     /-[25]
+   /-[26]
+ /-[27]
+-[29]
+ \-[30]
+HEIGHT = 28
+
+DELETE[20]
+                                     /-[1]
+                                   /-[2]
+                                 /-[3]
+                               /-[4]
+                             /-[5]
+                           /-[6]
+                         /-[7]
+                       /-[8]
+                     /-[9]
+                   /-[10]
+                 /-[11]
+               /-[12]
+             /-[13]
+           /-[14]
+         /-[15]
+       /-[16]
+     /-[17]
+   /-[18]
+ /-[19]
+-[21]
+ |     /-[22]
+ |     | \-[23]
+ |   /-[24]
+ |   | \-[25]
+ | /-[26]
+ | | \-[27]
+ \-[29]
+   \-[30]
+HEIGHT = 20
+
+DELETE[22]
+                                       /-[1]
+                                     /-[2]
+                                   /-[3]
+                                 /-[4]
+                               /-[5]
+                             /-[6]
+                           /-[7]
+                         /-[8]
+                       /-[9]
+                     /-[10]
+                   /-[11]
+                 /-[12]
+               /-[13]
+             /-[14]
+           /-[15]
+         /-[16]
+       /-[17]
+     /-[18]
+   /-[19]
+ /-[21]
+ | \-[23]
+-[24]
+ | /-[25]
+ \-[26]
+   | /-[27]
+   \-[29]
+     \-[30]
+HEIGHT = 21
+
+DELETE[16]
+                             /-[1]
+                           /-[2]
+                         /-[3]
+                       /-[4]
+                     /-[5]
+                   /-[6]
+                 /-[7]
+               /-[8]
+             /-[9]
+           /-[10]
+         /-[11]
+       /-[12]
+     /-[13]
+   /-[14]
+ /-[15]
+-[17]
+ | /-[18]
+ | | \-[19]
+ \-[21]
+   | /-[23]
+   \-[24]
+     | /-[25]
+     \-[26]
+       | /-[27]
+       \-[29]
+         \-[30]
+HEIGHT = 16
+
+DELETE[9]
+               /-[1]
+             /-[2]
+           /-[3]
+         /-[4]
+       /-[5]
+     /-[6]
+   /-[7]
+ /-[8]
+-[10]
+ |   /-[11]
+ |   | \-[12]
+ | /-[13]
+ | | \-[14]
+ \-[15]
+   \-[17]
+     | /-[18]
+     | | \-[19]
+     \-[21]
+       | /-[23]
+       \-[24]
+         | /-[25]
+         \-[26]
+           | /-[27]
+           \-[29]
+             \-[30]
+HEIGHT = 9
+
+DELETE[11]
+                 /-[1]
+               /-[2]
+             /-[3]
+           /-[4]
+         /-[5]
+       /-[6]
+     /-[7]
+   /-[8]
+ /-[10]
+ | \-[12]
+-[13]
+ | /-[14]
+ \-[15]
+   \-[17]
+     | /-[18]
+     | | \-[19]
+     \-[21]
+       | /-[23]
+       \-[24]
+         | /-[25]
+         \-[26]
+           | /-[27]
+           \-[29]
+             \-[30]
+HEIGHT = 10
+
+DELETE[6]
+         /-[1]
+       /-[2]
+     /-[3]
+   /-[4]
+ /-[5]
+-[7]
+ | /-[8]
+ | | \-[10]
+ | |   \-[12]
+ \-[13]
+   | /-[14]
+   \-[15]
+     \-[17]
+       | /-[18]
+       | | \-[19]
+       \-[21]
+         | /-[23]
+         \-[24]
+           | /-[25]
+           \-[26]
+             | /-[27]
+             \-[29]
+               \-[30]
+HEIGHT = 9
+
+DELETE[12]
+           /-[1]
+         /-[2]
+       /-[3]
+     /-[4]
+   /-[5]
+ /-[7]
+ | \-[8]
+-[10]
+ \-[13]
+   | /-[14]
+   \-[15]
+     \-[17]
+       | /-[18]
+       | | \-[19]
+       \-[21]
+         | /-[23]
+         \-[24]
+           | /-[25]
+           \-[26]
+             | /-[27]
+             \-[29]
+               \-[30]
+HEIGHT = 9
+
+DELETE[3]
+   /-[1]
+ /-[2]
+-[4]
+ | /-[5]
+ | | \-[7]
+ | |   \-[8]
+ \-[10]
+   \-[13]
+     | /-[14]
+     \-[15]
+       \-[17]
+         | /-[18]
+         | | \-[19]
+         \-[21]
+           | /-[23]
+           \-[24]
+             | /-[25]
+             \-[26]
+               | /-[27]
+               \-[29]
+                 \-[30]
+HEIGHT = 10
+
+DELETE[26]
+       /-[1]
+     /-[2]
+   /-[4]
+   | \-[5]
+   |   \-[7]
+   |     \-[8]
+ /-[10]
+ | | /-[13]
+ | | | \-[14]
+ | \-[15]
+ |   | /-[17]
+ |   | | \-[18]
+ |   | |   \-[19]
+ |   \-[21]
+ |     |   /-[23]
+ |     | /-[24]
+ |     | | \-[25]
+ |     \-[27]
+-[29]
+ \-[30]
+HEIGHT = 7
+
+DELETE[7]
+     /-[1]
+   /-[2]
+ /-[4]
+-[5]
+ |   /-[8]
+ | /-[10]
+ | | | /-[13]
+ | | | | \-[14]
+ | | \-[15]
+ | |   | /-[17]
+ | |   | | \-[18]
+ | |   | |   \-[19]
+ | |   \-[21]
+ | |     |   /-[23]
+ | |     | /-[24]
+ | |     | | \-[25]
+ | |     \-[27]
+ \-[29]
+   \-[30]
+HEIGHT = 8
+
+DELETE[14]
+       /-[1]
+     /-[2]
+   /-[4]
+ /-[5]
+ | | /-[8]
+ | \-[10]
+-[13]
+ | /-[15]
+ | | | /-[17]
+ | | | | \-[18]
+ | | | |   \-[19]
+ | | \-[21]
+ | |   |   /-[23]
+ | |   | /-[24]
+ | |   | | \-[25]
+ | |   \-[27]
+ \-[29]
+   \-[30]
+HEIGHT = 7
+
+DELETE[15]
+         /-[1]
+       /-[2]
+     /-[4]
+   /-[5]
+   | | /-[8]
+   | \-[10]
+ /-[13]
+ | | /-[17]
+ | | | \-[18]
+ | | |   \-[19]
+ | \-[21]
+ |   |   /-[23]
+ |   | /-[24]
+ |   | | \-[25]
+ |   \-[27]
+-[29]
+ \-[30]
+HEIGHT = 6
+
+DELETE[21]
+         /-[1]
+       /-[2]
+     /-[4]
+   /-[5]
+   | | /-[8]
+   | \-[10]
+ /-[13]
+ | | /-[17]
+ | | | \-[18]
+ | | |   \-[19]
+ | \-[23]
+-[24]
+ |   /-[25]
+ | /-[27]
+ \-[29]
+   \-[30]
+HEIGHT = 6
+
+DELETE[23]
+       /-[1]
+     /-[2]
+   /-[4]
+ /-[5]
+ | | /-[8]
+ | \-[10]
+-[13]
+ | /-[17]
+ | | \-[18]
+ | |   \-[19]
+ \-[24]
+   |   /-[25]
+   | /-[27]
+   \-[29]
+     \-[30]
+HEIGHT = 5
+
+DELETE[30]
+           /-[1]
+         /-[2]
+       /-[4]
+     /-[5]
+     | | /-[8]
+     | \-[10]
+   /-[13]
+   | \-[17]
+   |   \-[18]
+   |     \-[19]
+ /-[24]
+ | | /-[25]
+ | \-[27]
+-[29]
+HEIGHT = 7
+
+DELETE[1]
+-[2]
+ |   /-[4]
+ |   | \-[5]
+ |   |   | /-[8]
+ |   |   \-[10]
+ | /-[13]
+ | | | /-[17]
+ | | | | \-[18]
+ | | | |   \-[19]
+ | | \-[24]
+ | |   | /-[25]
+ | |   \-[27]
+ \-[29]
+HEIGHT = 7
+
+DELETE[8]
+ /-[2]
+ | | /-[4]
+ | \-[5]
+-[10]
+ \-[13]
+   |   /-[17]
+   |   | \-[18]
+   |   |   \-[19]
+   | /-[24]
+   | | | /-[25]
+   | | \-[27]
+   \-[29]
+HEIGHT = 7
+
+DELETE[4]
+ /-[2]
+-[5]
+ \-[10]
+   \-[13]
+     |   /-[17]
+     |   | \-[18]
+     |   |   \-[19]
+     | /-[24]
+     | | | /-[25]
+     | | \-[27]
+     \-[29]
+HEIGHT = 8
+
+DELETE[10]
+ /-[2]
+-[5]
+ \-[13]
+   |   /-[17]
+   |   | \-[18]
+   |   |   \-[19]
+   | /-[24]
+   | | | /-[25]
+   | | \-[27]
+   \-[29]
+HEIGHT = 7
+
+DELETE[18]
+     /-[2]
+   /-[5]
+ /-[13]
+-[17]
+ | /-[19]
+ \-[24]
+   |   /-[25]
+   | /-[27]
+   \-[29]
+HEIGHT = 5
+
+DELETE[25]
+       /-[2]
+     /-[5]
+   /-[13]
+ /-[17]
+ | | /-[19]
+ | \-[24]
+-[27]
+ \-[29]
+HEIGHT = 5
+
+DELETE[13]
+   /-[2]
+ /-[5]
+-[17]
+ |   /-[19]
+ | /-[24]
+ \-[27]
+   \-[29]
+HEIGHT = 4
+
+DELETE[29]
+     /-[2]
+   /-[5]
+ /-[17]
+ | | /-[19]
+ | \-[24]
+-[27]
+HEIGHT = 4
+
+DELETE[27]
+   /-[2]
+ /-[5]
+-[17]
+ | /-[19]
+ \-[24]
+HEIGHT = 3
+
+DELETE[5]
+ /-[2]
+-[17]
+ | /-[19]
+ \-[24]
+HEIGHT = 3
+
+DELETE[17]
+   /-[2]
+ /-[19]
+-[24]
+HEIGHT = 3
+
+DELETE[19]
+ /-[2]
+-[24]
+HEIGHT = 2
+
+DELETE[2]
+-[24]
+HEIGHT = 1
+
+DELETE[24]
+HEIGHT = 0
+
+========== TEST 2 ==========
+
+INSERT[27]
+-[27]
+HEIGHT = 1
+
+INSERT[24]
+-[24]
+ \-[27]
+HEIGHT = 2
+
+INSERT[7]
+-[7]
+ \-[24]
+   \-[27]
+HEIGHT = 3
+
+INSERT[8]
+ /-[7]
+-[8]
+ \-[24]
+   \-[27]
+HEIGHT = 3
+
+INSERT[17]
+   /-[7]
+ /-[8]
+-[17]
+ \-[24]
+   \-[27]
+HEIGHT = 3
+
+INSERT[9]
+   /-[7]
+ /-[8]
+-[9]
+ \-[17]
+   \-[24]
+     \-[27]
+HEIGHT = 4
+
+INSERT[13]
+     /-[7]
+   /-[8]
+ /-[9]
+-[13]
+ \-[17]
+   \-[24]
+     \-[27]
+HEIGHT = 4
+
+INSERT[28]
+         /-[7]
+       /-[8]
+     /-[9]
+   /-[13]
+ /-[17]
+ | | /-[24]
+ | \-[27]
+-[28]
+HEIGHT = 6
+
+INSERT[16]
+       /-[7]
+     /-[8]
+   /-[9]
+ /-[13]
+-[16]
+ | /-[17]
+ | | | /-[24]
+ | | \-[27]
+ \-[28]
+HEIGHT = 5
+
+INSERT[18]
+         /-[7]
+       /-[8]
+     /-[9]
+   /-[13]
+ /-[16]
+ | \-[17]
+-[18]
+ | /-[24]
+ | | \-[27]
+ \-[28]
+HEIGHT = 6
+
+INSERT[23]
+           /-[7]
+         /-[8]
+       /-[9]
+     /-[13]
+   /-[16]
+   | \-[17]
+ /-[18]
+-[23]
+ \-[24]
+   | /-[27]
+   \-[28]
+HEIGHT = 7
+
+INSERT[3]
+-[3]
+ |     /-[7]
+ |     | \-[8]
+ |   /-[9]
+ |   | \-[13]
+ | /-[16]
+ | | | /-[17]
+ | | \-[18]
+ \-[23]
+   \-[24]
+     | /-[27]
+     \-[28]
+HEIGHT = 6
+
+INSERT[2]
+-[2]
+ \-[3]
+   |     /-[7]
+   |     | \-[8]
+   |   /-[9]
+   |   | \-[13]
+   | /-[16]
+   | | | /-[17]
+   | | \-[18]
+   \-[23]
+     \-[24]
+       | /-[27]
+       \-[28]
+HEIGHT = 7
+
+INSERT[20]
+ /-[2]
+ | \-[3]
+ |   |     /-[7]
+ |   |     | \-[8]
+ |   |   /-[9]
+ |   |   | \-[13]
+ |   | /-[16]
+ |   | | \-[17]
+ |   \-[18]
+-[20]
+ \-[23]
+   \-[24]
+     | /-[27]
+     \-[28]
+HEIGHT = 8
+
+INSERT[12]
+   /-[2]
+ /-[3]
+ | | /-[7]
+ | | | \-[8]
+ | \-[9]
+-[12]
+ |   /-[13]
+ | /-[16]
+ | | | /-[17]
+ | | \-[18]
+ \-[20]
+   \-[23]
+     \-[24]
+       | /-[27]
+       \-[28]
+HEIGHT = 6
+
+INSERT[15]
+     /-[2]
+   /-[3]
+   | | /-[7]
+   | | | \-[8]
+   | \-[9]
+ /-[12]
+ | \-[13]
+-[15]
+ | /-[16]
+ | | | /-[17]
+ | | \-[18]
+ \-[20]
+   \-[23]
+     \-[24]
+       | /-[27]
+       \-[28]
+HEIGHT = 6
+
+INSERT[14]
+       /-[2]
+     /-[3]
+     | | /-[7]
+     | | | \-[8]
+     | \-[9]
+   /-[12]
+ /-[13]
+-[14]
+ \-[15]
+   | /-[16]
+   | | | /-[17]
+   | | \-[18]
+   \-[20]
+     \-[23]
+       \-[24]
+         | /-[27]
+         \-[28]
+HEIGHT = 7
+
+INSERT[19]
+         /-[2]
+       /-[3]
+       | | /-[7]
+       | | | \-[8]
+       | \-[9]
+     /-[12]
+   /-[13]
+ /-[14]
+ | \-[15]
+ |   | /-[16]
+ |   | | \-[17]
+ |   \-[18]
+-[19]
+ \-[20]
+   \-[23]
+     \-[24]
+       | /-[27]
+       \-[28]
+HEIGHT = 8
+
+INSERT[1]
+-[1]
+ |   /-[2]
+ |   | \-[3]
+ |   |   | /-[7]
+ |   |   | | \-[8]
+ |   |   \-[9]
+ | /-[12]
+ | | \-[13]
+ \-[14]
+   | /-[15]
+   | | | /-[16]
+   | | | | \-[17]
+   | | \-[18]
+   \-[19]
+     \-[20]
+       \-[23]
+         \-[24]
+           | /-[27]
+           \-[28]
+HEIGHT = 8
+
+INSERT[6]
+ /-[1]
+ | | /-[2]
+ | \-[3]
+-[6]
+ | /-[7]
+ | | | /-[8]
+ | | \-[9]
+ \-[12]
+   | /-[13]
+   \-[14]
+     | /-[15]
+     | | | /-[16]
+     | | | | \-[17]
+     | | \-[18]
+     \-[19]
+       \-[20]
+         \-[23]
+           \-[24]
+             | /-[27]
+             \-[28]
+HEIGHT = 9
+
+INSERT[22]
+     /-[1]
+     | | /-[2]
+     | \-[3]
+   /-[6]
+   | \-[7]
+   |   | /-[8]
+   |   \-[9]
+ /-[12]
+ | |   /-[13]
+ | | /-[14]
+ | | | \-[15]
+ | | |   | /-[16]
+ | | |   | | \-[17]
+ | | |   \-[18]
+ | \-[19]
+ |   \-[20]
+-[22]
+ \-[23]
+   \-[24]
+     | /-[27]
+     \-[28]
+HEIGHT = 8
+
+INSERT[26]
+       /-[1]
+       | | /-[2]
+       | \-[3]
+     /-[6]
+     | \-[7]
+     |   | /-[8]
+     |   \-[9]
+   /-[12]
+   | |   /-[13]
+   | | /-[14]
+   | | | \-[15]
+   | | |   | /-[16]
+   | | |   | | \-[17]
+   | | |   \-[18]
+   | \-[19]
+   |   \-[20]
+ /-[22]
+ | | /-[23]
+ | \-[24]
+-[26]
+ \-[27]
+   \-[28]
+HEIGHT = 9
+
+INSERT[4]
+   /-[1]
+   | \-[2]
+ /-[3]
+-[4]
+ | /-[6]
+ | | | /-[7]
+ | | | | | /-[8]
+ | | | | \-[9]
+ | | \-[12]
+ | |   |   /-[13]
+ | |   | /-[14]
+ | |   | | \-[15]
+ | |   | |   | /-[16]
+ | |   | |   | | \-[17]
+ | |   | |   \-[18]
+ | |   \-[19]
+ | |     \-[20]
+ \-[22]
+   |   /-[23]
+   | /-[24]
+   \-[26]
+     \-[27]
+       \-[28]
+HEIGHT = 10
+
+INSERT[30]
+     /-[1]
+     | \-[2]
+   /-[3]
+ /-[4]
+ | |   /-[6]
+ | |   | | /-[7]
+ | |   | | | | /-[8]
+ | |   | | | \-[9]
+ | |   | \-[12]
+ | |   |   |   /-[13]
+ | |   |   | /-[14]
+ | |   |   | | \-[15]
+ | |   |   | |   | /-[16]
+ | |   |   | |   | | \-[17]
+ | |   |   | |   \-[18]
+ | |   |   \-[19]
+ | |   |     \-[20]
+ | | /-[22]
+ | | | | /-[23]
+ | | | \-[24]
+ | \-[26]
+ |   | /-[27]
+ |   \-[28]
+-[30]
+HEIGHT = 12
+
+INSERT[21]
+     /-[1]
+     | \-[2]
+   /-[3]
+ /-[4]
+ | | /-[6]
+ | | | \-[7]
+ | | |   | /-[8]
+ | | |   \-[9]
+ | \-[12]
+ |   |     /-[13]
+ |   |   /-[14]
+ |   |   | \-[15]
+ |   |   |   | /-[16]
+ |   |   |   | | \-[17]
+ |   |   |   \-[18]
+ |   | /-[19]
+ |   \-[20]
+-[21]
+ | /-[22]
+ | | |   /-[23]
+ | | | /-[24]
+ | | \-[26]
+ | |   | /-[27]
+ | |   \-[28]
+ \-[30]
+HEIGHT = 10
+
+INSERT[5]
+     /-[1]
+     | \-[2]
+   /-[3]
+ /-[4]
+-[5]
+ | /-[6]
+ | | | /-[7]
+ | | | | | /-[8]
+ | | | | \-[9]
+ | | \-[12]
+ | |   |     /-[13]
+ | |   |   /-[14]
+ | |   |   | \-[15]
+ | |   |   |   | /-[16]
+ | |   |   |   | | \-[17]
+ | |   |   |   \-[18]
+ | |   | /-[19]
+ | |   \-[20]
+ \-[21]
+   | /-[22]
+   | | |   /-[23]
+   | | | /-[24]
+   | | \-[26]
+   | |   | /-[27]
+   | |   \-[28]
+   \-[30]
+HEIGHT = 11
+
+INSERT[10]
+       /-[1]
+       | \-[2]
+     /-[3]
+   /-[4]
+ /-[5]
+ | \-[6]
+ |   | /-[7]
+ |   | | \-[8]
+ |   \-[9]
+-[10]
+ | /-[12]
+ | | |     /-[13]
+ | | |   /-[14]
+ | | |   | \-[15]
+ | | |   |   | /-[16]
+ | | |   |   | | \-[17]
+ | | |   |   \-[18]
+ | | | /-[19]
+ | | \-[20]
+ \-[21]
+   | /-[22]
+   | | |   /-[23]
+   | | | /-[24]
+   | | \-[26]
+   | |   | /-[27]
+   | |   \-[28]
+   \-[30]
+HEIGHT = 10
+
+INSERT[11]
+         /-[1]
+         | \-[2]
+       /-[3]
+     /-[4]
+   /-[5]
+   | \-[6]
+   |   | /-[7]
+   |   | | \-[8]
+   |   \-[9]
+ /-[10]
+-[11]
+ \-[12]
+   |       /-[13]
+   |     /-[14]
+   |     | \-[15]
+   |     |   | /-[16]
+   |     |   | | \-[17]
+   |     |   \-[18]
+   |   /-[19]
+   | /-[20]
+   \-[21]
+     | /-[22]
+     | | |   /-[23]
+     | | | /-[24]
+     | | \-[26]
+     | |   | /-[27]
+     | |   \-[28]
+     \-[30]
+HEIGHT = 10
+
+INSERT[25]
+           /-[1]
+           | \-[2]
+         /-[3]
+       /-[4]
+     /-[5]
+     | \-[6]
+     |   | /-[7]
+     |   | | \-[8]
+     |   \-[9]
+   /-[10]
+ /-[11]
+ | | /-[12]
+ | | | |     /-[13]
+ | | | |   /-[14]
+ | | | |   | \-[15]
+ | | | |   |   | /-[16]
+ | | | |   |   | | \-[17]
+ | | | |   |   \-[18]
+ | | | | /-[19]
+ | | | \-[20]
+ | \-[21]
+ |   \-[22]
+ |     | /-[23]
+ |     \-[24]
+-[25]
+ | /-[26]
+ | | | /-[27]
+ | | \-[28]
+ \-[30]
+HEIGHT = 11
+
+INSERT[29]
+             /-[1]
+             | \-[2]
+           /-[3]
+         /-[4]
+       /-[5]
+       | \-[6]
+       |   | /-[7]
+       |   | | \-[8]
+       |   \-[9]
+     /-[10]
+   /-[11]
+   | | /-[12]
+   | | | |     /-[13]
+   | | | |   /-[14]
+   | | | |   | \-[15]
+   | | | |   |   | /-[16]
+   | | | |   |   | | \-[17]
+   | | | |   |   \-[18]
+   | | | | /-[19]
+   | | | \-[20]
+   | \-[21]
+   |   \-[22]
+   |     | /-[23]
+   |     \-[24]
+ /-[25]
+ | | /-[26]
+ | | | \-[27]
+ | \-[28]
+-[29]
+ \-[30]
+HEIGHT = 12
+
+DELETE[30]
+             /-[1]
+             | \-[2]
+           /-[3]
+         /-[4]
+       /-[5]
+       | \-[6]
+       |   | /-[7]
+       |   | | \-[8]
+       |   \-[9]
+     /-[10]
+   /-[11]
+   | | /-[12]
+   | | | |     /-[13]
+   | | | |   /-[14]
+   | | | |   | \-[15]
+   | | | |   |   | /-[16]
+   | | | |   |   | | \-[17]
+   | | | |   |   \-[18]
+   | | | | /-[19]
+   | | | \-[20]
+   | \-[21]
+   |   \-[22]
+   |     | /-[23]
+   |     \-[24]
+ /-[25]
+ | | /-[26]
+ | | | \-[27]
+ | \-[28]
+-[29]
+HEIGHT = 12
+
+DELETE[2]
+-[1]
+ |     /-[3]
+ |     | \-[4]
+ |   /-[5]
+ |   | | /-[6]
+ |   | | | | /-[7]
+ |   | | | | | \-[8]
+ |   | | | \-[9]
+ |   | \-[10]
+ | /-[11]
+ | | |   /-[12]
+ | | |   | |     /-[13]
+ | | |   | |   /-[14]
+ | | |   | |   | \-[15]
+ | | |   | |   |   | /-[16]
+ | | |   | |   |   | | \-[17]
+ | | |   | |   |   \-[18]
+ | | |   | | /-[19]
+ | | |   | \-[20]
+ | | | /-[21]
+ | | | | \-[22]
+ | | | |   | /-[23]
+ | | | |   \-[24]
+ | | \-[25]
+ | |   | /-[26]
+ | |   | | \-[27]
+ | |   \-[28]
+ \-[29]
+HEIGHT = 13
+
+DELETE[3]
+ /-[1]
+ | \-[4]
+-[5]
+ |   /-[6]
+ |   | | /-[7]
+ |   | | | \-[8]
+ |   | \-[9]
+ | /-[10]
+ \-[11]
+   |     /-[12]
+   |     | |     /-[13]
+   |     | |   /-[14]
+   |     | |   | \-[15]
+   |     | |   |   | /-[16]
+   |     | |   |   | | \-[17]
+   |     | |   |   \-[18]
+   |     | | /-[19]
+   |     | \-[20]
+   |   /-[21]
+   |   | \-[22]
+   |   |   | /-[23]
+   |   |   \-[24]
+   | /-[25]
+   | | | /-[26]
+   | | | | \-[27]
+   | | \-[28]
+   \-[29]
+HEIGHT = 13
+
+DELETE[16]
+     /-[1]
+     | \-[4]
+   /-[5]
+   | | /-[6]
+   | | | | /-[7]
+   | | | | | \-[8]
+   | | | \-[9]
+   | \-[10]
+ /-[11]
+ | \-[12]
+ |   |   /-[13]
+ |   | /-[14]
+ |   \-[15]
+ |     \-[17]
+-[18]
+ |   /-[19]
+ |   | \-[20]
+ | /-[21]
+ | | \-[22]
+ | |   | /-[23]
+ | |   \-[24]
+ \-[25]
+   |   /-[26]
+   |   | \-[27]
+   | /-[28]
+   \-[29]
+HEIGHT = 8
+
+DELETE[9]
+   /-[1]
+   | \-[4]
+ /-[5]
+-[6]
+ |   /-[7]
+ |   | \-[8]
+ | /-[10]
+ \-[11]
+   | /-[12]
+   | | |   /-[13]
+   | | | /-[14]
+   | | \-[15]
+   | |   \-[17]
+   \-[18]
+     |   /-[19]
+     |   | \-[20]
+     | /-[21]
+     | | \-[22]
+     | |   | /-[23]
+     | |   \-[24]
+     \-[25]
+       |   /-[26]
+       |   | \-[27]
+       | /-[28]
+       \-[29]
+HEIGHT = 8
+
+DELETE[23]
+       /-[1]
+       | \-[4]
+     /-[5]
+   /-[6]
+   | | /-[7]
+   | | | \-[8]
+   | \-[10]
+ /-[11]
+ | | /-[12]
+ | | | |   /-[13]
+ | | | | /-[14]
+ | | | \-[15]
+ | | |   \-[17]
+ | \-[18]
+ |   |   /-[19]
+ |   |   | \-[20]
+ |   | /-[21]
+ |   \-[22]
+-[24]
+ \-[25]
+   |   /-[26]
+   |   | \-[27]
+   | /-[28]
+   \-[29]
+HEIGHT = 7
+
+DELETE[22]
+       /-[1]
+       | \-[4]
+     /-[5]
+   /-[6]
+   | | /-[7]
+   | | | \-[8]
+   | \-[10]
+ /-[11]
+ | \-[12]
+ |   |   /-[13]
+ |   | /-[14]
+ |   \-[15]
+ |     \-[17]
+-[18]
+ |   /-[19]
+ |   | \-[20]
+ | /-[21]
+ \-[24]
+   \-[25]
+     |   /-[26]
+     |   | \-[27]
+     | /-[28]
+     \-[29]
+HEIGHT = 7
+
+DELETE[7]
+     /-[1]
+     | \-[4]
+   /-[5]
+ /-[6]
+ | \-[8]
+-[10]
+ | /-[11]
+ | | \-[12]
+ | |   |   /-[13]
+ | |   | /-[14]
+ | |   \-[15]
+ | |     \-[17]
+ \-[18]
+   |   /-[19]
+   |   | \-[20]
+   | /-[21]
+   \-[24]
+     \-[25]
+       |   /-[26]
+       |   | \-[27]
+       | /-[28]
+       \-[29]
+HEIGHT = 8
+
+DELETE[11]
+       /-[1]
+       | \-[4]
+     /-[5]
+   /-[6]
+   | \-[8]
+ /-[10]
+ | \-[12]
+ |   |   /-[13]
+ |   | /-[14]
+ |   \-[15]
+ |     \-[17]
+-[18]
+ |   /-[19]
+ |   | \-[20]
+ | /-[21]
+ \-[24]
+   \-[25]
+     |   /-[26]
+     |   | \-[27]
+     | /-[28]
+     \-[29]
+HEIGHT = 7
+
+DELETE[26]
+           /-[1]
+           | \-[4]
+         /-[5]
+       /-[6]
+       | \-[8]
+     /-[10]
+     | \-[12]
+     |   |   /-[13]
+     |   | /-[14]
+     |   \-[15]
+     |     \-[17]
+   /-[18]
+   | | /-[19]
+   | | | \-[20]
+   | \-[21]
+ /-[24]
+ | \-[25]
+ |   \-[27]
+-[28]
+ \-[29]
+HEIGHT = 8
+
+DELETE[5]
+ /-[1]
+ | \-[4]
+-[6]
+ |   /-[8]
+ | /-[10]
+ | | | /-[12]
+ | | | | |   /-[13]
+ | | | | | /-[14]
+ | | | | \-[15]
+ | | | |   \-[17]
+ | | \-[18]
+ | |   | /-[19]
+ | |   | | \-[20]
+ | |   \-[21]
+ \-[24]
+   | /-[25]
+   | | \-[27]
+   \-[28]
+     \-[29]
+HEIGHT = 8
+
+DELETE[29]
+     /-[1]
+     | \-[4]
+   /-[6]
+   | | /-[8]
+   | \-[10]
+   |   | /-[12]
+   |   | | |   /-[13]
+   |   | | | /-[14]
+   |   | | \-[15]
+   |   | |   \-[17]
+   |   \-[18]
+   |     | /-[19]
+   |     | | \-[20]
+   |     \-[21]
+ /-[24]
+ | \-[25]
+ |   \-[27]
+-[28]
+HEIGHT = 9
+
+DELETE[17]
+     /-[1]
+     | \-[4]
+   /-[6]
+   | \-[8]
+ /-[10]
+ | \-[12]
+ |   | /-[13]
+ |   \-[14]
+-[15]
+ | /-[18]
+ | | | /-[19]
+ | | | | \-[20]
+ | | \-[21]
+ \-[24]
+   | /-[25]
+   | | \-[27]
+   \-[28]
+HEIGHT = 6
+
+DELETE[28]
+       /-[1]
+       | \-[4]
+     /-[6]
+     | \-[8]
+   /-[10]
+   | \-[12]
+   |   | /-[13]
+   |   \-[14]
+ /-[15]
+ | \-[18]
+ |   | /-[19]
+ |   | | \-[20]
+ |   \-[21]
+-[24]
+ \-[25]
+   \-[27]
+HEIGHT = 6
+
+DELETE[19]
+         /-[1]
+         | \-[4]
+       /-[6]
+       | \-[8]
+     /-[10]
+     | \-[12]
+     |   | /-[13]
+     |   \-[14]
+   /-[15]
+ /-[18]
+ | \-[20]
+-[21]
+ \-[24]
+   \-[25]
+     \-[27]
+HEIGHT = 7
+
+DELETE[12]
+   /-[1]
+   | \-[4]
+ /-[6]
+ | \-[8]
+-[10]
+ |     /-[13]
+ |   /-[14]
+ | /-[15]
+ | | \-[18]
+ | |   \-[20]
+ \-[21]
+   \-[24]
+     \-[25]
+       \-[27]
+HEIGHT = 5
+
+DELETE[15]
+     /-[1]
+     | \-[4]
+   /-[6]
+   | \-[8]
+ /-[10]
+ | | /-[13]
+ | \-[14]
+-[18]
+ | /-[20]
+ \-[21]
+   \-[24]
+     \-[25]
+       \-[27]
+HEIGHT = 5
+
+DELETE[1]
+ /-[4]
+-[6]
+ | /-[8]
+ \-[10]
+   |   /-[13]
+   | /-[14]
+   \-[18]
+     | /-[20]
+     \-[21]
+       \-[24]
+         \-[25]
+           \-[27]
+HEIGHT = 7
+
+DELETE[24]
+   /-[4]
+ /-[6]
+ | |   /-[8]
+ | | /-[10]
+ | | | | /-[13]
+ | | | \-[14]
+ | \-[18]
+ |   \-[20]
+-[21]
+ \-[25]
+   \-[27]
+HEIGHT = 6
+
+DELETE[25]
+   /-[4]
+ /-[6]
+ | |   /-[8]
+ | | /-[10]
+ | | | | /-[13]
+ | | | \-[14]
+ | \-[18]
+ |   \-[20]
+-[21]
+ \-[27]
+HEIGHT = 6
+
+DELETE[13]
+   /-[4]
+ /-[6]
+ | | /-[8]
+ | \-[10]
+-[14]
+ | /-[18]
+ | | \-[20]
+ \-[21]
+   \-[27]
+HEIGHT = 4
+
+DELETE[18]
+     /-[4]
+   /-[6]
+   | | /-[8]
+   | \-[10]
+ /-[14]
+ | \-[20]
+-[21]
+ \-[27]
+HEIGHT = 5
+
+DELETE[6]
+   /-[4]
+ /-[8]
+-[10]
+ | /-[14]
+ | | \-[20]
+ \-[21]
+   \-[27]
+HEIGHT = 4
+
+DELETE[4]
+-[8]
+ \-[10]
+   | /-[14]
+   | | \-[20]
+   \-[21]
+     \-[27]
+HEIGHT = 5
+
+DELETE[20]
+ /-[8]
+ | \-[10]
+-[14]
+ \-[21]
+   \-[27]
+HEIGHT = 3
+
+DELETE[27]
+   /-[8]
+   | \-[10]
+ /-[14]
+-[21]
+HEIGHT = 4
+
+DELETE[21]
+ /-[8]
+ | \-[10]
+-[14]
+HEIGHT = 3
+
+DELETE[8]
+ /-[10]
+-[14]
+HEIGHT = 2
+
+DELETE[10]
+-[14]
+HEIGHT = 1
+
+DELETE[14]
+HEIGHT = 0
+
+jedre@jedreek323 MINGW64 ~/mk5_tmux/lista4/zadanie3
+$ tmux capture-pane -p -S'-' -E'-' -J > tmux-log.txt
+

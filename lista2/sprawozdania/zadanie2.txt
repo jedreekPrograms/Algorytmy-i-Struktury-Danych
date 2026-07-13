@@ -1,0 +1,36 @@
+W tym zadaniu chodziło o porównanie trzech algorytmów sortowania: insertion sort, quick sort oraz wersji hybrydowej,
+czyli quicksorta, który dla małych podtablic przełącza się na insertion sorta. Dodatkowo trzeba było sprawdzić,
+jak zachowują się liczby porównań i przestawień w zależności od rozmiaru danych.
+
+Z teorii wiadomo, że insertion sort ma złożoność O(n²), więc dla dużych danych jest słaby,
+ale za to dla bardzo małych działa całkiem dobrze, bo ma mały narzut. Quick sort ma średnio O(n log n),
+ale w najgorszym przypadku może mieć O(n²), zależnie od wyboru pivota. Algorytm hybrydowy ma łączyć zalety obu
+— quicksort dzieli problem, a insertion sort szybko „domyka” małe fragmenty.
+
+Z wykresów dla małych danych (n od 10 do 50) widać, że insertion sort wcale nie jest taki zły
+— dla najmniejszych n jest nawet porównywalny z quicksortem. Ale jak n rośnie, to zaczyna się robić wyraźnie gorszy,
+co widać po tym, że liczba porównań rośnie dużo szybciej niż dla quicka i hybrydy.
+
+Quicksort zachowuje się stabilnie i ma typowy przebieg ~n log n.
+Natomiast hybryda praktycznie zawsze wypada lepiej niż czysty quicksort. Różnica nie jest ogromna,
+ale widoczna — szczególnie na wykresie liczby porównań i c/n. Wynika to z tego,
+że insertion sort jest bardziej efektywny dla małych fragmentów, więc nie opłaca się dalej dzielić ich quicksortem.
+
+Dla dużych danych (n do 50000) insertion sort już nie był testowany (bo byłby za wolny),
+więc porównanie jest tylko między quick i hybrid. Tutaj widać wyraźniej, że hybryda ma przewagę
+— liczba porównań jest systematycznie mniejsza niż dla quicksorta. Wykresy są prawie równoległe, ale hybryda jest cały czas niżej.
+
+Na wykresie c/n widać, że wartości rosną bardzo powoli — to znaczy,
+że mamy zachowanie zgodne z O(n log n), a nie np. O(n²). Gdyby było O(n²), to c/n by rosło liniowo, a tutaj raczej się stabilizuje.
+
+Jeśli chodzi o przestawienia (swaps), to sytuacja jest podobna — hybryda wykonuje ich trochę mniej niż quicksort.
+To też wynika z tego, że insertion sort dla małych fragmentów robi mniej zbędnych operacji niż quicksort.
+
+Kluczową rzeczą w tym zadaniu był próg przełączania (u Ciebie K = 15). I widać, że działa sensownie
+— hybryda faktycznie poprawia wyniki. Gdyby K było za małe, to insertion sort byłby używany za rzadko.
+Gdyby za duże, to zaczęlibyśmy za często używać insertion sorta i wydajność by spadła.
+Ten zakres ~10–20 jest typowo uznawany za dobry i tutaj też się sprawdza.
+
+Podsumowując, wyniki są zgodne z teorią: insertion sort jest dobry tylko dla małych danych,
+quicksort jest ogólnie szybki, a hybryda jest najlepsza w praktyce, bo łączy oba podejścia.
+Dzięki przełączaniu na insertion sort dla małych podtablic udaje się zmniejszyć liczbę operacji i poprawić wydajność całego algorytmu.

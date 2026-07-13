@@ -1,0 +1,400 @@
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ # Jedrzej Stefanowski 283948                                                                      
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ svn export https://repo.cs.pwr.edu.pl/283948-dir/mk1/lista2
+A    lista2
+A    lista2/cmake-build-debug
+A    lista2/cmake-build-debug/.cmake
+A    lista2/cmake-build-debug/.cmake/api
+A    lista2/cmake-build-debug/.cmake/api/v1
+A    lista2/cmake-build-debug/.cmake/api/v1/query
+A    lista2/cmake-build-debug/.cmake/api/v1/reply
+A    lista2/cmake-build-debug/CMakeFiles
+A    lista2/cmake-build-debug/CMakeFiles/4.0.2
+A    lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC
+A    lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/tmp
+A    lista2/cmake-build-debug/CMakeFiles/pkgRedirects
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie3
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie4
+A    lista2/cmake-build-debug/Testing
+A    lista2/cmake-build-debug/Testing/Temporary
+A    lista2/generators
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybrid_main.c.obj
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_insertionsort.c.obj
+A    lista2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+A    lista2/cmake-build-debug/CMakeFiles/cmake.check_cache
+A    lista2/CMakeLists.txt
+A    lista2/cmake-build-debug/.cmake/api/v1/query/cache-v2
+A    lista2/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+A    lista2/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+A    lista2/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+A    lista2/cmake-build-debug/Testing/Temporary/LastTest.log
+A    lista2/generators/generator_asc.c
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_asc.c.obj
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_random.c.obj
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/main.c.obj
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/insertionsort.c.obj
+A    lista2/helpfunctions
+A    lista2/zadanie1
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/quicksort.c.obj
+A    lista2/cmake-build-debug/cmake_install.cmake
+A    lista2/zadanie1a
+A    lista2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7c3ba4515d4c5e89d56d.json
+A    lista2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-509aaa5aeef9c1f0ef3e.json
+A    lista2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1d861732b742ca9fa6bf.json
+A    lista2/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+A    lista2/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-22T21-27-43-0618.json
+A    lista2/cmake-build-debug/.cmake/api/v1/reply/target-untitled6-Debug-a0ab15b2b7d674fd07d5.json
+A    lista2/zadanie2
+A    lista2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-33ca16c04ff1f028c339.json
+A    lista2/cmake-build-debug/.gitignore
+A    lista2/cmake-build-debug/.ninja_deps
+A    lista2/cmake-build-debug/.ninja_log
+A    lista2/cmake-build-debug/CMakeCache.txt
+A    lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+A    lista2/helpfunctions/helpfunctions.c
+A    lista2/zadanie1/hybridsort.h
+A    lista2/zadanie1/main_quicksort.c
+A    lista2/zadanie1/run.sh
+A    lista2/generators/generator_random.c
+A    lista2/zadanie1/hybridsort.c
+A    lista2/zadanie1/main_insertionsort.c
+A    lista2/zadanie1/raport_zadanie1.txt
+A    lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
+A    lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+A    lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeSystem.cmake
+A    lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c
+A    lista2/helpfunctions/helpfunctions.h
+A    lista2/zadanie1/insertionsort.c
+A    lista2/zadanie1/quicksort.c
+A    lista2/zadanie1a/insertionsort.c
+A    lista2/zadanie1a/quicksort.c
+A    lista2/zadanie1a/hybridsort.h
+A    lista2/zadanie1a/main_quicksort.c
+A    lista2/zadanie1a/hybrid_main.c
+A    lista2/zadanie1a/insertionsort.h
+A    lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+A    lista2/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+A    lista2/cmake-build-debug/CMakeFiles/InstallScripts.json
+A    lista2/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+A    lista2/cmake-build-debug/CMakeFiles/clion-environment.txt
+A    lista2/zadanie1a/quicksort.h
+A    lista2/cmake-build-debug/CMakeFiles/rules.ninja
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_desc.c.obj
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions/helpfunctions.c.obj
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybridsort.c.obj
+A    lista2/zadanie2/run_all.sh
+A    lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_quicksort.c.obj
+A    lista2/zadanie2/graph.py
+A    lista2/cmake-build-debug/build.ninja
+A    lista2/generators/generator_desc.c
+A    lista2/zadanie1/hybrid_main.c
+A    lista2/zadanie1/insertionsort.h
+A    lista2/zadanie1/quicksort.h
+A    lista2/zadanie1a/hybridsort.c
+A    lista2/zadanie1a/main_insertionsort.c
+A    lista2/zadanie1a/run.sh
+Exported revision 9.
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ chmod +x run_all.sh
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ ./run_all.sh
+=== KOMPILACJA ===
+=== KOMPILACJA GENERATORA ===
+=== CZYSZCZENIE ===
+=== TESTY MAŁE ===
+=== TESTY DUŻE ===
+=== KONIEC ===
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ python3 graph.py
+-bash: python3: command not found
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ ls
+gen_rand.exe  hybrid.exe      hybrid_small.txt	insertion_small.txt  quick.exe	    quick_small.txt
+graph.py      hybrid_big.txt  insertion.exe	lista2		     quick_big.txt  run_all.sh
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ python graph.py
+-bash: python: command not found
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ which python
+which: no python in (/ucrt64/bin:/usr/local/bin:/usr/bin:/bin:/c/Windows/System32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl)
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ python --version
+-bash: python: command not found
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ pacman -S mingw-w64-ucrt-x86_64-python
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (16) mingw-w64-ucrt-x86_64-bzip2-1.0.8-3  mingw-w64-ucrt-x86_64-expat-2.7.4-1
+              mingw-w64-ucrt-x86_64-libb2-0.98.1-3  mingw-w64-ucrt-x86_64-libffi-3.5.2-1
+              mingw-w64-ucrt-x86_64-libsystre-1.0.2-2  mingw-w64-ucrt-x86_64-libtre-0.9.0-2
+              mingw-w64-ucrt-x86_64-mpdecimal-4.0.1-1  mingw-w64-ucrt-x86_64-ncurses-6.6-2
+              mingw-w64-ucrt-x86_64-openssl-3.6.1-3  mingw-w64-ucrt-x86_64-readline-8.3.003-1
+              mingw-w64-ucrt-x86_64-sqlite3-3.51.2-1  mingw-w64-ucrt-x86_64-tcl-8.6.17-1
+              mingw-w64-ucrt-x86_64-termcap-1.3.1-7  mingw-w64-ucrt-x86_64-tk-8.6.17-2
+              mingw-w64-ucrt-x86_64-xz-5.8.2-1  mingw-w64-ucrt-x86_64-python-3.14.3-1
+
+Total Download Size:    44.24 MiB
+Total Installed Size:  330.94 MiB
+
+:: Proceed with installation? [Y/n] Y
+:: Retrieving packages...
+ mingw-w64-ucrt-x86_64-tcl-...     2.7 MiB  1835 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-pyth...    25.8 MiB  10.1 MiB/s 00:03 [###############################] 100%
+ mingw-w64-ucrt-x86_64-tk-8...     2.0 MiB   675 KiB/s 00:03 [###############################] 100%
+ mingw-w64-ucrt-x86_64-sqli...     2.3 MiB   683 KiB/s 00:03 [###############################] 100%
+ mingw-w64-ucrt-x86_64-xz-5...   895.2 KiB   911 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-ncur...  1568.2 KiB  1098 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-read...   501.8 KiB   868 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-mpde...   154.9 KiB   833 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-libt...    80.3 KiB   730 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-bzip...    76.5 KiB   702 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-term...    27.3 KiB   193 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-expa...   172.0 KiB   306 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-libb...    24.0 KiB   117 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-libs...     9.7 KiB  77.6 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-libf...    43.2 KiB  98.5 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-open...     8.0 MiB  1555 KiB/s 00:05 [###############################] 100%
+ Total (16/16)                    44.2 MiB  8.34 MiB/s 00:05 [###############################] 100%
+(16/16) checking keys in keyring                             [###############################] 100%
+(16/16) checking package integrity                           [###############################] 100%
+(16/16) loading package files                                [###############################] 100%
+(16/16) checking for file conflicts                          [###############################] 100%
+(16/16) checking available disk space                        [###############################] 100%
+:: Processing package changes...
+( 1/16) installing mingw-w64-ucrt-x86_64-expat               [###############################] 100%
+( 2/16) installing mingw-w64-ucrt-x86_64-bzip2               [###############################] 100%
+( 3/16) installing mingw-w64-ucrt-x86_64-libffi              [###############################] 100%
+( 4/16) installing mingw-w64-ucrt-x86_64-mpdecimal           [###############################] 100%
+AAAAAAAA( 7/16) installing mingw-w64-ucrt-x86_64-ncurses             [###############################] 100% installing mingw-w64-ucrt-x86_64-libsystre           [###############################] 100%
+( 8/16) installing mingw-w64-ucrt-x86_64-openssl             [###############################] 100%
+Optional dependencies for mingw-w64-ucrt-x86_64-openssl
+    mingw-w64-ucrt-x86_64-ca-certificates
+( 9/16) installing mingw-w64-ucrt-x86_64-termcap             [###############################] 100%
+(10/16) installing mingw-w64-ucrt-x86_64-readline            [###############################] 100%
+(11/16) installing mingw-w64-ucrt-x86_64-sqlite3             [###############################] 100%
+Optional dependencies for mingw-w64-ucrt-x86_64-sqlite3
+    mingw-w64-ucrt-x86_64-tcl: for sqlite3_analyzer [pending]
+(12/16) installing mingw-w64-ucrt-x86_64-tcl                 [###############################] 100%
+(13/16) installing mingw-w64-ucrt-x86_64-tk                  [###############################] 100%
+(14/16) installing mingw-w64-ucrt-x86_64-libb2               [###############################] 100%
+(15/16) installing mingw-w64-ucrt-x86_64-xz                  [###############################] 100%
+(16/16) installing mingw-w64-ucrt-x86_64-python              [###############################] 100%
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ pip install numpy matplotlib                                                                      
+-bash: pip: command not found
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ python graph.py
+Traceback (most recent call last):
+  File "C:/msys64/home/jedre/mk1/lista2/zadanie2/graph.py", line 1, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ pacman -S mingw-w64-ucrt-x86_64-python-numpy mingw-w64-ucrt-x86_64-python-matplotlib
+resolving dependencies...
+looking for conflicting packages...
+warning: dependency cycle detected:
+warning: mingw-w64-ucrt-x86_64-harfbuzz will be installed before its mingw-w64-ucrt-x86_64-freetype dependency
+warning: dependency cycle detected:
+warning: mingw-w64-ucrt-x86_64-libwebp will be installed before its mingw-w64-ucrt-x86_64-libtiff dependency
+
+Packages (41) mingw-w64-ucrt-x86_64-aom-3.13.1-1  mingw-w64-ucrt-x86_64-brotli-1.2.0-1
+              mingw-w64-ucrt-x86_64-dav1d-1.5.3-1  mingw-w64-ucrt-x86_64-freetype-2.14.2-1
+              mingw-w64-ucrt-x86_64-fribidi-1.0.16-1
+              mingw-w64-ucrt-x86_64-gcc-libgfortran-15.2.0-13  mingw-w64-ucrt-x86_64-giflib-5.2.2-1
+              mingw-w64-ucrt-x86_64-glib2-2.86.4-1  mingw-w64-ucrt-x86_64-graphite2-1.3.14-3
+              mingw-w64-ucrt-x86_64-harfbuzz-13.0.1-1  mingw-w64-ucrt-x86_64-jbigkit-2.1-5
+              mingw-w64-ucrt-x86_64-lcms2-2.18-1  mingw-w64-ucrt-x86_64-lerc-4.1.0-1
+              mingw-w64-ucrt-x86_64-libavif-1.4.0-1  mingw-w64-ucrt-x86_64-libdeflate-1.25-1
+              mingw-w64-ucrt-x86_64-libimagequant-4.4.1-1
+              mingw-w64-ucrt-x86_64-libjpeg-turbo-3.1.3-1  mingw-w64-ucrt-x86_64-libpng-1.6.55-1
+              mingw-w64-ucrt-x86_64-libraqm-0.10.4-1  mingw-w64-ucrt-x86_64-libtiff-4.7.1-1
+              mingw-w64-ucrt-x86_64-libwebp-1.6.0-1  mingw-w64-ucrt-x86_64-libxml2-2.15.2-1
+              mingw-w64-ucrt-x86_64-libyuv-1922.r2903.deeb764bb-1
+              mingw-w64-ucrt-x86_64-openblas-0.3.31-1  mingw-w64-ucrt-x86_64-openjpeg2-2.5.4-2
+              mingw-w64-ucrt-x86_64-pcre2-10.47-1  mingw-w64-ucrt-x86_64-python-contourpy-1.3.3-3
+              mingw-w64-ucrt-x86_64-python-cycler-0.12.1-4
+              mingw-w64-ucrt-x86_64-python-dateutil-2.9.0.post0-4
+              mingw-w64-ucrt-x86_64-python-fonttools-4.62.0-1
+              mingw-w64-ucrt-x86_64-python-kiwisolver-1.4.9-3
+              mingw-w64-ucrt-x86_64-python-packaging-26.0-2
+              mingw-w64-ucrt-x86_64-python-pillow-12.1.1-1
+              mingw-w64-ucrt-x86_64-python-pyparsing-3.3.2-2
+              mingw-w64-ucrt-x86_64-python-six-1.17.0-3  mingw-w64-ucrt-x86_64-qhull-2020.2-3
+              mingw-w64-ucrt-x86_64-rav1e-0.8.1-1  mingw-w64-ucrt-x86_64-svt-av1-4.0.1-1
+              mingw-w64-ucrt-x86_64-wineditline-2.208-1
+              mingw-w64-ucrt-x86_64-python-matplotlib-3.10.8-2
+              mingw-w64-ucrt-x86_64-python-numpy-2.4.1-2
+
+Total Download Size:    61.07 MiB
+Total Installed Size:  409.14 MiB
+
+:: Proceed with installation? [Y/n] Y
+:: Retrieving packages...
+ mingw-w64-ucrt-x86_64-aom-...     3.7 MiB  3.51 MiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-open...    11.6 MiB  9.80 MiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-pyth...     8.2 MiB  6.71 MiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-pyth...     2.9 MiB  7.77 MiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-rav1...     2.3 MiB  9.70 MiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-glib...     5.1 MiB  2.13 MiB/s 00:02 [###############################] 100%
+ mingw-w64-ucrt-x86_64-harf...     2.1 MiB  2.01 MiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-libi...  1967.8 KiB  1754 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-libx...   977.9 KiB  3.44 MiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-pyth...     7.4 MiB  2.09 MiB/s 00:04 [###############################] 100%
+ mingw-w64-ucrt-x86_64-pcre...  1401.7 KiB  1423 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-pyth...   943.8 KiB  1134 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-qhul...   864.2 KiB  2.38 MiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-svt-...     2.9 MiB   939 KiB/s 00:03 [###############################] 100%
+ mingw-w64-ucrt-x86_64-libt...   677.6 KiB  2.57 MiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-libj...   643.7 KiB  1957 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-gcc-...   942.1 KiB   767 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-dav1...   859.1 KiB  1372 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-libw...   608.8 KiB  2.93 MiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-free...   615.2 KiB  1408 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-liby...   530.0 KiB  2.81 MiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-lcms...   380.3 KiB  3.15 MiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-libp...   395.0 KiB   906 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-brot...   443.1 KiB   849 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-lerc...   296.6 KiB  1809 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-liba...   413.7 KiB   464 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-pyth...   309.5 KiB   319 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-pyth...   254.1 KiB  1682 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-grap...   141.4 KiB  1025 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-gifl...   118.7 KiB   942 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-pyth...   156.6 KiB   361 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-open...   443.6 KiB   249 KiB/s 00:02 [###############################] 100%
+ mingw-w64-ucrt-x86_64-jbig...    73.2 KiB   508 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-frib...    82.3 KiB   210 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-wine...    59.7 KiB   112 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-libr...    39.0 KiB   289 KiB/s 00:00 [###############################] 100%
+ mingw-w64-ucrt-x86_64-pyth...    27.9 KiB  47.4 KiB/s 00:01 [###############################] 100%
+ mingw-w64-ucrt-x86_64-pyth...   281.9 KiB  92.4 KiB/s 00:03 [###############################] 100%
+ mingw-w64-ucrt-x86_64-libd...    91.4 KiB  38.3 KiB/s 00:02 [###############################] 100%
+ mingw-w64-ucrt-x86_64-pyth...    60.9 KiB  31.6 KiB/s 00:02 [###############################] 100%
+ mingw-w64-ucrt-x86_64-pyth...    17.1 KiB  70.8 KiB/s 00:00 [###############################] 100%
+ Total (41/41)                    61.1 MiB  6.56 MiB/s 00:09 [###############################] 100%
+(41/41) checking keys in keyring                             [###############################] 100%
+(41/41) checking package integrity                           [###############################] 100%
+(41/41) loading package files                                [###############################] 100%
+(41/41) checking for file conflicts                          [###############################] 100%
+(41/41) checking available disk space                        [###############################] 100%
+:: Processing package changes...
+( 1/41) installing mingw-w64-ucrt-x86_64-gcc-libgfortran     [###############################] 100%
+( 2/41) installing mingw-w64-ucrt-x86_64-openblas            [###############################] 100%
+( 3/41) installing mingw-w64-ucrt-x86_64-python-numpy        [###############################] 100%
+Optional dependencies for mingw-w64-ucrt-x86_64-python-numpy
+    mingw-w64-ucrt-x86_64-python-pytest: testsuite
+( 4/41) installing mingw-w64-ucrt-x86_64-python-contourpy    [###############################] 100%
+( 5/41) installing mingw-w64-ucrt-x86_64-python-cycler       [###############################] 100%
+( 6/41) installing mingw-w64-ucrt-x86_64-python-fonttools    [###############################] 100%
+Optional dependencies for mingw-w64-ucrt-x86_64-python-fonttools
+    mingw-w64-ucrt-x86_64-python-brotli: WOFF 1.0 and WOFF 2.0 webfonts
+    mingw-w64-ucrt-x86_64-python-pyfilesystem2: for fontTools.ufoLib: to read/write UFO fonts
+    mingw-w64-ucrt-x86_64-python-pyzopfli: WOFF 1.0 and WOFF 2.0 webfonts
+    mingw-w64-ucrt-x86_64-python-sympy: for fontTools.misc.symfont, module for symbolic font
+    statistics analysis
+    mingw-w64-ucrt-x86_64-python-matplotlib: for visualizing DesignSpaceDocument and resulting
+    VariationModel [pending]
+( 7/41) installing mingw-w64-ucrt-x86_64-python-kiwisolver   [###############################] 100%
+( 8/41) installing mingw-w64-ucrt-x86_64-python-packaging    [###############################] 100%
+( 9/41) installing mingw-w64-ucrt-x86_64-brotli              [###############################] 100%
+(10/41) installing mingw-w64-ucrt-x86_64-libpng              [###############################] 100%
+(11/41) installing mingw-w64-ucrt-x86_64-wineditline         [###############################] 100%
+(12/41) installing mingw-w64-ucrt-x86_64-pcre2               [###############################] 100%
+(13/41) installing mingw-w64-ucrt-x86_64-glib2               [###############################] 100%
+(14/41) installing mingw-w64-ucrt-x86_64-graphite2           [###############################] 100%
+(15/41) installing mingw-w64-ucrt-x86_64-harfbuzz            [###############################] 100%
+(16/41) installing mingw-w64-ucrt-x86_64-freetype            [###############################] 100%
+(17/41) installing mingw-w64-ucrt-x86_64-libjpeg-turbo       [###############################] 100%
+(18/41) installing mingw-w64-ucrt-x86_64-jbigkit             [###############################] 100%
+(19/41) installing mingw-w64-ucrt-x86_64-lerc                [###############################] 100%
+(20/41) installing mingw-w64-ucrt-x86_64-libdeflate          [###############################] 100%
+(21/41) installing mingw-w64-ucrt-x86_64-giflib              [###############################] 100%
+(22/41) installing mingw-w64-ucrt-x86_64-libwebp             [###############################] 100%
+(23/41) installing mingw-w64-ucrt-x86_64-libtiff             [###############################] 100%
+(24/41) installing mingw-w64-ucrt-x86_64-lcms2               [###############################] 100%
+(25/41) installing mingw-w64-ucrt-x86_64-aom                 [###############################] 100%
+(26/41) installing mingw-w64-ucrt-x86_64-dav1d               [###############################] 100%
+(27/41) installing mingw-w64-ucrt-x86_64-rav1e               [###############################] 100%
+(28/41) installing mingw-w64-ucrt-x86_64-svt-av1             [###############################] 100%
+(29/41) installing mingw-w64-ucrt-x86_64-libyuv              [###############################] 100%
+(30/41) installing mingw-w64-ucrt-x86_64-libxml2             [###############################] 100%
+Optional dependencies for mingw-w64-ucrt-x86_64-libxml2
+    mingw-w64-ucrt-x86_64-python: Python bindings [installed]
+(31/41) installing mingw-w64-ucrt-x86_64-libavif             [###############################] 100%
+(32/41) installing mingw-w64-ucrt-x86_64-libimagequant       [###############################] 100%
+(33/41) installing mingw-w64-ucrt-x86_64-fribidi             [###############################] 100%
+(34/41) installing mingw-w64-ucrt-x86_64-libraqm             [###############################] 100%
+(35/41) installing mingw-w64-ucrt-x86_64-openjpeg2           [###############################] 100%
+(36/41) installing mingw-w64-ucrt-x86_64-python-pillow       [###############################] 100%
+Optional dependencies for mingw-w64-ucrt-x86_64-python-pillow
+    mingw-w64-ucrt-x86_64-tk: for the ImageTK module [installed]
+(37/41) installing mingw-w64-ucrt-x86_64-python-pyparsing    [###############################] 100%
+(38/41) installing mingw-w64-ucrt-x86_64-python-six          [###############################] 100%
+(39/41) installing mingw-w64-ucrt-x86_64-python-dateutil     [###############################] 100%
+(40/41) installing mingw-w64-ucrt-x86_64-qhull               [###############################] 100%
+(41/41) installing mingw-w64-ucrt-x86_64-python-matplotlib   [###############################] 100%
+Optional dependencies for mingw-w64-ucrt-x86_64-python-matplotlib
+    mingw-w64-ucrt-x86_64-python-pyqt5: Qt5Agg/Qt5Cairo backend
+    mingw-w64-ucrt-x86_64-gtk3: GTK3Agg/GTK3Cairo backend
+    mingw-w64-ucrt-x86_64-python-gobject: GTK3Agg/GTK3Cairo backend
+    mingw-w64-ucrt-x86_64-python-cairo: cairo/GTK3Cairo/Qt5Cairo backend
+    mingw-w64-ucrt-x86_64-python-tornado: WebAgg backend
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ python graph.py
+Wykresy zapisane do plików PNG ✅
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ ls
+cn_big.png	       gen_rand.exe    hybrid_small.txt     quick.exe	     sn_big.png
+cn_small.png	       graph.py        insertion.exe	    quick_big.txt    sn_small.png
+comparisons_big.png    hybrid.exe      insertion_small.txt  quick_small.txt  swaps_big.png
+comparisons_small.png  hybrid_big.txt  lista2		    run_all.sh	     swaps_small.png
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ svn add *.png
+A  (bin)  cn_big.png
+A  (bin)  cn_small.png
+A  (bin)  comparisons_big.png
+A  (bin)  comparisons_small.png
+A  (bin)  sn_big.png
+A  (bin)  sn_small.png
+A  (bin)  swaps_big.png
+A  (bin)  swaps_small.png
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ svn commit -m "Dodanie wykresow zadanie2"
+Adding  (bin)  cn_big.png
+Adding  (bin)  cn_small.png
+Adding  (bin)  comparisons_big.png
+Adding  (bin)  comparisons_small.png
+Adding  (bin)  sn_big.png
+Adding  (bin)  sn_small.png
+Adding  (bin)  swaps_big.png
+Adding  (bin)  swaps_small.png
+Transmitting file data ........done
+Committing transaction...
+Committed revision 10.
+
+jedre@jedreek323 UCRT64 ~/mk1/lista2/zadanie2
+$ tmux capture-pane -p -S'-' -E'-' -J > log.txt
+

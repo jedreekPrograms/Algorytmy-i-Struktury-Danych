@@ -1,0 +1,166 @@
+
+jedre@jedreek323 UCRT64 /c/Users/jedre/CLionProjects/Laby1
+$ gcc zadanie1/main.c zadanie1/queue.c zadanie1/stack.c -o zad1
+
+jedre@jedreek323 UCRT64 /c/Users/jedre/CLionProjects/Laby1
+$ ./zad1
+=== Dodawanie element├│w ===
+Dodano: 1
+Dodano: 2
+Dodano: 3
+Dodano: 4
+Dodano: 5
+Dodano: 6
+Dodano: 7
+Dodano: 8
+Dodano: 9
+Dodano: 10
+Dodano: 11
+Dodano: 12
+Dodano: 13
+Dodano: 14
+Dodano: 15
+Dodano: 16
+Dodano: 17
+Dodano: 18
+Dodano: 19
+Dodano: 20
+Dodano: 21
+Dodano: 22
+Dodano: 23
+Dodano: 24
+Dodano: 25
+Dodano: 26
+Dodano: 27
+Dodano: 28
+Dodano: 29
+Dodano: 30
+Dodano: 31
+Dodano: 32
+Dodano: 33
+Dodano: 34
+Dodano: 35
+Dodano: 36
+Dodano: 37
+Dodano: 38
+Dodano: 39
+Dodano: 40
+Dodano: 41
+Dodano: 42
+Dodano: 43
+Dodano: 44
+Dodano: 45
+Dodano: 46
+Dodano: 47
+Dodano: 48
+Dodano: 49
+Dodano: 50
+
+=== Kolejka (FIFO) ===
+Zdjeto: 1
+Zdjeto: 2
+Zdjeto: 3
+Zdjeto: 4
+Zdjeto: 5
+Zdjeto: 6
+Zdjeto: 7
+Zdjeto: 8
+Zdjeto: 9
+Zdjeto: 10
+Zdjeto: 11
+Zdjeto: 12
+Zdjeto: 13
+Zdjeto: 14
+Zdjeto: 15
+Zdjeto: 16
+Zdjeto: 17
+Zdjeto: 18
+Zdjeto: 19
+Zdjeto: 20
+Zdjeto: 21
+Zdjeto: 22
+Zdjeto: 23
+Zdjeto: 24
+Zdjeto: 25
+Zdjeto: 26
+Zdjeto: 27
+Zdjeto: 28
+Zdjeto: 29
+Zdjeto: 30
+Zdjeto: 31
+Zdjeto: 32
+Zdjeto: 33
+Zdjeto: 34
+Zdjeto: 35
+Zdjeto: 36
+Zdjeto: 37
+Zdjeto: 38
+Zdjeto: 39
+Zdjeto: 40
+Zdjeto: 41
+Zdjeto: 42
+Zdjeto: 43
+Zdjeto: 44
+Zdjeto: 45
+Zdjeto: 46
+Zdjeto: 47
+Zdjeto: 48
+Zdjeto: 49
+Zdjeto: 50
+Blad: proba pobrania pustej kolejki!
+
+=== Stos (LIFO) ===
+Zdjeto: 50
+Zdjeto: 49
+Zdjeto: 48
+Zdjeto: 47
+Zdjeto: 46
+Zdjeto: 45
+Zdjeto: 44
+Zdjeto: 43
+Zdjeto: 42
+Zdjeto: 41
+Zdjeto: 40
+Zdjeto: 39
+Zdjeto: 38
+Zdjeto: 37
+Zdjeto: 36
+Zdjeto: 35
+Zdjeto: 34
+Zdjeto: 33
+Zdjeto: 32
+Zdjeto: 31
+Zdjeto: 30
+Zdjeto: 29
+Zdjeto: 28
+Zdjeto: 27
+Zdjeto: 26
+Zdjeto: 25
+Zdjeto: 24
+Zdjeto: 23
+Zdjeto: 22
+Zdjeto: 21
+Zdjeto: 20
+Zdjeto: 19
+Zdjeto: 18
+Zdjeto: 17
+Zdjeto: 16
+Zdjeto: 15
+Zdjeto: 14
+Zdjeto: 13
+Zdjeto: 12
+Zdjeto: 11
+Zdjeto: 10
+Zdjeto: 9
+Zdjeto: 8
+Zdjeto: 7
+Zdjeto: 6
+Zdjeto: 5
+Zdjeto: 4
+Zdjeto: 3
+Zdjeto: 2
+Zdjeto: 1
+Blad: Proba pobrania z pustego stosu
+jedre@jedreek323 UCRT64 /c/Users/jedre/CLionProjects/Laby1
+$ tmux capture-pane -p -S- -E- -J > zadanie1.txt
+

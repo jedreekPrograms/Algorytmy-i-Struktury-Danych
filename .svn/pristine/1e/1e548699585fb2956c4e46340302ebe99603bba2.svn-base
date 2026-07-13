@@ -1,0 +1,12 @@
+# ninja log v6
+1	73	7958306962701660	CMakeFiles/untitled6.dir/main.c.obj	c6db7bddf28c744
+22	89	7958306963023988	CMakeFiles/untitled6.dir/zadanie1/quicksort.c.obj	ae65f589bb31f150
+15	93	7958306962953379	CMakeFiles/untitled6.dir/generators/generator_desc.c.obj	706578fac38517ce
+12	90	7958306962923310	CMakeFiles/untitled6.dir/generators/generator_asc.c.obj	5254a2f18c1e92f0
+26	92	7958306963054652	CMakeFiles/untitled6.dir/zadanie1/insertionsort.c.obj	a4da3d1c645cd03e
+9	94	7958306962859841	CMakeFiles/untitled6.dir/generators/generator_random.c.obj	e9e7ca414de6e7af
+18	93	7958306962993994	CMakeFiles/untitled6.dir/helpfunctions/helpfunctions.c.obj	863c15e0ada241f8
+6	93	7958306962859841	CMakeFiles/untitled6.dir/zadanie1/main_quicksort.c.obj	101db7a4f748d23f
+33	97	7958306963136215	CMakeFiles/untitled6.dir/zadanie1/hybridsort.c.obj	7d179a8b0d7a7e88
+29	105	7958306963095373	CMakeFiles/untitled6.dir/zadanie1/main_insertionsort.c.obj	c508a57f7bdeac5e
+37	114	7958306963176216	CMakeFiles/untitled6.dir/zadanie1/hybrid_main.c.obj	a6b9806bc1401d1f

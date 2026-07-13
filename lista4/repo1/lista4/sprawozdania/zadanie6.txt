@@ -1,0 +1,60 @@
+ANALIZA WYNIKOW EKSPERYMENTALNYCH
+
+W eksperymencie badano liczbe rund potrzebnych do rozeslania informacji po drzewie MST wygenerowanym
+ z losowego pelnego grafu o wagach losowanych z przedzialu (0,1). Dla kazdego rozmiaru drzewa analizowano
+ wszystkie mozliwe wierzcholki startowe, a nastepnie wyznaczano wartosci minimalne, srednie oraz
+ maksymalne liczby rund potrzebnych do dotarcia informacji do wszystkich wierzcholkow.
+
+Na wykresie przedstawiono zaleznosc liczby rund od liczby wierzcholkow
+drzewa dla wartosci minimalnej (Min), sredniej (Average) oraz maksymalnej (Max).
+
+WARTOSCI MINIMALNE
+
+Minimalna liczba rund wzrosla z okolo 13.5 dla drzewa o 100 wierzcholkach do okolo 56.5
+dla drzewa o 3000 wierzcholkach. Oznacza to, ze nawet przy najbardziej korzystnym wyborze
+korzenia czas rozsylania informacji rosnie wraz ze wzrostem rozmiaru drzewa. Wzrost ten jest
+jednak znacznie wolniejszy niz liniowy wzgledem liczby wierzcholkow.
+
+Najkorzystniejsze wyniki uzyskiwano dla korzeni polozonych w centralnych czesciach drzewa MST,
+skad informacja mogla rozprzestrzeniac sie rownolegle do wielu poddrzew.
+
+WARTOSCI SREDNIE
+
+Srednia liczba rund wzrosla z okolo 19.2 dla n = 100 do okolo 82.6 dla n = 3000.
+Krzywa sredniej jest stosunkowo gladka i wykazuje wyrazny trend wzrostowy.
+Oznacza to, ze przecietny czas rozsylania informacji zwieksza sie wraz z rozmiarem drzewa,
+jednak tempo wzrostu jest umiarkowane.
+
+Mozna zauwazyc niewielkie lokalne wahania, np. dla n = 1600-2000 lub n = 2400-2800.
+Sa one naturalnym efektem losowosci generowanych grafow oraz wynikajacych z nich struktur drzew MST.
+
+WARTOSCI MAKSYMALNE
+
+Maksymalna liczba rund wzrosla z okolo 25 dla n = 100 do okolo 110.5 dla n = 3000.
+Wartosci te odpowiadaja najmniej korzystnym wyborom korzenia, zwykle znajdujacym sie na obrzezach drzewa.
+W takim przypadku informacja musi pokonac znaczna czesc struktury drzewa zanim dotrze do wszystkich jego fragmentow.
+
+Roznica pomiedzy wartosciami minimalnymi i maksymalnymi rosnie wraz z liczba wierzcholkow.
+Dla n = 3000 roznica wynosi okolo 54 rund, co pokazuje istotny wplyw wyboru wierzcholka
+poczatkowego na efektywnosc rozsylania informacji.
+
+INTERPRETACJA WYNIKOW
+
+Otrzymane wyniki potwierdzaja poprawnosc zastosowanego algorytmu.
+Wraz ze wzrostem liczby wierzcholkow zwieksza sie liczba rund potrzebnych do rozeslania informacji,
+jednak wzrost ten jest stosunkowo powolny. Wynika to z faktu, ze po przekazaniu informacji kolejnym
+dzieciom proces rozsylania przebiega rownolegle w wielu czesciach drzewa.
+
+Algorytm wyznaczajacy kolejnosc informowania dzieci poprzez sortowanie poddrzew wedlug
+malejacego czasu ich obslugi skutecznie minimalizuje calkowity czas rozsylania informacji.
+Dzieki temu nawet dla drzew zawierajacych kilka tysiecy wierzcholkow liczba wymaganych rund pozostaje stosunkowo niewielka.
+
+WNIOSKI
+
+1. Liczba rund potrzebnych do rozeslania informacji rosnie wraz z rozmiarem drzewa MST.
+2. Wybor korzenia ma istotny wplyw na czas rozsylania informacji.
+3. Korzenie polozone blizej centrum drzewa zapewniaja znacznie lepsze
+wyniki niz korzenie znajdujace sie na obrzezach.
+4. Zastosowany algorytm skutecznie minimalizuje czas rozsylania informacji
+poprzez odpowiedni dobor kolejnosci informowania dzieci.
+5. Otrzymane wyniki eksperymentalne sa zgodne z przewidywaniami teoretycznymi i potwierdzaja poprawnosc implementacji.

@@ -1,0 +1,742 @@
+
+jedre@jedreek323 MINGW64 ~
+$ svn checkout https://repo.cs.pwr.edu.pl/283948-dir/mk1/ mk4_tmux                                  
+A    mk4_tmux/lista1
+A    mk4_tmux/lista1/cmake-build-debug
+A    mk4_tmux/lista1/cmake-build-debug/.cmake
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/query
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/tmp
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/pkgRedirects
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/cmake.check_cache
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/queue.c.obj
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/InstallScripts.json
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/queue.c.obj
+A    mk4_tmux/lista1/CMakeLists.txt
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/query/cache-v2
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-99b984db6fd63c13b16e.json
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0f5263f3362ee68d80b4.json
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6449583c8f2bb3a33fe3.json
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-07T20-00-40-0968.json
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie1-Debug-879f86b91abdd8ce063d.json
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie2-Debug-1a7d535c42e589cd66be.json
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie3-Debug-4283f7bdf778bd335524.json
+A    mk4_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-33ca16c04ff1f028c339.json
+A    mk4_tmux/lista1/cmake-build-debug/.gitignore
+A    mk4_tmux/lista1/cmake-build-debug/.ninja_deps
+A    mk4_tmux/lista1/cmake-build-debug/.ninja_log
+A    mk4_tmux/lista1/cmake-build-debug/CMakeCache.txt
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+A    mk4_tmux/lista1/cmake-build-debug/Testing
+A    mk4_tmux/lista1/cmake-build-debug/Testing/Temporary
+A    mk4_tmux/lista1/zadanie1
+A    mk4_tmux/lista1/zadanie2
+A    mk4_tmux/lista1/zadanie3
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2/main.c.obj
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2/cyclic_list.c.obj
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/clion-environment.txt
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/main.c.obj
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2/cyclic_list.c.obj
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3/main.c.obj
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeSystem.cmake
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c
+A    mk4_tmux/lista2
+A    mk4_tmux/lista2/cmake-build-debug
+A    mk4_tmux/lista2/cmake-build-debug/.cmake
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1/query
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply
+A    mk4_tmux/lista1/cmake-build-debug/Testing/Temporary/LastTest.log
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/main.c.obj
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/stack.c.obj
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2/main.c.obj
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/rules.ninja
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/stack.c.obj
+A    mk4_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3/doubly_cyclic_list.c.obj
+A    mk4_tmux/lista1/cmake-build-debug/cmake_install.cmake
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/tmp
+A    mk4_tmux/lista1/cmake-build-debug/build.ninja
+A    mk4_tmux/lista1/cmake-build-debug/zadanie2.exe
+A    mk4_tmux/lista1/cmake-build-debug/zadanie1.exe
+A    mk4_tmux/lista1/zad1.exe
+A    mk4_tmux/lista1/zadanie1/queue.c
+A    mk4_tmux/lista1/zadanie1.txt
+A    mk4_tmux/lista1/zadanie2.txt
+A    mk4_tmux/lista1/zadanie3.txt
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1d861732b742ca9fa6bf.json
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-33ca16c04ff1f028c339.json
+A    mk4_tmux/lista2/cmake-build-debug/CMakeCache.txt
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeSystem.cmake
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/pkgRedirects
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators
+A    mk4_tmux/lista1/cmake-build-debug/zadanie3.exe
+A    mk4_tmux/lista1/zadanie1/main.c
+A    mk4_tmux/lista1/zadanie1/stack.h
+A    mk4_tmux/lista1/zadanie2/main.c
+A    mk4_tmux/lista1/zadanie3/main.c
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-509aaa5aeef9c1f0ef3e.json
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/target-untitled6-Debug-a0ab15b2b7d674fd07d5.json
+A    mk4_tmux/lista2/cmake-build-debug/.ninja_log
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie3
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie4
+A    mk4_tmux/lista2/cmake-build-debug/Testing
+A    mk4_tmux/lista2/cmake-build-debug/Testing/Temporary
+A    mk4_tmux/lista2/generators
+A    mk4_tmux/lista1/zad3.exe
+A    mk4_tmux/lista1/zadanie1/stack.c
+A    mk4_tmux/lista1/zadanie2/cyclic_list.h
+A    mk4_tmux/lista1/zadanie3/doubly_cyclic_list.h
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1/query/cache-v2
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7c3ba4515d4c5e89d56d.json
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-22T21-27-43-0618.json
+A    mk4_tmux/lista2/cmake-build-debug/.ninja_deps
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/InstallScripts.json
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/cmake.check_cache
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_random.c.obj
+A    mk4_tmux/lista2/helpfunctions
+A    mk4_tmux/lista2/sprawozdania
+A    mk4_tmux/lista2/zadanie1
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/clion-environment.txt
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_desc.c.obj
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_asc.c.obj
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/main.c.obj
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_insertionsort.c.obj
+A    mk4_tmux/lista2/cmake-build-debug/build.ninja
+A    mk4_tmux/lista2/generators/generator_random.c
+A    mk4_tmux/lista2/sprawozdania/zadanie2.txt
+A    mk4_tmux/lista2/zadanie1/hybridsort.c
+A    mk4_tmux/lista2/zadanie1/log_fix_zad1.txt
+A    mk4_tmux/lista2/zadanie1/quicksort.h
+A    mk4_tmux/lista2/zadanie1a
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybridsort.c.obj
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/quicksort.c.obj
+A    mk4_tmux/lista2/generators/generator_asc.c
+A    mk4_tmux/lista2/helpfunctions/helpfunctions.h
+A    mk4_tmux/lista2/sprawozdania/zadanie4.txt
+A    mk4_tmux/lista2/zadanie1/insertionsort.c
+A    mk4_tmux/lista2/zadanie1/main_quicksort.c
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybrid_main.c.obj
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_quicksort.c.obj
+A    mk4_tmux/lista2/cmake-build-debug/cmake_install.cmake
+A    mk4_tmux/lista2/helpfunctions/helpfunctions.c
+A    mk4_tmux/lista2/sprawozdania/zadanie3.txt
+A    mk4_tmux/lista2/zadanie1/hybridsort.h
+A    mk4_tmux/lista2/zadanie1/main_insertionsort.c
+A    mk4_tmux/lista2/zadanie1/raport_zadanie1.txt
+A    mk4_tmux/lista2/zadanie2
+A    mk4_tmux/lista2/zadanie2/poprawka
+A    mk4_tmux/lista2/zadanie1a/hybridsort.c
+A    mk4_tmux/lista2/zadanie1a/main_insertionsort.c
+A    mk4_tmux/lista1/zad2.exe
+A    mk4_tmux/lista1/zadanie1/queue.h
+A    mk4_tmux/lista1/zadanie2/cyclic_list.c
+A    mk4_tmux/lista1/zadanie3/doubly_cyclic_list.c
+A    mk4_tmux/lista2/CMakeLists.txt
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+A    mk4_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+A    mk4_tmux/lista2/cmake-build-debug/.gitignore
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/rules.ninja
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions/helpfunctions.c.obj
+A    mk4_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/insertionsort.c.obj
+A    mk4_tmux/lista2/cmake-build-debug/Testing/Temporary/LastTest.log
+A    mk4_tmux/lista2/generators/generator_desc.c
+A    mk4_tmux/lista2/sprawozdania/zadanie1.txt
+A    mk4_tmux/lista2/zadanie1/hybrid_main.c
+A    mk4_tmux/lista2/zadanie1/insertionsort.h
+A    mk4_tmux/lista2/zadanie1/quicksort.c
+A    mk4_tmux/lista2/zadanie1a/hybrid_main.c
+A    mk4_tmux/lista2/zadanie1a/insertionsort.h
+A    mk4_tmux/lista2/zadanie1/run.sh
+A    mk4_tmux/lista2/zadanie1a/insertionsort.c
+A    mk4_tmux/lista2/zadanie3
+A    mk4_tmux/lista2/zadanie1a/run.sh
+A    mk4_tmux/lista2/zadanie1a/hybridsort.h
+A    mk4_tmux/lista2/zadanie2/comparisons_small.png
+A    mk4_tmux/lista2/zadanie2/poprawka/cn_big.png
+A    mk4_tmux/lista2/zadanie2/poprawka/hybrid_small.txt
+A    mk4_tmux/lista2/zadanie1a/quicksort.h
+A    mk4_tmux/lista2/zadanie4
+A    mk4_tmux/lista2/zadanie2/comparisons_big.png
+A    mk4_tmux/lista2/zadanie1a/quicksort.c
+A    mk4_tmux/lista2/zadanie1a/main_quicksort.c
+A    mk4_tmux/lista2/zadanie2/log_fix_zad2.txt
+A    mk4_tmux/lista2/zadanie2/poprawka/sn_small.png
+A    mk4_tmux/lista2/zadanie2/cn_big.png
+A    mk4_tmux/lista2/zadanie2/graph.py
+A    mk4_tmux/lista2/zadanie2/poprawka/cn_small.png
+A    mk4_tmux/lista2/zadanie2/poprawka/insertion_small.txt
+A    mk4_tmux/lista2/zadanie2/sn_big.png
+A    mk4_tmux/lista2/zadanie2/poprawka/swaps_big.png
+A    mk4_tmux/lista2/zadanie3/cn_big.png
+A    mk4_tmux/lista2/zadanie3/graph3.py
+A    mk4_tmux/lista2/zadanie3/mergesort.c
+A    mk4_tmux/lista2/zadanie3/mydivide_main.c
+A    mk4_tmux/lista2/zadanie3/sn_small.png
+A    mk4_tmux/lista2/zadanie4/binary_small.txt
+A    mk4_tmux/lista2/zadanie2/cn_small.png
+A    mk4_tmux/lista2/zadanie2/log.txt
+A    mk4_tmux/lista2/zadanie2/poprawka/comparisons_small.png
+A    mk4_tmux/lista2/zadanie2/poprawka/comparisons_big.png
+A    mk4_tmux/lista2/zadanie2/poprawka/quick_small.txt
+A    mk4_tmux/lista2/zadanie2/poprawka/swaps_small.png
+A    mk4_tmux/lista2/zadanie2/sn_small.png
+A    mk4_tmux/lista2/zadanie3/cn_small.png
+A    mk4_tmux/lista2/zadanie3/log.txt
+A    mk4_tmux/lista2/zadanie3/mergesort.h
+A    mk4_tmux/lista2/zadanie3/mydivide_small.txt
+A    mk4_tmux/lista2/zadanie2/poprawka/sn_big.png
+A    mk4_tmux/lista2/zadanie2/run_all.sh
+A    mk4_tmux/lista2/zadanie2/swaps_big.png
+A    mk4_tmux/lista2/zadanie3/swaps_big.png
+A    mk4_tmux/lista2/zadanie4/binarysearch.c
+A    mk4_tmux/lista3
+A    mk4_tmux/lista3/generators
+A    mk4_tmux/lista3/helpfunctions
+A    mk4_tmux/lista3/sprawozdania
+A    mk4_tmux/lista2/zadanie4/comparisons_square_large.png
+A    mk4_tmux/lista2/zadanie2/swaps_small.png
+A    mk4_tmux/lista2/zadanie3/comparisons_big.png
+A    mk4_tmux/lista2/zadanie3/merge_main.c
+A    mk4_tmux/lista2/zadanie3/mydivide.c
+A    mk4_tmux/lista2/zadanie3/run_3.sh
+A    mk4_tmux/lista2/zadanie4/comparisons_square_small.png
+A    mk4_tmux/lista3/zadanie1
+A    mk4_tmux/lista2/zadanie4/comparisons_wide_large.png
+A    mk4_tmux/lista2/zadanie4/hybrid_big.txt
+A    mk4_tmux/lista2/zadanie4/hybridsearch.h
+A    mk4_tmux/lista2/zadanie4/ratio_tall_large.png
+A    mk4_tmux/lista2/zadanie4/run_4.sh
+A    mk4_tmux/lista2/zadanie4/staircasesearch.c
+A    mk4_tmux/lista3/helpfunctions/helpfunctions.h
+A    mk4_tmux/lista2/zadanie3/comparisons_small.png
+A    mk4_tmux/lista2/zadanie3/merge_small.txt
+A    mk4_tmux/lista2/zadanie3/mydivide.h
+A    mk4_tmux/lista2/zadanie3/swaps_small.png
+A    mk4_tmux/lista2/zadanie4/binarysearch.h
+A    mk4_tmux/lista2/zadanie4/comparisons_wide_small.png
+A    mk4_tmux/lista2/zadanie4/hybrid_main.c
+A    mk4_tmux/lista2/zadanie4/log.txt
+A    mk4_tmux/lista3/zadanie2
+A    mk4_tmux/lista2/zadanie3/sn_big.png
+A    mk4_tmux/lista2/zadanie4/binary_big.txt
+A    mk4_tmux/lista2/zadanie4/binarysearch_main.c
+A    mk4_tmux/lista2/zadanie4/comparisons_tall_large.png
+A    mk4_tmux/lista2/zadanie4/generator_matrix.c
+A    mk4_tmux/lista2/zadanie4/hybrid_small.txt
+A    mk4_tmux/lista2/zadanie4/ratio_tall_small.png
+A    mk4_tmux/lista2/zadanie4/staircase_big.txt
+A    mk4_tmux/lista2/zadanie4/staircasesearch.h
+A    mk4_tmux/lista3/sprawozdania/sprawozdanie1.txt
+A    mk4_tmux/lista3/zadanie1/RandomizedSelect.cpp
+A    mk4_tmux/lista3/zadanie3
+A    mk4_tmux/lista3/sprawozdania/sprawozdanie4.txt
+A    mk4_tmux/lista3/zadanie1/Select.cpp
+A    mk4_tmux/lista3/zadanie1/tmux-log.txt
+A    mk4_tmux/lista2/zadanie4/comparisons_tall_small.png
+A    mk4_tmux/lista2/zadanie4/graph4.py
+A    mk4_tmux/lista2/zadanie4/hybridsearch.c
+A    mk4_tmux/lista2/zadanie4/ratio_square_large.png
+A    mk4_tmux/lista2/zadanie4/ratio_square_small.png
+A    mk4_tmux/lista2/zadanie4/ratio_wide_large.png
+A    mk4_tmux/lista2/zadanie4/staircase_main.c
+A    mk4_tmux/lista3/generators/generator_random.cpp
+A    mk4_tmux/lista3/sprawozdania/sprawozdanie2.txt
+A    mk4_tmux/lista3/zadanie1/RandomizedSelect.h
+A    mk4_tmux/lista3/zadanie1/Select_main.cpp
+A    mk4_tmux/lista3/zadanie1/wynik_select.txt
+A    mk4_tmux/lista3/zadanie4
+A    mk4_tmux/lista3/zadanie2/Random_-_Swaps.png
+A    mk4_tmux/lista3/zadanie2/graph.py
+A    mk4_tmux/lista3/zadanie2/run.sh
+A    mk4_tmux/lista3/zadanie2/tmux-log.txt
+A    mk4_tmux/lista3/zadanie3/benchmark_groups.cpp
+A    mk4_tmux/lista2/zadanie4/ratio_wide_small.png
+A    mk4_tmux/lista2/zadanie4/staircase_small.txt
+A    mk4_tmux/lista3/helpfunctions/helpfunctions.cpp
+A    mk4_tmux/lista3/sprawozdania/sprawozdanie3.txt
+A    mk4_tmux/lista3/zadanie1/RandomizedSelect_main.cpp
+A    mk4_tmux/lista3/zadanie1/run.sh
+A    mk4_tmux/lista3/zadanie1/Select.h
+A    mk4_tmux/lista3/zadanie1/wynik_random.txt
+A    mk4_tmux/lista3/zadanie2/Select_-_Swaps.png
+A    mk4_tmux/lista3/zadanie2/Select_-_Comparisons.png
+A    mk4_tmux/lista3/zadanie2/Random_-_Comparisons.png
+A    mk4_tmux/lista3/zadanie2/benchmark.cpp
+A    mk4_tmux/lista3/zadanie2/random_kmid.txt
+A    mk4_tmux/lista3/zadanie2/random_kn.txt
+A    mk4_tmux/lista4
+A    mk4_tmux/lista4/zadanie1
+A    mk4_tmux/lista3/zadanie2/random_k1.txt
+A    mk4_tmux/lista3/zadanie3/select_21.txt
+A    mk4_tmux/lista3/zadanie2/select_kmid.txt
+A    mk4_tmux/lista3/zadanie3/Select.h
+A    mk4_tmux/lista3/zadanie3/graph.py
+A    mk4_tmux/lista4/zadanie2
+A    mk4_tmux/lista3/zadanie2/select_kn.txt
+A    mk4_tmux/lista3/zadanie3/Select_main.cpp
+A    mk4_tmux/lista3/zadanie2/select_k1.txt
+A    mk4_tmux/lista3/zadanie3/Select.cpp
+A    mk4_tmux/lista3/zadanie3/generator_select_groups.cpp
+A    mk4_tmux/lista3/zadanie3/select_9.txt
+A    mk4_tmux/lista3/zadanie3/tmux-log.txt
+A    mk4_tmux/lista3/zadanie4/MyFind.cpp
+A    mk4_tmux/lista3/zadanie4/binary_2.txt
+A    mk4_tmux/lista3/zadanie4/f1_(delta=10)_-_NOT_FOUND.png
+A    mk4_tmux/lista3/zadanie3/select_19.txt
+A    mk4_tmux/lista3/zadanie3/select_3.txt
+A    mk4_tmux/lista3/zadanie3/select_5.txt
+A    mk4_tmux/lista3/zadanie4/f2_(delta=50)_-_NOT_FOUND.png
+A    mk4_tmux/lista3/zadanie4/myfind_1.txt
+A    mk4_tmux/lista3/zadanie4/tmux-log.txt
+A    mk4_tmux/lista4/zadanie2/main.cpp
+A    mk4_tmux/lista3/zadanie3/select_swaps.png
+A    mk4_tmux/lista3/zadanie4/BinarySearch.h
+A    mk4_tmux/lista3/zadanie4/MyFind_main.cpp
+A    mk4_tmux/lista3/zadanie3/select_comparisons.png
+A    mk4_tmux/lista3/zadanie4/BinarySearch.cpp
+A    mk4_tmux/lista3/zadanie4/MyFind.h
+A    mk4_tmux/lista3/zadanie4/binary_small.txt
+A    mk4_tmux/lista3/zadanie4/f1_(delta=10)_-_SMOOTH.png
+A    mk4_tmux/lista3/zadanie4/f1_(delta=10)_-_ALL.png
+A    mk4_tmux/lista3/zadanie4/f2_(delta=50)_-_SMOOTH.png
+A    mk4_tmux/lista3/zadanie4/myfind_2.txt
+A    mk4_tmux/lista3/zadanie4/wykresy.py
+A    mk4_tmux/lista4/zadanie2/plots.py
+A    mk4_tmux/lista3/zadanie4/f2_(delta=50)_-_ALL.png
+A    mk4_tmux/lista3/zadanie4/generator.cpp
+A    mk4_tmux/lista3/zadanie4/myfind_small.txt
+A    mk4_tmux/lista4/zadanie1/main.cpp
+A    mk4_tmux/lista3/zadanie3/select_7.txt
+A    mk4_tmux/lista3/zadanie3/select_time.png
+A    mk4_tmux/lista3/zadanie4/BinarySearch_main.cpp
+A    mk4_tmux/lista3/zadanie4/binary_1.txt
+A    mk4_tmux/lista3/zadanie4/f1_(delta=10)_-_FOUND.png
+A    mk4_tmux/lista3/zadanie4/f2_(delta=50)_-_FOUND.png
+A    mk4_tmux/lista3/zadanie4/input.txt
+A    mk4_tmux/lista3/zadanie4/runner.cpp
+A    mk4_tmux/lista4/zadanie1/tmux-log.txt
+Checked out revision 55.
+
+jedre@jedreek323 MINGW64 ~
+$ ls      
+mk1_tmux  mk2_tmux~  mk3_tmux  mk4_tmux
+
+jedre@jedreek323 MINGW64 ~
+$ cd mk4_tmux
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux
+$ cd lista4
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4
+$ ls
+zadanie1  zadanie2
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4
+$ cd zadanei2
+-bash: cd: zadanei2: No such file or directory
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4
+$ cd zadanie2
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ ls
+main.cpp  plots.py
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ g++ main.cpp -Wl,--stack,536870912 -o program
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ ./program
+N = 10000
+N = 20000
+N = 30000
+N = 40000
+N = 50000
+N = 60000
+N = 70000
+N = 80000
+N = 90000
+N = 100000
+DONE
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ ls
+main.cpp  plots.py  program.exe  results.csv
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ python plots.py
+-bash: python: command not found
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ python3 plots.py
+-bash: python3: command not found
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ py plots.py
+-bash: py: command not found
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ pacman -S mingw-w64-ucrt-x86_64-python
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (1) mingw-w64-ucrt-x86_64-python-3.14.4-1
+
+Total Download Size:    25.92 MiB
+Total Installed Size:  211.97 MiB
+Net Upgrade Size:        0.79 MiB
+
+:: Proceed with installation? [Y/n] Y
+:: Retrieving packages...
+ mingw-w64-ucrt-x86_64-pyth...    25.9 MiB  1441 KiB/s 00:18 [###############################] 100%
+(1/1) checking keys in keyring                               [###############################] 100%
+(1/1) checking package integrity                             [###############################] 100%
+(1/1) loading package files                                  [###############################] 100%
+(1/1) checking for file conflicts                            [###############################] 100%
+(1/1) checking available disk space                          [###############################] 100%
+:: Processing package changes...
+(1/1) upgrading mingw-w64-ucrt-x86_64-python                 [###############################] 100%
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ python plots.py
+-bash: python: command not found
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ python --version
+-bash: python: command not found
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ uctr64
+-bash: uctr64: command not found
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ ucrt64
+-bash: ucrt64: command not found
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ pacman -S mingw-w64-x86_64-python
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (16) mingw-w64-x86_64-bzip2-1.0.8-3  mingw-w64-x86_64-expat-2.7.5-2
+              mingw-w64-x86_64-libb2-0.98.1-3  mingw-w64-x86_64-libffi-3.5.2-1
+              mingw-w64-x86_64-libsystre-1.0.2-2  mingw-w64-x86_64-libtre-0.9.0-2
+              mingw-w64-x86_64-mpdecimal-4.0.1-1  mingw-w64-x86_64-ncurses-6.6-4
+              mingw-w64-x86_64-openssl-3.6.2-1  mingw-w64-x86_64-pcre2-10.47-1
+              mingw-w64-x86_64-sqlite3-3.53.0-1  mingw-w64-x86_64-tcl-8.6.17-1
+              mingw-w64-x86_64-tk-8.6.17-2  mingw-w64-x86_64-wineditline-2.208-1
+              mingw-w64-x86_64-xz-5.8.3-1  mingw-w64-x86_64-python-3.14.4-1
+
+Total Download Size:    44.99 MiB
+Total Installed Size:  336.19 MiB
+
+:: Proceed with installation? [Y/n] Y
+:: Retrieving packages...
+ mingw-w64-x86_64-tk-8.6.17...     2.0 MiB  1448 KiB/s 00:01 [###############################] 100%
+ mingw-w64-x86_64-tcl-8.6.1...     2.7 MiB  1694 KiB/s 00:02 [###############################] 100%
+ mingw-w64-x86_64-pcre2-10....  1401.6 KiB  1881 KiB/s 00:01 [###############################] 100%
+ mingw-w64-x86_64-python-3....    25.9 MiB  7.74 MiB/s 00:03 [###############################] 100%
+ mingw-w64-x86_64-sqlite3-3...     2.3 MiB   656 KiB/s 00:04 [###############################] 100%
+ mingw-w64-x86_64-openssl-3...     8.0 MiB  2015 KiB/s 00:04 [###############################] 100%
+ mingw-w64-x86_64-ncurses-6...  1571.1 KiB   614 KiB/s 00:03 [###############################] 100%
+ mingw-w64-x86_64-expat-2.7...   177.8 KiB   213 KiB/s 00:01 [###############################] 100%
+ mingw-w64-x86_64-libtre-0....    81.1 KiB   379 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-mpdecimal...   155.8 KiB   211 KiB/s 00:01 [###############################] 100%
+ mingw-w64-x86_64-xz-5.8.3-...   474.7 KiB   312 KiB/s 00:02 [###############################] 100%
+ mingw-w64-x86_64-wineditli...    60.0 KiB   359 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-bzip2-1.0...    90.9 KiB   160 KiB/s 00:01 [###############################] 100%
+ mingw-w64-x86_64-libb2-0.9...    24.2 KiB   112 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-libffi-3....    43.3 KiB   132 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-libsystre...     9.7 KiB  29.3 KiB/s 00:00 [###############################] 100%
+ Total (16/16)                    45.0 MiB  8.85 MiB/s 00:05 [###############################] 100%
+(16/16) checking keys in keyring                             [###############################] 100%
+(16/16) checking package integrity                           [###############################] 100%
+(16/16) loading package files                                [###############################] 100%
+(16/16) checking for file conflicts                          [###############################] 100%
+(16/16) checking available disk space                        [###############################] 100%
+:: Processing package changes...
+( 1/16) installing mingw-w64-x86_64-expat                    [###############################] 100%
+( 2/16) installing mingw-w64-x86_64-bzip2                    [###############################] 100%
+( 3/16) installing mingw-w64-x86_64-libffi                   [###############################] 100%
+( 4/16) installing mingw-w64-x86_64-mpdecimal                [###############################] 100%
+( 5/16) installing mingw-w64-x86_64-wineditline              [###############################] 100%
+( 6/16) installing mingw-w64-x86_64-pcre2                    [###############################] 100%
+( 7/16) installing mingw-w64-x86_64-libtre                   [###############################] 100%
+( 8/16) installing mingw-w64-x86_64-libsystre                [###############################] 100%
+( 9/16) installing mingw-w64-x86_64-ncurses                  [###############################] 100%
+(10/16) installing mingw-w64-x86_64-openssl                  [###############################] 100%
+Optional dependencies for mingw-w64-x86_64-openssl
+    mingw-w64-x86_64-ca-certificates
+(11/16) installing mingw-w64-x86_64-tcl                      [###############################] 100%
+(12/16) installing mingw-w64-x86_64-sqlite3                  [###############################] 100%
+Optional dependencies for mingw-w64-x86_64-sqlite3
+    mingw-w64-x86_64-tcl: for sqlite3_analyzer [installed]
+(13/16) installing mingw-w64-x86_64-tk                       [###############################] 100%
+(14/16) installing mingw-w64-x86_64-libb2                    [###############################] 100%
+(15/16) installing mingw-w64-x86_64-xz                       [###############################] 100%
+(16/16) installing mingw-w64-x86_64-python                   [###############################] 100%
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ python plots.py
+Traceback (most recent call last):
+  File "C:/msys64/home/jedre/mk4_tmux/lista4/zadanie2/plots.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ 
+
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ pip install pandas matplotlib
+-bash: pip: command not found
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ pacman -S mingw-w64-x86_64-python-pandas mingw-w64-x86_64-python-matplotlib
+resolving dependencies...
+looking for conflicting packages...
+warning: dependency cycle detected:
+warning: mingw-w64-x86_64-harfbuzz will be installed before its mingw-w64-x86_64-freetype dependency
+warning: dependency cycle detected:
+warning: mingw-w64-x86_64-libwebp will be installed before its mingw-w64-x86_64-libtiff dependency
+
+Packages (42) mingw-w64-x86_64-aom-3.13.3-1  mingw-w64-x86_64-brotli-1.2.0-1
+              mingw-w64-x86_64-dav1d-1.5.3-1  mingw-w64-x86_64-freetype-2.14.3-1
+              mingw-w64-x86_64-fribidi-1.0.16-1  mingw-w64-x86_64-gcc-libgfortran-15.2.0-13
+              mingw-w64-x86_64-giflib-5.2.2-1  mingw-w64-x86_64-glib2-2.88.0-1
+              mingw-w64-x86_64-graphite2-1.3.14-3  mingw-w64-x86_64-harfbuzz-14.1.0-1
+              mingw-w64-x86_64-jbigkit-2.1-5  mingw-w64-x86_64-lcms2-2.18-1
+              mingw-w64-x86_64-lerc-4.1.0-1  mingw-w64-x86_64-libavif-1.4.1-1
+              mingw-w64-x86_64-libdeflate-1.25-1  mingw-w64-x86_64-libimagequant-4.4.1-1
+              mingw-w64-x86_64-libjpeg-turbo-3.1.4.1-1  mingw-w64-x86_64-libpng-1.6.57-1
+              mingw-w64-x86_64-libraqm-0.10.5-1  mingw-w64-x86_64-libtiff-4.7.1-1
+              mingw-w64-x86_64-libwebp-1.6.0-1  mingw-w64-x86_64-libxml2-2.15.2-1
+              mingw-w64-x86_64-libyuv-1922.r2903.deeb764bb-1  mingw-w64-x86_64-openblas-0.3.32-1
+              mingw-w64-x86_64-openjpeg2-2.5.4-2  mingw-w64-x86_64-python-contourpy-1.3.3-3
+              mingw-w64-x86_64-python-cycler-0.12.1-4
+              mingw-w64-x86_64-python-dateutil-2.9.0.post0-4
+              mingw-w64-x86_64-python-fonttools-4.62.1-1
+              mingw-w64-x86_64-python-kiwisolver-1.4.9-3  mingw-w64-x86_64-python-numpy-2.4.1-2
+              mingw-w64-x86_64-python-packaging-26.0-2  mingw-w64-x86_64-python-pillow-12.2.0-1
+              mingw-w64-x86_64-python-pyparsing-3.3.2-2  mingw-w64-x86_64-python-pytz-2025.2-3
+              mingw-w64-x86_64-python-six-1.17.0-3  mingw-w64-x86_64-python-tzdata-2025.3-3
+              mingw-w64-x86_64-qhull-2020.2-3  mingw-w64-x86_64-rav1e-0.8.1-1
+              mingw-w64-x86_64-svt-av1-4.0.1-1  mingw-w64-x86_64-python-matplotlib-3.10.8-2
+              mingw-w64-x86_64-python-pandas-2.3.3-2
+
+Total Download Size:    73.88 MiB
+Total Installed Size:  498.84 MiB
+
+:: Proceed with installation? [Y/n] Y
+:: Retrieving packages...
+ mingw-w64-x86_64-glib2-2.8...     5.1 MiB  4.15 MiB/s 00:01 [###############################] 100%
+ mingw-w64-x86_64-openblas-...    11.6 MiB  4.47 MiB/s 00:03 [###############################] 100%
+ mingw-w64-x86_64-python-pa...    13.7 MiB  4.46 MiB/s 00:03 [###############################] 100%
+ mingw-w64-x86_64-aom-3.13....     3.7 MiB  1922 KiB/s 00:02 [###############################] 100%
+ mingw-w64-x86_64-python-nu...     8.2 MiB  2.41 MiB/s 00:03 [###############################] 100%
+ mingw-w64-x86_64-python-fo...     2.9 MiB  2.87 MiB/s 00:01 [###############################] 100%
+ mingw-w64-x86_64-svt-av1-4...     2.9 MiB  2.57 MiB/s 00:01 [###############################] 100%
+ mingw-w64-x86_64-rav1e-0.8...     2.3 MiB  2.23 MiB/s 00:01 [###############################] 100%
+ mingw-w64-x86_64-python-pi...   958.2 KiB  2.70 MiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-gcc-libgf...   947.4 KiB  3.59 MiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-libxml2-2...   981.3 KiB   211 KiB/s 00:05 [###############################] 100%
+ mingw-w64-x86_64-qhull-202...   889.8 KiB   232 KiB/s 00:04 [###############################] 100%
+ mingw-w64-x86_64-dav1d-1.5...   860.5 KiB  3.47 MiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-libimageq...  1969.4 KiB   312 KiB/s 00:06 [###############################] 100%
+ mingw-w64-x86_64-libtiff-4...   679.1 KiB  2.85 MiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-harfbuzz-...     2.1 MiB   324 KiB/s 00:07 [###############################] 100%
+ mingw-w64-x86_64-libjpeg-t...   646.6 KiB  1767 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-libwebp-1...   612.5 KiB  3.20 MiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-freetype-...   615.2 KiB  1010 KiB/s 00:01 [###############################] 100%
+ mingw-w64-x86_64-libyuv-19...   530.6 KiB  1638 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-brotli-1....   444.5 KiB  2.03 MiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-python-ma...     7.4 MiB   671 KiB/s 00:11 [###############################] 100%
+ mingw-w64-x86_64-openjpeg2...   443.9 KiB  1409 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-libpng-1....   399.8 KiB  2.11 MiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-lcms2-2.1...   384.3 KiB  1657 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-lerc-4.1....   297.2 KiB  1869 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-python-da...   309.5 KiB   986 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-libavif-1...   417.6 KiB   527 KiB/s 00:01 [###############################] 100%
+ mingw-w64-x86_64-python-py...   200.9 KiB   427 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-graphite2...   141.2 KiB   630 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-python-pa...   156.6 KiB   393 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-python-tz...   134.1 KiB   630 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-jbigkit-2...   103.7 KiB   430 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-libdeflat...    91.9 KiB   338 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-giflib-5....   118.9 KiB   256 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-fribidi-1...    82.4 KiB   336 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-libraqm-0...    38.9 KiB   196 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-python-ki...    61.0 KiB   173 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-python-si...    27.9 KiB   158 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-python-cy...    17.1 KiB  56.7 KiB/s 00:00 [###############################] 100%
+ mingw-w64-x86_64-python-co...   283.2 KiB   111 KiB/s 00:03 [###############################] 100%
+ mingw-w64-x86_64-python-py...   253.9 KiB  97.7 KiB/s 00:03 [###############################] 100%
+ Total (42/42)                    73.9 MiB  5.09 MiB/s 00:15 [###############################] 100%
+(42/42) checking keys in keyring                             [###############################] 100%
+(42/42) checking package integrity                           [###############################] 100%
+(42/42) loading package files                                [###############################] 100%
+(42/42) checking for file conflicts                          [###############################] 100%
+(42/42) checking available disk space                        [###############################] 100%
+:: Processing package changes...
+( 1/42) installing mingw-w64-x86_64-gcc-libgfortran          [###############################] 100%
+( 2/42) installing mingw-w64-x86_64-openblas                 [###############################] 100%
+( 3/42) installing mingw-w64-x86_64-python-numpy             [###############################] 100%
+Optional dependencies for mingw-w64-x86_64-python-numpy
+    mingw-w64-x86_64-python-pytest: testsuite
+( 4/42) installing mingw-w64-x86_64-python-six               [###############################] 100%
+( 5/42) installing mingw-w64-x86_64-python-dateutil          [###############################] 100%
+( 6/42) installing mingw-w64-x86_64-python-pytz              [###############################] 100%
+( 7/42) installing mingw-w64-x86_64-python-tzdata            [###############################] 100%
+( 8/42) installing mingw-w64-x86_64-python-pandas            [###############################] 100%
+Optional dependencies for mingw-w64-x86_64-python-pandas
+    mingw-w64-x86_64-python-scipy: needed for miscellaneous statistical functions
+    mingw-w64-x86_64-python-matplotlib: needed for plotting [pending]
+    mingw-w64-x86_64-python-numexpr: needed for accelerating certain numerical operations
+    (recommended)
+    mingw-w64-x86_64-python-openpyxl: needed for reading/writing Excel file
+( 9/42) installing mingw-w64-x86_64-python-contourpy         [###############################] 100%
+(10/42) installing mingw-w64-x86_64-python-cycler            [###############################] 100%
+(11/42) installing mingw-w64-x86_64-python-fonttools         [###############################] 100%
+Optional dependencies for mingw-w64-x86_64-python-fonttools
+    mingw-w64-x86_64-python-brotli: WOFF 1.0 and WOFF 2.0 webfonts
+    mingw-w64-x86_64-python-pyfilesystem2: for fontTools.ufoLib: to read/write UFO fonts
+    mingw-w64-x86_64-python-pyzopfli: WOFF 1.0 and WOFF 2.0 webfonts
+    mingw-w64-x86_64-python-sympy: for fontTools.misc.symfont, module for symbolic font statistics
+    analysis
+    mingw-w64-x86_64-python-matplotlib: for visualizing DesignSpaceDocument and resulting
+    VariationModel [pending]
+(12/42) installing mingw-w64-x86_64-python-kiwisolver        [###############################] 100%
+(13/42) installing mingw-w64-x86_64-python-packaging         [###############################] 100%
+(14/42) installing mingw-w64-x86_64-brotli                   [###############################] 100%
+(15/42) installing mingw-w64-x86_64-libpng                   [###############################] 100%
+(16/42) installing mingw-w64-x86_64-glib2                    [###############################] 100%
+(17/42) installing mingw-w64-x86_64-graphite2                [###############################] 100%
+(18/42) installing mingw-w64-x86_64-harfbuzz                 [###############################] 100%
+(19/42) installing mingw-w64-x86_64-freetype                 [###############################] 100%
+(20/42) installing mingw-w64-x86_64-libjpeg-turbo            [###############################] 100%
+(21/42) installing mingw-w64-x86_64-jbigkit                  [###############################] 100%
+(22/42) installing mingw-w64-x86_64-lerc                     [###############################] 100%
+(23/42) installing mingw-w64-x86_64-libdeflate               [###############################] 100%
+(24/42) installing mingw-w64-x86_64-giflib                   [###############################] 100%
+(25/42) installing mingw-w64-x86_64-libwebp                  [###############################] 100%
+(26/42) installing mingw-w64-x86_64-libtiff                  [###############################] 100%
+(27/42) installing mingw-w64-x86_64-lcms2                    [###############################] 100%
+(28/42) installing mingw-w64-x86_64-aom                      [###############################] 100%
+(29/42) installing mingw-w64-x86_64-dav1d                    [###############################] 100%
+(30/42) installing mingw-w64-x86_64-rav1e                    [###############################] 100%
+(31/42) installing mingw-w64-x86_64-svt-av1                  [###############################] 100%
+(32/42) installing mingw-w64-x86_64-libyuv                   [###############################] 100%
+(33/42) installing mingw-w64-x86_64-libxml2                  [###############################] 100%
+Optional dependencies for mingw-w64-x86_64-libxml2
+    mingw-w64-x86_64-python: Python bindings [installed]
+(34/42) installing mingw-w64-x86_64-libavif                  [###############################] 100%
+(35/42) installing mingw-w64-x86_64-libimagequant            [###############################] 100%
+(36/42) installing mingw-w64-x86_64-fribidi                  [###############################] 100%
+(37/42) installing mingw-w64-x86_64-libraqm                  [###############################] 100%
+(38/42) installing mingw-w64-x86_64-openjpeg2                [###############################] 100%
+(39/42) installing mingw-w64-x86_64-python-pillow            [###############################] 100%
+Optional dependencies for mingw-w64-x86_64-python-pillow
+    mingw-w64-x86_64-tk: for the ImageTK module [installed]
+(40/42) installing mingw-w64-x86_64-python-pyparsing         [###############################] 100%
+(41/42) installing mingw-w64-x86_64-qhull                    [###############################] 100%
+(42/42) installing mingw-w64-x86_64-python-matplotlib        [###############################] 100%
+Optional dependencies for mingw-w64-x86_64-python-matplotlib
+    mingw-w64-x86_64-python-pyqt5: Qt5Agg/Qt5Cairo backend
+    mingw-w64-x86_64-gtk3: GTK3Agg/GTK3Cairo backend
+    mingw-w64-x86_64-python-gobject: GTK3Agg/GTK3Cairo backend
+    mingw-w64-x86_64-python-cairo: cairo/GTK3Cairo/Qt5Cairo backend
+    mingw-w64-x86_64-python-tornado: WebAgg backend
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ python plots.py
+DONE
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ ls
+avg_assign.png	avg_height.png	main.cpp	max_cmp.png	max_read.png  program.exe
+avg_cmp.png	avg_read.png	max_assign.png	max_height.png	plots.py      results.csv
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ svn status
+?       avg_assign.png
+?       avg_cmp.png
+?       avg_height.png
+?       avg_read.png
+?       max_assign.png
+?       max_cmp.png
+?       max_height.png
+?       max_read.png
+?       program.exe
+?       results.csv
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ svn add *.png results.csv
+A  (bin)  avg_assign.png
+A  (bin)  avg_cmp.png
+A  (bin)  avg_height.png
+A  (bin)  avg_read.png
+A  (bin)  max_assign.png
+A  (bin)  max_cmp.png
+A  (bin)  max_height.png
+A  (bin)  max_read.png
+A         results.csv
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ svn commit -m "Dodano wykresy i wyniki do zadanie2"
+Adding  (bin)  avg_assign.png
+Adding  (bin)  avg_cmp.png
+Adding  (bin)  avg_height.png
+Adding  (bin)  avg_read.png
+Adding  (bin)  max_assign.png
+Adding  (bin)  max_cmp.png
+Adding  (bin)  max_height.png
+Adding  (bin)  max_read.png
+Adding         results.csv
+Transmitting file data .........done
+Committing transaction...
+Committed revision 56.
+
+jedre@jedreek323 MINGW64 ~/mk4_tmux/lista4/zadanie2
+$ tmux capture-pane -p -S'-' -E'-' -J > tmux-log.txt
+

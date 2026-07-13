@@ -1,0 +1,888 @@
+
+jedre@jedreek323 UCRT64 ~
+$ svn checkout https://repo.cs.pwr.edu.pl/283948-dir/mk1/ repo    
+A    repo/lista1
+A    repo/lista1/cmake-build-debug
+A    repo/lista1/cmake-build-debug/.cmake
+A    repo/lista1/cmake-build-debug/.cmake/api
+A    repo/lista1/cmake-build-debug/.cmake/api/v1
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/query
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply
+A    repo/lista1/cmake-build-debug/CMakeFiles
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/tmp
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2
+A    repo/lista1/cmake-build-debug/CMakeFiles/pkgRedirects
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3
+A    repo/lista1/cmake-build-debug/CMakeFiles/cmake.check_cache
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/queue.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/InstallScripts.json
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/queue.c.obj
+A    repo/lista1/cmake-build-debug/Testing
+A    repo/lista1/cmake-build-debug/Testing/Temporary
+A    repo/lista1/CMakeLists.txt
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/query/cache-v2
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+A    repo/lista1/zadanie1
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2/main.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2/cyclic_list.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+A    repo/lista1/cmake-build-debug/CMakeFiles/clion-environment.txt
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/main.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2/cyclic_list.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3/main.c.obj
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-99b984db6fd63c13b16e.json
+A    repo/lista1/zadanie2
+A    repo/lista1/cmake-build-debug/Testing/Temporary/LastTest.log
+A    repo/lista1/cmake-build-debug/build.ninja
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0f5263f3362ee68d80b4.json
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6449583c8f2bb3a33fe3.json
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+A    repo/lista1/zadanie3
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-07T20-00-40-0968.json
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie1-Debug-879f86b91abdd8ce063d.json
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie2-Debug-1a7d535c42e589cd66be.json
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie3-Debug-4283f7bdf778bd335524.json
+A    repo/lista1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-33ca16c04ff1f028c339.json
+A    repo/lista1/cmake-build-debug/.gitignore
+A    repo/lista1/cmake-build-debug/.ninja_deps
+A    repo/lista1/cmake-build-debug/.ninja_log
+A    repo/lista1/cmake-build-debug/CMakeCache.txt
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+A    repo/lista2
+A    repo/lista2/cmake-build-debug
+A    repo/lista2/cmake-build-debug/.cmake
+A    repo/lista2/cmake-build-debug/.cmake/api
+A    repo/lista2/cmake-build-debug/.cmake/api/v1
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/query
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply
+A    repo/lista1/cmake-build-debug/zadanie1.exe
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeSystem.cmake
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c
+A    repo/lista1/cmake-build-debug/zadanie2.exe
+A    repo/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+A    repo/lista1/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/main.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/stack.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2/main.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+A    repo/lista1/cmake-build-debug/CMakeFiles/rules.ninja
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/stack.c.obj
+A    repo/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3/doubly_cyclic_list.c.obj
+A    repo/lista1/cmake-build-debug/cmake_install.cmake
+A    repo/lista2/cmake-build-debug/CMakeFiles
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/tmp
+A    repo/lista1/zad3.exe
+A    repo/lista1/zadanie1/stack.c
+A    repo/lista1/zadanie2/cyclic_list.h
+A    repo/lista1/zadanie3/doubly_cyclic_list.h
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/query/cache-v2
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7c3ba4515d4c5e89d56d.json
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-22T21-27-43-0618.json
+A    repo/lista2/cmake-build-debug/CMakeFiles/pkgRedirects
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators
+A    repo/lista1/zad2.exe
+A    repo/lista1/zadanie1/queue.h
+A    repo/lista1/zadanie2/cyclic_list.c
+A    repo/lista1/zadanie3/doubly_cyclic_list.c
+A    repo/lista2/CMakeLists.txt
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1
+A    repo/lista2/cmake-build-debug/.ninja_deps
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie3
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie4
+A    repo/lista2/cmake-build-debug/Testing
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
+A    repo/lista2/cmake-build-debug/.gitignore
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c
+A    repo/lista2/cmake-build-debug/Testing/Temporary
+A    repo/lista2/generators
+A    repo/lista1/cmake-build-debug/zadanie3.exe
+A    repo/lista1/zadanie1/main.c
+A    repo/lista1/zadanie1/stack.h
+A    repo/lista1/zadanie2/main.c
+A    repo/lista1/zadanie3/main.c
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+A    repo/lista2/helpfunctions
+A    repo/lista2/sprawozdania
+A    repo/lista2/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+A    repo/lista2/cmake-build-debug/CMakeFiles/rules.ninja
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions/helpfunctions.c.obj
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/insertionsort.c.obj
+A    repo/lista1/zad1.exe
+A    repo/lista1/zadanie1/queue.c
+A    repo/lista1/zadanie1.txt
+A    repo/lista1/zadanie2.txt
+A    repo/lista1/zadanie3.txt
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1d861732b742ca9fa6bf.json
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-33ca16c04ff1f028c339.json
+A    repo/lista2/cmake-build-debug/CMakeCache.txt
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeSystem.cmake
+A    repo/lista2/cmake-build-debug/CMakeFiles/InstallScripts.json
+A    repo/lista2/cmake-build-debug/CMakeFiles/cmake.check_cache
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_random.c.obj
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybridsort.c.obj
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/quicksort.c.obj
+A    repo/lista2/generators/generator_asc.c
+A    repo/lista2/zadanie1
+A    repo/lista2/zadanie1a
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+A    repo/lista2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_asc.c.obj
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/main.c.obj
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_insertionsort.c.obj
+A    repo/lista2/cmake-build-debug/build.ninja
+A    repo/lista2/generators/generator_random.c
+A    repo/lista2/sprawozdania/zadanie2.txt
+A    repo/lista2/cmake-build-debug/Testing/Temporary/LastTest.log
+A    repo/lista2/generators/generator_desc.c
+A    repo/lista2/sprawozdania/zadanie1.txt
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-509aaa5aeef9c1f0ef3e.json
+A    repo/lista2/cmake-build-debug/.cmake/api/v1/reply/target-untitled6-Debug-a0ab15b2b7d674fd07d5.json
+A    repo/lista2/cmake-build-debug/.ninja_log
+A    repo/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+A    repo/lista2/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+A    repo/lista2/cmake-build-debug/CMakeFiles/clion-environment.txt
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_desc.c.obj
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybrid_main.c.obj
+A    repo/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_quicksort.c.obj
+A    repo/lista2/cmake-build-debug/cmake_install.cmake
+A    repo/lista2/helpfunctions/helpfunctions.c
+A    repo/lista2/zadanie2
+A    repo/lista2/zadanie2/poprawka
+A    repo/lista2/zadanie1/hybridsort.c
+A    repo/lista2/zadanie1/log_fix_zad1.txt
+A    repo/lista2/zadanie1/quicksort.h
+A    repo/lista2/zadanie1a/hybridsort.c
+A    repo/lista2/zadanie1a/main_insertionsort.c
+A    repo/lista2/helpfunctions/helpfunctions.h
+A    repo/lista2/sprawozdania/zadanie4.txt
+A    repo/lista2/zadanie1/insertionsort.c
+A    repo/lista2/zadanie1/main_quicksort.c
+A    repo/lista2/zadanie1/run.sh
+A    repo/lista2/zadanie1a/insertionsort.c
+A    repo/lista2/zadanie3
+A    repo/lista2/zadanie1/hybrid_main.c
+A    repo/lista2/zadanie1/insertionsort.h
+A    repo/lista2/zadanie1/quicksort.c
+A    repo/lista2/zadanie1a/hybrid_main.c
+A    repo/lista2/zadanie1a/insertionsort.h
+A    repo/lista2/sprawozdania/zadanie3.txt
+A    repo/lista2/zadanie1/hybridsort.h
+A    repo/lista2/zadanie1/main_insertionsort.c
+A    repo/lista2/zadanie1a/run.sh
+A    repo/lista2/zadanie1a/quicksort.h
+A    repo/lista2/zadanie2/comparisons_small.png
+A    repo/lista2/zadanie2/comparisons_big.png
+A    repo/lista2/zadanie1/raport_zadanie1.txt
+A    repo/lista2/zadanie2/log_fix_zad2.txt
+A    repo/lista2/zadanie1a/hybridsort.h
+A    repo/lista2/zadanie4
+A    repo/lista2/zadanie2/poprawka/cn_big.png
+A    repo/lista2/zadanie2/poprawka/comparisons_small.png
+A    repo/lista2/zadanie2/poprawka/sn_big.png
+A    repo/lista2/zadanie2/run_all.sh
+A    repo/lista2/zadanie1a/quicksort.c
+A    repo/lista2/zadanie2/cn_small.png
+A    repo/lista2/zadanie2/log.txt
+A    repo/lista2/zadanie1a/main_quicksort.c
+A    repo/lista2/zadanie2/poprawka/hybrid_small.txt
+A    repo/lista2/zadanie2/poprawka/sn_small.png
+A    repo/lista2/zadanie2/sn_big.png
+A    repo/lista2/zadanie2/swaps_small.png
+A    repo/lista2/zadanie2/cn_big.png
+A    repo/lista2/zadanie2/graph.py
+A    repo/lista2/zadanie3/comparisons_small.png
+A    repo/lista2/zadanie3/merge_small.txt
+A    repo/lista2/zadanie3/mydivide.h
+A    repo/lista2/zadanie3/sn_big.png
+A    repo/lista2/zadanie4/binary_big.txt
+A    repo/lista2/zadanie4/binarysearch_main.c
+A    repo/lista2/zadanie2/poprawka/comparisons_big.png
+A    repo/lista2/zadanie2/poprawka/quick_small.txt
+A    repo/lista2/zadanie3/cn_big.png
+A    repo/lista2/zadanie3/graph3.py
+A    repo/lista2/zadanie3/mergesort.c
+A    repo/lista2/zadanie3/mydivide_main.c
+A    repo/lista2/zadanie2/poprawka/swaps_small.png
+A    repo/lista2/zadanie2/poprawka/cn_small.png
+A    repo/lista2/zadanie2/poprawka/insertion_small.txt
+A    repo/lista2/zadanie3/sn_small.png
+A    repo/lista2/zadanie4/binary_small.txt
+A    repo/lista2/zadanie2/swaps_big.png
+A    repo/lista3
+A    repo/lista3/generators
+A    repo/lista3/helpfunctions
+A    repo/lista3/zadanie1
+A    repo/lista2/zadanie3/comparisons_big.png
+A    repo/lista2/zadanie3/merge_main.c
+A    repo/lista2/zadanie3/mydivide.c
+A    repo/lista2/zadanie3/run_3.sh
+A    repo/lista2/zadanie3/swaps_small.png
+A    repo/lista2/zadanie4/binarysearch.h
+A    repo/lista2/zadanie2/poprawka/swaps_big.png
+A    repo/lista2/zadanie2/sn_small.png
+A    repo/lista2/zadanie4/comparisons_square_large.png
+A    repo/lista2/zadanie4/comparisons_tall_small.png
+A    repo/lista2/zadanie4/graph4.py
+A    repo/lista2/zadanie4/hybridsearch.c
+A    repo/lista2/zadanie4/comparisons_tall_large.png
+A    repo/lista2/zadanie4/generator_matrix.c
+A    repo/lista2/zadanie4/hybrid_small.txt
+A    repo/lista3/zadanie2
+A    repo/lista2/zadanie4/comparisons_wide_large.png
+A    repo/lista2/zadanie4/hybrid_big.txt
+A    repo/lista2/zadanie4/hybridsearch.h
+A    repo/lista2/zadanie4/ratio_square_small.png
+A    repo/lista2/zadanie4/ratio_square_large.png
+A    repo/lista2/zadanie4/ratio_tall_large.png
+A    repo/lista2/zadanie4/run_4.sh
+A    repo/lista2/zadanie4/staircasesearch.c
+A    repo/lista3/helpfunctions/helpfunctions.h
+A    repo/lista3/zadanie1/Select.cpp
+A    repo/lista2/zadanie4/ratio_wide_small.png
+A    repo/lista2/zadanie4/staircase_small.txt
+A    repo/lista3/helpfunctions/helpfunctions.cpp
+A    repo/lista3/zadanie1/RandomizedSelect_main.cpp
+A    repo/lista2/zadanie4/ratio_wide_large.png
+A    repo/lista2/zadanie4/staircase_main.c
+A    repo/lista3/generators/generator_random.cpp
+A    repo/lista3/zadanie1/RandomizedSelect.h
+A    repo/lista3/zadanie1/Select_main.cpp
+A    repo/lista3/zadanie1/wynik_select.txt
+A    repo/lista2/zadanie3/cn_small.png
+A    repo/lista2/zadanie3/log.txt
+A    repo/lista2/zadanie3/mergesort.h
+A    repo/lista2/zadanie3/mydivide_small.txt
+A    repo/lista3/zadanie3
+A    repo/lista3/zadanie1/tmux-log.txt
+A    repo/lista2/zadanie3/swaps_big.png
+A    repo/lista2/zadanie4/binarysearch.c
+A    repo/lista3/zadanie1/run.sh
+A    repo/lista2/zadanie4/comparisons_square_small.png
+A    repo/lista3/zadanie2/Random_-_Swaps.png
+A    repo/lista3/zadanie2/graph.py
+A    repo/lista3/zadanie2/run.sh
+A    repo/lista2/zadanie4/comparisons_wide_small.png
+A    repo/lista2/zadanie4/hybrid_main.c
+A    repo/lista2/zadanie4/log.txt
+A    repo/lista3/zadanie2/Select_-_Swaps.png
+A    repo/lista3/zadanie2/tmux-log.txt
+A    repo/lista3/zadanie3/benchmark_groups.cpp
+A    repo/lista2/zadanie4/ratio_tall_small.png
+A    repo/lista2/zadanie4/staircase_big.txt
+A    repo/lista2/zadanie4/staircasesearch.h
+A    repo/lista3/zadanie1/RandomizedSelect.cpp
+A    repo/lista3/zadanie1/Select.h
+A    repo/lista3/zadanie1/wynik_random.txt
+A    repo/lista3/zadanie2/Select_-_Comparisons.png
+A    repo/lista3/zadanie2/Random_-_Comparisons.png
+A    repo/lista3/zadanie2/benchmark.cpp
+A    repo/lista3/zadanie2/random_kmid.txt
+A    repo/lista3/zadanie2/random_kn.txt
+A    repo/lista3/zadanie2/random_k1.txt
+A    repo/lista3/zadanie2/select_kn.txt
+A    repo/lista3/zadanie3/Select_main.cpp
+A    repo/lista3/zadanie2/select_kmid.txt
+A    repo/lista3/zadanie3/Select.h
+A    repo/lista3/zadanie3/graph.py
+A    repo/lista3/zadanie2/select_k1.txt
+A    repo/lista3/zadanie3/Select.cpp
+A    repo/lista3/zadanie3/generator_select_groups.cpp
+Checked out revision 46.
+
+jedre@jedreek323 UCRT64 ~
+$ cd lista3  
+-bash: cd: lista3: No such file or directory
+
+jedre@jedreek323 UCRT64 ~
+$ cd repo
+
+jedre@jedreek323 UCRT64 ~/repo
+$ cd zadanie3
+-bash: cd: zadanie3: No such file or directory
+
+jedre@jedreek323 UCRT64 ~/repo
+$ cd lista3
+
+jedre@jedreek323 UCRT64 ~/repo/lista3
+$ cd zadanie3
+
+jedre@jedreek323 UCRT64 ~/repo/lista3/zadanie3
+$ ls
+Select.cpp  Select.h  Select_main.cpp  benchmark_groups.cpp  generator_select_groups.cpp  graph.py
+
+jedre@jedreek323 UCRT64 ~/repo/lista3/zadanie3
+$ g++ -O3 benchmark_groups.cpp Select.cpp ../helpfunctions/helpfunctions.cpp -o benchmark_groups
+
+jedre@jedreek323 UCRT64 ~/repo/lista3/zadanie3
+$ ./benchmark_groups
+n=100
+n=200
+n=300
+n=400
+n=500
+n=600
+n=700
+n=800
+n=900
+n=1000
+n=1100
+n=1200
+n=1300
+n=1400
+n=1500
+n=1600
+n=1700
+n=1800
+n=1900
+n=2000
+n=2100
+n=2200
+n=2300
+n=2400
+n=2500
+n=2600
+n=2700
+n=2800
+n=2900
+n=3000
+n=3100
+n=3200
+n=3300
+n=3400
+n=3500
+n=3600
+n=3700
+n=3800
+n=3900
+n=4000
+n=4100
+n=4200
+n=4300
+n=4400
+n=4500
+n=4600
+n=4700
+n=4800
+n=4900
+n=5000
+n=5100
+n=5200
+n=5300
+n=5400
+n=5500
+n=5600
+n=5700
+n=5800
+n=5900
+n=6000
+n=6100
+n=6200
+n=6300
+n=6400
+n=6500
+n=6600
+n=6700
+n=6800
+n=6900
+n=7000
+n=7100
+n=7200
+n=7300
+n=7400
+n=7500
+n=7600
+n=7700
+n=7800
+n=7900
+n=8000
+n=8100
+n=8200
+n=8300
+n=8400
+n=8500
+n=8600
+n=8700
+n=8800
+n=8900
+n=9000
+n=9100
+n=9200
+n=9300
+n=9400
+n=9500
+n=9600
+n=9700
+n=9800
+n=9900
+n=10000
+n=10100
+n=10200
+n=10300
+n=10400
+n=10500
+n=10600
+n=10700
+n=10800
+n=10900
+n=11000
+n=11100
+n=11200
+n=11300
+n=11400
+n=11500
+n=11600
+n=11700
+n=11800
+n=11900
+n=12000
+n=12100
+n=12200
+n=12300
+n=12400
+n=12500
+n=12600
+n=12700
+n=12800
+n=12900
+n=13000
+n=13100
+n=13200
+n=13300
+n=13400
+n=13500
+n=13600
+n=13700
+n=13800
+n=13900
+n=14000
+n=14100
+n=14200
+n=14300
+n=14400
+n=14500
+n=14600
+n=14700
+n=14800
+n=14900
+n=15000
+n=15100
+n=15200
+n=15300
+n=15400
+n=15500
+n=15600
+n=15700
+n=15800
+n=15900
+n=16000
+n=16100
+n=16200
+n=16300
+n=16400
+n=16500
+n=16600
+n=16700
+n=16800
+n=16900
+n=17000
+n=17100
+n=17200
+n=17300
+n=17400
+n=17500
+n=17600
+n=17700
+n=17800
+n=17900
+n=18000
+n=18100
+n=18200
+n=18300
+n=18400
+n=18500
+n=18600
+n=18700
+n=18800
+n=18900
+n=19000
+n=19100
+n=19200
+n=19300
+n=19400
+n=19500
+n=19600
+n=19700
+n=19800
+n=19900
+n=20000
+n=20100
+n=20200
+n=20300
+n=20400
+n=20500
+n=20600
+n=20700
+n=20800
+n=20900
+n=21000
+n=21100
+n=21200
+n=21300
+n=21400
+n=21500
+n=21600
+n=21700
+n=21800
+n=21900
+n=22000
+n=22100
+n=22200
+n=22300
+n=22400
+n=22500
+n=22600
+n=22700
+n=22800
+n=22900
+n=23000
+n=23100
+n=23200
+n=23300
+n=23400
+n=23500
+n=23600
+n=23700
+n=23800
+n=23900
+n=24000
+n=24100
+n=24200
+n=24300
+n=24400
+n=24500
+n=24600
+n=24700
+n=24800
+n=24900
+n=25000
+n=25100
+n=25200
+n=25300
+n=25400
+n=25500
+n=25600
+n=25700
+n=25800
+n=25900
+n=26000
+n=26100
+n=26200
+n=26300
+n=26400
+n=26500
+n=26600
+n=26700
+n=26800
+n=26900
+n=27000
+n=27100
+n=27200
+n=27300
+n=27400
+n=27500
+n=27600
+n=27700
+n=27800
+n=27900
+n=28000
+n=28100
+n=28200
+n=28300
+n=28400
+n=28500
+n=28600
+n=28700
+n=28800
+n=28900
+n=29000
+n=29100
+n=29200
+n=29300
+n=29400
+n=29500
+n=29600
+n=29700
+n=29800
+n=29900
+n=30000
+n=30100
+n=30200
+n=30300
+n=30400
+n=30500
+n=30600
+n=30700
+n=30800
+n=30900
+n=31000
+n=31100
+n=31200
+n=31300
+n=31400
+n=31500
+n=31600
+n=31700
+n=31800
+n=31900
+n=32000
+n=32100
+n=32200
+n=32300
+n=32400
+n=32500
+n=32600
+n=32700
+n=32800
+n=32900
+n=33000
+n=33100
+n=33200
+n=33300
+n=33400
+n=33500
+n=33600
+n=33700
+n=33800
+n=33900
+n=34000
+n=34100
+n=34200
+n=34300
+n=34400
+n=34500
+n=34600
+n=34700
+n=34800
+n=34900
+n=35000
+n=35100
+n=35200
+n=35300
+n=35400
+n=35500
+n=35600
+n=35700
+n=35800
+n=35900
+n=36000
+n=36100
+n=36200
+n=36300
+n=36400
+n=36500
+n=36600
+n=36700
+n=36800
+n=36900
+n=37000
+n=37100
+n=37200
+n=37300
+n=37400
+n=37500
+n=37600
+n=37700
+n=37800
+n=37900
+n=38000
+n=38100
+n=38200
+n=38300
+n=38400
+n=38500
+n=38600
+n=38700
+n=38800
+n=38900
+n=39000
+n=39100
+n=39200
+n=39300
+n=39400
+n=39500
+n=39600
+n=39700
+n=39800
+n=39900
+n=40000
+n=40100
+n=40200
+n=40300
+n=40400
+n=40500
+n=40600
+n=40700
+n=40800
+n=40900
+n=41000
+n=41100
+n=41200
+n=41300
+n=41400
+n=41500
+n=41600
+n=41700
+n=41800
+n=41900
+n=42000
+n=42100
+n=42200
+n=42300
+n=42400
+n=42500
+n=42600
+n=42700
+n=42800
+n=42900
+n=43000
+n=43100
+n=43200
+n=43300
+n=43400
+n=43500
+n=43600
+n=43700
+n=43800
+n=43900
+n=44000
+n=44100
+n=44200
+n=44300
+n=44400
+n=44500
+n=44600
+n=44700
+n=44800
+n=44900
+n=45000
+n=45100
+n=45200
+n=45300
+n=45400
+n=45500
+n=45600
+n=45700
+n=45800
+n=45900
+n=46000
+n=46100
+n=46200
+n=46300
+n=46400
+n=46500
+n=46600
+n=46700
+n=46800
+n=46900
+n=47000
+n=47100
+n=47200
+n=47300
+n=47400
+n=47500
+n=47600
+n=47700
+n=47800
+n=47900
+n=48000
+n=48100
+n=48200
+n=48300
+n=48400
+n=48500
+n=48600
+n=48700
+n=48800
+n=48900
+n=49000
+n=49100
+n=49200
+n=49300
+n=49400
+n=49500
+n=49600
+n=49700
+n=49800
+n=49900
+n=50000
+DONE
+
+jedre@jedreek323 UCRT64 ~/repo/lista3/zadanie3
+$ ls
+Select.cpp  Select_main.cpp	  benchmark_groups.exe	       graph.py       select_21.txt  select_5.txt  select_9.txt
+Select.h    benchmark_groups.cpp  generator_select_groups.cpp  select_19.txt  select_3.txt   select_7.txt
+
+jedre@jedreek323 UCRT64 ~/repo/lista3/zadanie3
+$ python graph.py
+Wykresy zapisane ✅
+ - select_comparisons.png
+ - select_swaps.png
+ - select_time.png
+
+jedre@jedreek323 UCRT64 ~/repo/lista3/zadanie3
+$ ls
+Select.cpp	 benchmark_groups.cpp	      graph.py	     select_3.txt  select_9.txt		   select_time.png
+Select.h	 benchmark_groups.exe	      select_19.txt  select_5.txt  select_comparisons.png
+Select_main.cpp  generator_select_groups.cpp  select_21.txt  select_7.txt  select_swaps.png
+
+jedre@jedreek323 UCRT64 ~/repo/lista3/zadanie3
+$ svn add *.txt *.png
+A         select_19.txt
+A         select_21.txt
+A         select_3.txt
+A         select_5.txt
+A         select_7.txt
+A         select_9.txt
+A  (bin)  select_comparisons.png
+A  (bin)  select_swaps.png
+A  (bin)  select_time.png
+
+jedre@jedreek323 UCRT64 ~/repo/lista3/zadanie3
+$ svn commit -m "Dodano wyniki i wykresy"
+Adding         select_19.txt
+Adding         select_21.txt
+Adding         select_3.txt
+Adding         select_5.txt
+Adding         select_7.txt
+Adding         select_9.txt
+Adding  (bin)  select_comparisons.png
+Adding  (bin)  select_swaps.png
+Adding  (bin)  select_time.png
+Transmitting file data .........done
+Committing transaction...
+Committed revision 47.
+
+jedre@jedreek323 UCRT64 ~/repo/lista3/zadanie3
+$ tmux capture-pane -p -S'-' -E'-' -J > tmux-log.txt
+

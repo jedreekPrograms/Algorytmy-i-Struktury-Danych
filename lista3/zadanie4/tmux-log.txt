@@ -1,0 +1,461 @@
+
+jedre@jedreek323 UCRT64 ~
+$ svn checkout https://repo.cs.pwr.edu.pl/283948-dir/mk1/ mk1_tmux
+A    mk1_tmux/lista1
+A    mk1_tmux/lista1/cmake-build-debug
+A    mk1_tmux/lista1/cmake-build-debug/.cmake
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/query
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/tmp
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/pkgRedirects
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/cmake.check_cache
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/InstallScripts.json
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/queue.c.obj
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/queue.c.obj
+A    mk1_tmux/lista1/cmake-build-debug/Testing
+A    mk1_tmux/lista1/cmake-build-debug/Testing/Temporary
+A    mk1_tmux/lista1/CMakeLists.txt
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/query/cache-v2
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2/main.c.obj
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2/cyclic_list.c.obj
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+A    mk1_tmux/lista1/zadanie1
+A    mk1_tmux/lista1/cmake-build-debug/Testing/Temporary/LastTest.log
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/clion-environment.txt
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/main.c.obj
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie2.dir/zadanie2/cyclic_list.c.obj
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3/main.c.obj
+A    mk1_tmux/lista1/cmake-build-debug/build.ninja
+A    mk1_tmux/lista1/zadanie2
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-99b984db6fd63c13b16e.json
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-0f5263f3362ee68d80b4.json
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6449583c8f2bb3a33fe3.json
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-07T20-00-40-0968.json
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie1-Debug-879f86b91abdd8ce063d.json
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie2-Debug-1a7d535c42e589cd66be.json
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/target-zadanie3-Debug-4283f7bdf778bd335524.json
+A    mk1_tmux/lista1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-33ca16c04ff1f028c339.json
+A    mk1_tmux/lista1/cmake-build-debug/.gitignore
+A    mk1_tmux/lista1/cmake-build-debug/.ninja_deps
+A    mk1_tmux/lista1/cmake-build-debug/.ninja_log
+A    mk1_tmux/lista1/cmake-build-debug/CMakeCache.txt
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+A    mk1_tmux/lista1/zadanie3
+A    mk1_tmux/lista2
+A    mk1_tmux/lista2/cmake-build-debug
+A    mk1_tmux/lista2/cmake-build-debug/.cmake
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1/query
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CMakeSystem.cmake
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c
+A    mk1_tmux/lista1/cmake-build-debug/zadanie1.exe
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/main.c.obj
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie1/stack.c.obj
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/Laby1.dir/zadanie2/main.c.obj
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/rules.ninja
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie1.dir/zadanie1/stack.c.obj
+A    mk1_tmux/lista1/cmake-build-debug/CMakeFiles/zadanie3.dir/zadanie3/doubly_cyclic_list.c.obj
+A    mk1_tmux/lista1/cmake-build-debug/cmake_install.cmake
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/tmp
+A    mk1_tmux/lista1/cmake-build-debug/zadanie2.exe
+A    mk1_tmux/lista1/zad2.exe
+A    mk1_tmux/lista1/zadanie1/queue.h
+A    mk1_tmux/lista1/zadanie2/cyclic_list.c
+A    mk1_tmux/lista1/zadanie3/doubly_cyclic_list.c
+A    mk1_tmux/lista2/CMakeLists.txt
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1/query/toolchains-v1
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/pkgRedirects
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators
+A    mk1_tmux/lista1/zad1.exe
+A    mk1_tmux/lista1/zadanie1/queue.c
+A    mk1_tmux/lista1/zadanie1.txt
+A    mk1_tmux/lista1/zadanie2.txt
+A    mk1_tmux/lista1/zadanie3.txt
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1/query/codemodel-v2
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1d861732b742ca9fa6bf.json
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-33ca16c04ff1f028c339.json
+A    mk1_tmux/lista2/cmake-build-debug/CMakeCache.txt
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeSystem.cmake
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie3
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie4
+A    mk1_tmux/lista2/cmake-build-debug/Testing
+A    mk1_tmux/lista2/cmake-build-debug/.gitignore
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeCCompiler.cmake
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/CMakeCCompilerId.c
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+A    mk1_tmux/lista2/cmake-build-debug/Testing/Temporary
+A    mk1_tmux/lista2/generators
+A    mk1_tmux/lista1/zad3.exe
+A    mk1_tmux/lista1/zadanie1/stack.c
+A    mk1_tmux/lista1/zadanie2/cyclic_list.h
+A    mk1_tmux/lista1/zadanie3/doubly_cyclic_list.h
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1/query/cache-v2
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7c3ba4515d4c5e89d56d.json
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/index-2026-03-22T21-27-43-0618.json
+A    mk1_tmux/lista2/cmake-build-debug/.ninja_deps
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/InstallScripts.json
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/cmake.check_cache
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_random.c.obj
+A    mk1_tmux/lista1/cmake-build-debug/zadanie3.exe
+A    mk1_tmux/lista1/zadanie1/main.c
+A    mk1_tmux/lista1/zadanie1/stack.h
+A    mk1_tmux/lista1/zadanie2/main.c
+A    mk1_tmux/lista1/zadanie3/main.c
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-509aaa5aeef9c1f0ef3e.json
+A    mk1_tmux/lista2/cmake-build-debug/.cmake/api/v1/reply/target-untitled6-Debug-a0ab15b2b7d674fd07d5.json
+A    mk1_tmux/lista2/cmake-build-debug/.ninja_log
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/clion-environment.txt
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_desc.c.obj
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybrid_main.c.obj
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_quicksort.c.obj
+A    mk1_tmux/lista2/helpfunctions
+A    mk1_tmux/lista2/sprawozdania
+A    mk1_tmux/lista2/zadanie1
+A    mk1_tmux/lista2/zadanie1a
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/rules.ninja
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/helpfunctions/helpfunctions.c.obj
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/insertionsort.c.obj
+A    mk1_tmux/lista2/cmake-build-debug/Testing/Temporary/LastTest.log
+A    mk1_tmux/lista2/generators/generator_desc.c
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/hybridsort.c.obj
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/quicksort.c.obj
+A    mk1_tmux/lista2/generators/generator_asc.c
+A    mk1_tmux/lista2/zadanie2
+A    mk1_tmux/lista2/zadanie2/poprawka
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CMakeDetermineCompilerABI_C.bin
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/4.0.2/CompilerIdC/a.exe
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/generators/generator_asc.c.obj
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/main.c.obj
+A    mk1_tmux/lista2/cmake-build-debug/CMakeFiles/untitled6.dir/zadanie1/main_insertionsort.c.obj
+A    mk1_tmux/lista2/cmake-build-debug/build.ninja
+A    mk1_tmux/lista2/generators/generator_random.c
+A    mk1_tmux/lista2/sprawozdania/zadanie2.txt
+A    mk1_tmux/lista2/zadanie1/hybridsort.c
+A    mk1_tmux/lista2/zadanie1/log_fix_zad1.txt
+A    mk1_tmux/lista2/zadanie1/quicksort.h
+A    mk1_tmux/lista2/zadanie1a/hybridsort.c
+A    mk1_tmux/lista2/zadanie1a/main_insertionsort.c
+A    mk1_tmux/lista2/cmake-build-debug/cmake_install.cmake
+A    mk1_tmux/lista2/helpfunctions/helpfunctions.c
+A    mk1_tmux/lista2/zadanie1a/run.sh
+A    mk1_tmux/lista2/sprawozdania/zadanie1.txt
+A    mk1_tmux/lista2/zadanie1/hybrid_main.c
+A    mk1_tmux/lista2/zadanie1/insertionsort.h
+A    mk1_tmux/lista2/helpfunctions/helpfunctions.h
+A    mk1_tmux/lista2/sprawozdania/zadanie4.txt
+A    mk1_tmux/lista2/zadanie1/insertionsort.c
+A    mk1_tmux/lista2/zadanie1/main_quicksort.c
+A    mk1_tmux/lista2/zadanie1/run.sh
+A    mk1_tmux/lista2/zadanie1a/insertionsort.c
+A    mk1_tmux/lista2/zadanie1a/quicksort.c
+A    mk1_tmux/lista2/zadanie3
+A    mk1_tmux/lista2/zadanie1/quicksort.c
+A    mk1_tmux/lista2/zadanie1a/hybrid_main.c
+A    mk1_tmux/lista2/zadanie1a/insertionsort.h
+A    mk1_tmux/lista2/zadanie1a/quicksort.h
+A    mk1_tmux/lista2/zadanie2/cn_small.png
+A    mk1_tmux/lista2/zadanie2/log.txt
+A    mk1_tmux/lista2/sprawozdania/zadanie3.txt
+A    mk1_tmux/lista2/zadanie1/hybridsort.h
+A    mk1_tmux/lista2/zadanie1/main_insertionsort.c
+A    mk1_tmux/lista2/zadanie1/raport_zadanie1.txt
+A    mk1_tmux/lista2/zadanie1a/hybridsort.h
+A    mk1_tmux/lista2/zadanie1a/main_quicksort.c
+A    mk1_tmux/lista2/zadanie4
+A    mk1_tmux/lista2/zadanie2/comparisons_small.png
+A    mk1_tmux/lista2/zadanie2/comparisons_big.png
+A    mk1_tmux/lista2/zadanie2/log_fix_zad2.txt
+A    mk1_tmux/lista2/zadanie2/poprawka/cn_big.png
+A    mk1_tmux/lista2/zadanie2/poprawka/hybrid_small.txt
+A    mk1_tmux/lista2/zadanie2/poprawka/sn_small.png
+A    mk1_tmux/lista2/zadanie2/poprawka/comparisons_small.png
+A    mk1_tmux/lista2/zadanie2/poprawka/sn_big.png
+A    mk1_tmux/lista2/zadanie2/run_all.sh
+A    mk1_tmux/lista2/zadanie2/cn_big.png
+A    mk1_tmux/lista2/zadanie2/graph.py
+A    mk1_tmux/lista2/zadanie2/sn_big.png
+A    mk1_tmux/lista2/zadanie2/poprawka/comparisons_big.png
+A    mk1_tmux/lista2/zadanie2/poprawka/quick_small.txt
+A    mk1_tmux/lista2/zadanie2/swaps_small.png
+A    mk1_tmux/lista2/zadanie2/poprawka/swaps_small.png
+A    mk1_tmux/lista2/zadanie2/swaps_big.png
+A    mk1_tmux/lista2/zadanie3/comparisons_small.png
+A    mk1_tmux/lista2/zadanie3/merge_small.txt
+A    mk1_tmux/lista2/zadanie3/cn_big.png
+A    mk1_tmux/lista2/zadanie3/graph3.py
+A    mk1_tmux/lista2/zadanie3/mergesort.c
+A    mk1_tmux/lista2/zadanie3/mydivide_main.c
+A    mk1_tmux/lista2/zadanie3/comparisons_big.png
+A    mk1_tmux/lista2/zadanie3/merge_main.c
+A    mk1_tmux/lista2/zadanie3/mydivide.c
+A    mk1_tmux/lista2/zadanie3/run_3.sh
+A    mk1_tmux/lista2/zadanie3/sn_small.png
+A    mk1_tmux/lista2/zadanie3/mydivide.h
+A    mk1_tmux/lista2/zadanie3/sn_big.png
+A    mk1_tmux/lista2/zadanie4/binary_big.txt
+A    mk1_tmux/lista2/zadanie4/binarysearch_main.c
+A    mk1_tmux/lista2/zadanie2/poprawka/cn_small.png
+A    mk1_tmux/lista2/zadanie2/poprawka/insertion_small.txt
+A    mk1_tmux/lista3
+A    mk1_tmux/lista3/generators
+A    mk1_tmux/lista3/helpfunctions
+A    mk1_tmux/lista3/zadanie1
+A    mk1_tmux/lista2/zadanie4/comparisons_tall_small.png
+A    mk1_tmux/lista2/zadanie4/graph4.py
+A    mk1_tmux/lista2/zadanie4/hybridsearch.c
+A    mk1_tmux/lista2/zadanie3/swaps_small.png
+A    mk1_tmux/lista2/zadanie4/binarysearch.h
+A    mk1_tmux/lista2/zadanie4/binary_small.txt
+A    mk1_tmux/lista2/zadanie2/poprawka/swaps_big.png
+A    mk1_tmux/lista2/zadanie4/comparisons_square_large.png
+A    mk1_tmux/lista3/zadanie2
+A    mk1_tmux/lista2/zadanie2/sn_small.png
+A    mk1_tmux/lista2/zadanie3/cn_small.png
+A    mk1_tmux/lista2/zadanie4/ratio_square_small.png
+A    mk1_tmux/lista2/zadanie4/comparisons_tall_large.png
+A    mk1_tmux/lista2/zadanie4/generator_matrix.c
+A    mk1_tmux/lista2/zadanie4/hybrid_small.txt
+A    mk1_tmux/lista2/zadanie4/ratio_square_large.png
+A    mk1_tmux/lista2/zadanie4/ratio_wide_small.png
+A    mk1_tmux/lista2/zadanie4/staircase_small.txt
+A    mk1_tmux/lista3/helpfunctions/helpfunctions.cpp
+A    mk1_tmux/lista3/zadanie1/RandomizedSelect_main.cpp
+A    mk1_tmux/lista3/zadanie1/run.sh
+A    mk1_tmux/lista2/zadanie4/ratio_wide_large.png
+A    mk1_tmux/lista2/zadanie4/staircase_main.c
+A    mk1_tmux/lista3/generators/generator_random.cpp
+A    mk1_tmux/lista3/zadanie1/RandomizedSelect.h
+A    mk1_tmux/lista3/zadanie1/Select_main.cpp
+A    mk1_tmux/lista3/zadanie1/wynik_select.txt
+A    mk1_tmux/lista3/zadanie3
+A    mk1_tmux/lista2/zadanie3/log.txt
+A    mk1_tmux/lista2/zadanie3/mergesort.h
+A    mk1_tmux/lista2/zadanie3/mydivide_small.txt
+A    mk1_tmux/lista2/zadanie4/comparisons_wide_large.png
+A    mk1_tmux/lista2/zadanie4/hybrid_big.txt
+A    mk1_tmux/lista2/zadanie4/hybridsearch.h
+A    mk1_tmux/lista2/zadanie4/ratio_tall_large.png
+A    mk1_tmux/lista2/zadanie4/run_4.sh
+A    mk1_tmux/lista2/zadanie4/staircasesearch.c
+A    mk1_tmux/lista3/helpfunctions/helpfunctions.h
+A    mk1_tmux/lista3/zadanie1/Select.cpp
+A    mk1_tmux/lista3/zadanie1/tmux-log.txt
+A    mk1_tmux/lista3/zadanie2/Random_-_Comparisons.png
+A    mk1_tmux/lista3/zadanie2/benchmark.cpp
+A    mk1_tmux/lista2/zadanie3/swaps_big.png
+A    mk1_tmux/lista2/zadanie4/binarysearch.c
+A    mk1_tmux/lista3/zadanie4
+A    mk1_tmux/lista3/zadanie2/Select_-_Swaps.png
+A    mk1_tmux/lista2/zadanie4/comparisons_square_small.png
+A    mk1_tmux/lista3/zadanie2/Random_-_Swaps.png
+A    mk1_tmux/lista3/zadanie2/graph.py
+A    mk1_tmux/lista3/zadanie2/run.sh
+A    mk1_tmux/lista3/zadanie2/tmux-log.txt
+A    mk1_tmux/lista3/zadanie3/benchmark_groups.cpp
+A    mk1_tmux/lista2/zadanie4/comparisons_wide_small.png
+A    mk1_tmux/lista2/zadanie4/hybrid_main.c
+A    mk1_tmux/lista2/zadanie4/log.txt
+A    mk1_tmux/lista2/zadanie4/ratio_tall_small.png
+A    mk1_tmux/lista2/zadanie4/staircase_big.txt
+A    mk1_tmux/lista2/zadanie4/staircasesearch.h
+A    mk1_tmux/lista3/zadanie1/RandomizedSelect.cpp
+A    mk1_tmux/lista3/zadanie1/Select.h
+A    mk1_tmux/lista3/zadanie1/wynik_random.txt
+A    mk1_tmux/lista3/zadanie2/Select_-_Comparisons.png
+A    mk1_tmux/lista3/zadanie2/random_kn.txt
+A    mk1_tmux/lista3/zadanie2/random_kmid.txt
+A    mk1_tmux/lista3/zadanie3/select_21.txt
+A    mk1_tmux/lista3/zadanie2/select_kn.txt
+A    mk1_tmux/lista3/zadanie3/Select_main.cpp
+A    mk1_tmux/lista3/zadanie2/select_kmid.txt
+A    mk1_tmux/lista3/zadanie3/Select.h
+A    mk1_tmux/lista3/zadanie3/graph.py
+A    mk1_tmux/lista3/zadanie2/random_k1.txt
+A    mk1_tmux/lista3/zadanie3/select_9.txt
+A    mk1_tmux/lista3/zadanie3/tmux-log.txt
+A    mk1_tmux/lista3/zadanie4/MyFind.cpp
+A    mk1_tmux/lista3/zadanie4/runner.cpp
+A    mk1_tmux/lista3/zadanie3/select_19.txt
+A    mk1_tmux/lista3/zadanie3/select_5.txt
+A    mk1_tmux/lista3/zadanie3/select_swaps.png
+A    mk1_tmux/lista3/zadanie4/BinarySearch.h
+A    mk1_tmux/lista3/zadanie4/MyFind_main.cpp
+A    mk1_tmux/lista3/zadanie2/select_k1.txt
+A    mk1_tmux/lista3/zadanie3/Select.cpp
+A    mk1_tmux/lista3/zadanie3/generator_select_groups.cpp
+A    mk1_tmux/lista3/zadanie3/select_7.txt
+A    mk1_tmux/lista3/zadanie3/select_3.txt
+A    mk1_tmux/lista3/zadanie3/select_time.png
+A    mk1_tmux/lista3/zadanie4/BinarySearch_main.cpp
+A    mk1_tmux/lista3/zadanie4/generator.cpp
+A    mk1_tmux/lista3/zadanie3/select_comparisons.png
+A    mk1_tmux/lista3/zadanie4/BinarySearch.cpp
+A    mk1_tmux/lista3/zadanie4/MyFind.h
+A    mk1_tmux/lista3/zadanie4/wykresy.py
+Checked out revision 49.
+
+jedre@jedreek323 UCRT64 ~
+$ cd mk1_tmux
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux
+$ ls
+lista1	lista2	lista3
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux
+$ cd lista3
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux/lista3
+$ cd zadanie4
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux/lista3/zadanie4
+$ ls
+BinarySearch.cpp  BinarySearch.h  BinarySearch_main.cpp  MyFind.cpp  MyFind.h  MyFind_main.cpp	generator.cpp  runner.cpp  wykresy.py
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux/lista3/zadanie4
+$                                                                                                                                                                                                         
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux/lista3/zadanie4
+$ g++ -O2 -std=c++17 runner.cpp -o runner.exe
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux/lista3/zadanie4
+$ ./runner.exe
+=== CZYSZCZENIE ===
+C:\msys64\home\jedre\mk1_tmux\lista3\zadanie4\runner.exe
+=== KOMPILOWANIE ===
+=== MA┼üE TESTY ===
+=== DU┼╗E TESTY ===
+
+=== GOTOWE ===
+Czas wykonania: 2585.84 s
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux/lista3/zadanie4
+$ ls
+BinarySearch.cpp  BinarySearch_main.cpp  MyFind.h	  binary.exe	binary_2.txt	  generator.cpp  input.txt   myfind_1.txt  myfind_small.txt  runner.exe
+BinarySearch.h	  MyFind.cpp		 MyFind_main.cpp  binary_1.txt	binary_small.txt  generator.exe  myfind.exe  myfind_2.txt  runner.cpp	     wykresy.py
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux/lista3/zadanie4
+$ svn add *.png *.txt
+svn: warning: W155010: '/home/jedre/mk1_tmux/lista3/zadanie4/*.png' not found
+A         binary_1.txt
+A         binary_2.txt
+A         binary_small.txt
+A         input.txt
+A         myfind_1.txt
+A         myfind_2.txt
+A         myfind_small.txt
+svn: E200009: Could not add all targets because some targets don't exist
+svn: E200009: Illegal target for the requested operation
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux/lista3/zadanie4
+$ python wykresy.py
+Zapisano: f1_(delta=10)_-_ALL.png
+Zapisano: f2_(delta=50)_-_ALL.png
+Zapisano: f1_(delta=10)_-_FOUND.png
+Zapisano: f2_(delta=50)_-_FOUND.png
+Zapisano: f1_(delta=10)_-_NOT_FOUND.png
+Zapisano: f2_(delta=50)_-_NOT_FOUND.png
+Zapisano: f1_(delta=10)_-_SMOOTH.png
+Zapisano: f2_(delta=50)_-_SMOOTH.png
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux/lista3/zadanie4
+$ svn add *.png *.txt
+A  (bin)  f1_(delta=10)_-_ALL.png
+A  (bin)  f1_(delta=10)_-_FOUND.png
+A  (bin)  f1_(delta=10)_-_NOT_FOUND.png
+A  (bin)  f1_(delta=10)_-_SMOOTH.png
+A  (bin)  f2_(delta=50)_-_ALL.png
+A  (bin)  f2_(delta=50)_-_FOUND.png
+A  (bin)  f2_(delta=50)_-_NOT_FOUND.png
+A  (bin)  f2_(delta=50)_-_SMOOTH.png
+svn: warning: W150002: '/home/jedre/mk1_tmux/lista3/zadanie4/binary_1.txt' is already under version control
+svn: warning: W150002: '/home/jedre/mk1_tmux/lista3/zadanie4/binary_2.txt' is already under version control
+svn: warning: W150002: '/home/jedre/mk1_tmux/lista3/zadanie4/binary_small.txt' is already under version control
+svn: warning: W150002: '/home/jedre/mk1_tmux/lista3/zadanie4/input.txt' is already under version control
+svn: warning: W150002: '/home/jedre/mk1_tmux/lista3/zadanie4/myfind_1.txt' is already under version control
+svn: warning: W150002: '/home/jedre/mk1_tmux/lista3/zadanie4/myfind_2.txt' is already under version control
+svn: warning: W150002: '/home/jedre/mk1_tmux/lista3/zadanie4/myfind_small.txt' is already under version control
+svn: E200009: Could not add all targets because some targets are already versioned
+svn: E200009: Illegal target for the requested operation
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux/lista3/zadanie4
+$ svn status
+?       binary.exe
+A       binary_1.txt
+A       binary_2.txt
+A       binary_small.txt
+A       f1_(delta=10)_-_ALL.png
+A       f1_(delta=10)_-_FOUND.png
+A       f1_(delta=10)_-_NOT_FOUND.png
+A       f1_(delta=10)_-_SMOOTH.png
+A       f2_(delta=50)_-_ALL.png
+A       f2_(delta=50)_-_FOUND.png
+A       f2_(delta=50)_-_NOT_FOUND.png
+A       f2_(delta=50)_-_SMOOTH.png
+?       generator.exe
+A       input.txt
+?       myfind.exe
+A       myfind_1.txt
+A       myfind_2.txt
+A       myfind_small.txt
+?       runner.exe
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux/lista3/zadanie4
+$ svn commit -m "zadanie4"        
+Adding         binary_1.txt
+Adding         binary_2.txt
+Adding         binary_small.txt
+Adding  (bin)  f1_(delta=10)_-_ALL.png
+Adding  (bin)  f1_(delta=10)_-_FOUND.png
+Adding  (bin)  f1_(delta=10)_-_NOT_FOUND.png
+Adding  (bin)  f1_(delta=10)_-_SMOOTH.png
+Adding  (bin)  f2_(delta=50)_-_ALL.png
+Adding  (bin)  f2_(delta=50)_-_FOUND.png
+Adding  (bin)  f2_(delta=50)_-_NOT_FOUND.png
+Adding  (bin)  f2_(delta=50)_-_SMOOTH.png
+Adding         input.txt
+Adding         myfind_1.txt
+Adding         myfind_2.txt
+Adding         myfind_small.txt
+Transmitting file data ...............done
+Committing transaction...
+Committed revision 50.
+
+jedre@jedreek323 UCRT64 ~/mk1_tmux/lista3/zadanie4
+$ tmux capture-pane -p -S'-' -E'-' -J > tmux-log.txt
+

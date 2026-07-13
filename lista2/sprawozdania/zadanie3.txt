@@ -1,0 +1,39 @@
+W tym zadaniu trzeba było zaprojektować własny algorytm sortowania oparty na podejściu dziel i zwyciężaj
+oraz wykorzystujący scalanie jak w MergeSorcie, ale z dodatkowym pomysłem —
+żeby wykorzystywać już istniejące w danych fragmenty rosnące (tzw. runy).
+To jest trochę podobna idea jak w TimSorcie, gdzie też próbuje się wykorzystać częściowo posortowane dane.
+
+Zaimplementowany algorytm (MyDivide) najpierw przechodzi po tablicy i znajduje wszystkie maksymalne rosnące podciągi.
+Czyli bierze kolejne elementy i dopóki są w kolejności niemalejącej, to traktuje je jako jeden fragment.
+Dzięki temu zamiast zaczynać od pojedynczych elementów jak w MergeSorcie, mamy od razu większe „klocki”.
+
+Potem te runy są scalane rekurencyjnie, trochę tak jak w MergeSorcie — dzielimy listę runów na pół,
+sortujemy lewą i prawą część i na końcu scalamy. Samo scalanie jest dokładnie tym samym merge co w MergeSorcie.
+
+Jeśli chodzi o złożoność, to w najgorszym przypadku (np. dane losowe albo malejące) runy są bardzo krótkie,
+często długości 1, więc algorytm zachowuje się praktycznie jak zwykły MergeSort, czyli O(n log n).
+Natomiast w lepszym przypadku (np. dane już częściowo posortowane) liczba runów jest mała,
+więc liczba operacji scalania też spada i algorytm działa szybciej.
+
+Patrząc na wykresy, dla dużych danych oba algorytmy (Merge i MyDivide) mają bardzo podobny przebieg
+— liczba porównań rośnie mniej więcej jak n log n, co zgadza się z teorią. Widać jednak, że MyDivide ma trochę więcej porównań niż klasyczny MergeSort.
+To wynika z tego, że dochodzi dodatkowy koszt szukania runów i nie zawsze to się „zwraca”.
+
+Na wykresie c/n dla dużych danych widać, że wartości stabilizują się — to znaczy,
+że liczba porównań rośnie proporcjonalnie do n log n, a nie np. do n².
+MyDivide jest trochę wyżej niż Merge, co potwierdza, że ma większy narzut.
+
+Jeśli chodzi o małe dane, to różnice są niewielkie i trochę „szumią”. Raz jeden algorytm jest lepszy,
+raz drugi — to normalne, bo przy małych wejściach stałe mają większe znaczenie niż sama złożoność asymptotyczna.
+
+Ciekawie wygląda wykres liczby zamian (swaps). MergeSort wykonuje ich więcej,
+bo przy każdym scalaniu kopiuje elementy do tablicy pomocniczej i z powrotem.
+MyDivide ma tych operacji mniej, bo pracuje na większych fragmentach (runach), więc mniej razy musi robić pełne scalanie.
+
+Na wykresie s/n widać, że dla MyDivide liczba operacji na element jest mniejsza niż dla MergeSorta,
+szczególnie dla dużych danych. Czyli można powiedzieć, że mimo większej liczby porównań, robi mniej „przesuwania danych”.
+
+Podsumowując, MyDivide działa zgodnie z założeniami — w najgorszym przypadku zachowuje się jak MergeSort,
+ale może być lepszy dla danych, które są już częściowo posortowane. W praktyce tutaj nie zawsze wygrywa,
+bo dochodzi koszt wykrywania runów, ale widać, że zmniejsza liczbę operacji związanych z kopiowaniem elementów.
+Ogólnie pomysł działa, ale żeby był naprawdę konkurencyjny, trzeba by jeszcze lepiej dobrać sposób scalania runów (np. jak w TimSorcie).

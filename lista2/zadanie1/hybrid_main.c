@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "../helpfunctions/helpfunctions.h"
+#include "hybridsort.h"
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    int tab[n];
+    int original[n];
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &tab[i]);
+        original[i] = tab[i];
+    }
+
+    if (n < 40) {
+        printf("Wejscie:\n");
+        print(n, tab);
+    }
+
+    int swaps = 0;
+    int comparisons = 0;
+
+    hybridsort(0, n - 1, tab, &swaps, &comparisons);
+
+    if (n < 40) {
+        printf("Wejscie (ponownie):\n");
+        print(n, original);
+
+        printf("Wyjscie:\n");
+        print(n, tab);
+    }
+
+    if (!is_sorted(n, tab)) {
+        printf("Blad sortowania!\n");
+    }
+
+    printf("Comparisons: %d\n", comparisons);
+    printf("Swaps: %d\n", swaps);
+
+    return 0;
+}
